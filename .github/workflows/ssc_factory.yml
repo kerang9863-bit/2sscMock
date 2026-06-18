@@ -1,4 +1,4 @@
-name: SSC Quiz Factory Pro v3.0
+name: SSC Quiz Factory Pro v3.1
 
 on:
   schedule:
@@ -38,7 +38,7 @@ jobs:
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python ssc_quiz_factory_pro_v3.py
+        run: python ssc_quiz_factory_pro_v31.py
 
       - name: Sync Memory & Database to Repository
         if: always()
@@ -46,7 +46,7 @@ jobs:
           git config --local user.email "quiz-factory@github.com"
           git config --local user.name "SSC-Quiz-Factory"
 
-          # Track all persistence files used by v3.0
+          # Track all persistence files used by v3.1
           git add global_memory.json ssc_question_db.json factory.log 2>/dev/null || true
 
           if git diff --staged --quiet; then
