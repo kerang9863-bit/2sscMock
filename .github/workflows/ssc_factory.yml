@@ -1,10 +1,10 @@
-name: SSC Interactive Quiz Factory
+name: SSC Quiz Factory Pro v3.0
 
 on:
   schedule:
-    # Yeh cron job har subject ko time par update karne ke liye runs schedule karega
-    - cron: '0 2 * * *'  # Indian Standard Time (IST) ke mutabik har subah 7:30 AM par apne aap chalega
-  workflow_dispatch:     # Isse aap GitHub par jaakar "Run workflow" button dabakar manually bhi jab chahein chala sakte hain
+    # Runs daily at 7:30 AM IST (2:00 AM UTC)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -31,27 +31,27 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
 
-      - name: Run Quiz Factory Script
+      - name: Run SSC Quiz Factory Pro v3.0
         env:
           GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
           OPENROUTER_API_KEYS: ${{ secrets.OPENROUTER_API_KEYS }}
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python mega_factory.py
+        run: python ssc_quiz_factory_pro_v3.py
 
-      - name: Sync Progress & Memory to Repository
+      - name: Sync Memory & Database to Repository
         if: always()
         run: |
           git config --local user.email "quiz-factory@github.com"
           git config --local user.name "SSC-Quiz-Factory"
 
-          # Naye setup ke mutabik json tracking files ko track aur stage karega
-          git add global_memory.json ssc_question_db.json 2>/dev/null || true
+          # Track all persistence files used by v3.0
+          git add global_memory.json ssc_question_db.json factory.log 2>/dev/null || true
 
           if git diff --staged --quiet; then
-            echo "No duplicate hash memory changes to commit."
+            echo "No changes to commit."
           else
-            git commit -m "Sync quiz hash memory: $(date -u +%Y-%m-%d-%H:%M) [run ${{ github.run_number }}]"
-            git push || echo "Push operation failed or network conflict occurred."
+            git commit -m "Sync quiz data: $(date -u +%Y-%m-%d-%H:%M) [run ${{ github.run_number }}]"
+            git push || echo "Push failed or network conflict occurred."
           fi
