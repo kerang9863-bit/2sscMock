@@ -8,7 +8,7 @@ import random
 from datetime import datetime
 from typing import Optional, Tuple, List
 
-# --- CONFIG ---
+# --- CONFIG (API Providers Setup) ---
 PROVIDERS = []
 
 groq_keys = [k.strip() for k in os.getenv("GROQ_API_KEYS", "").split(",") if k.strip()]
@@ -53,7 +53,7 @@ TG_TOKEN = os.getenv("TELEGRAM_TOKEN")
 TG_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 RUN_DURATION_SECONDS = 110 * 60
 
-# Prompts tuned for 10+ high quality items
+# Prompts for 10 high quality items
 SUBJECTS = {
     "GK_CurrentAffairs": "SSC level GK questions. Focus on Indian history, geography, polity, science, and static GK.",
     "English": "SSC level English questions focusing on Grammar, Vocabulary, Synonyms, Antonyms, or Narration.",
@@ -88,7 +88,8 @@ def clean_json_string(raw_text: str) -> str:
     cleaned = raw_text.strip()
     if cleaned.startswith("```json"):
         cleaned = cleaned[7:]
-    elif cleaned.startswith("```"):
+    elif cleaned.startswith("
+```"):
         cleaned = cleaned[3:]
     if cleaned.endswith("```"):
         cleaned = cleaned[:-3]
@@ -104,6 +105,7 @@ def validate_quiz_json(parsed_data) -> bool:
             return False
         if not isinstance(item["correct_option_idx"], int) or item["correct_option_idx"] >= 4:
             return False
+        # Telegram native strict limits enforcement
         if len(item["question"]) > 300 or len(item["explanation"]) > 200:
             return False
     return True
@@ -117,17 +119,16 @@ def fetch_quiz_data(subject: str, prompt_detail: str, provider_idx: int, retries
     provider = PROVIDERS[provider_idx]
     log(f"Provider: {provider['name']} | Subject: {subject}")
 
-    # Forcing exactly 10 questions inside a structured json format
     full_prompt = (
         f"Generate exactly 10 completely unique {prompt_detail}\n\n"
         "STRICT SYSTEM OUTPUT FORMAT RULES:\n"
         "Return ONLY a raw valid JSON array containing objects with these exact keys. No markdown, no wrappers.\n"
         "[\n"
         "  {\n"
-        "    \"question\": \"Question text (Max 300 chars, NO markdown like **)\",\n"
+        "    \"question\": \"Question text string (Max 300 chars, NO markdown bold like **)\",\n"
         "    \"options\": [\"Option A\", \"Option B\", \"Option C\", \"Option D\"],\n"
         "    \"correct_option_idx\": 0, (Integer index of the correct answer, 0 to 3)\n"
-        "    \"explanation\": \"Short trick or explanation formula. (CRITICAL: MUST BE UNDER 200 CHARACTERS TOTAL)\"\n"
+        "    \"explanation\": \"Short trick or background formula. (CRITICAL: MUST BE SHORT, PUNCHY AND UNDER 200 CHARACTERS TOTAL)\"\n"
         "  }\n"
         "]"
     )
@@ -168,10 +169,10 @@ def fetch_quiz_data(subject: str, prompt_detail: str, provider_idx: int, retries
             if validate_quiz_json(parsed_json):
                 return parsed_json, False
             else:
-                log(f"Validation schema failure on attempt {attempt+1}. Retrying...")
+                log(f"Validation failure on attempt {attempt+1}. Retrying structure...")
                 time.sleep(2)
         except Exception as e:
-            log(f"Error parsing data: {e}")
+            log(f"Error parsing data loop: {e}")
             time.sleep(2)
 
     return None, False
@@ -193,26 +194,26 @@ def build_and_send_txt_file(quiz_data: List[dict], subject: str) -> Optional[str
             f.write(f"EXPLANATION: {item['explanation']}\n")
             f.write("-" * 40 + "\n\n")
             
-    # Send document to Telegram
+    # FIXED: Clean Telegram URL without markdown links or brackets
     url = f"[https://api.telegram.org/bot](https://api.telegram.org/bot){TG_TOKEN}/sendDocument"
     try:
         with open(filename, "rb") as doc:
             resp = requests.post(url, data={"chat_id": TG_CHAT_ID, "caption": f"📖 {subject} Study Material ({datetime.now().strftime('%d %b %Y')})"}, files={"document": doc}, timeout=30)
             return filename if resp.ok else None
     except Exception as e:
-        log(f"Failed sending study file: {e}")
+        log(f"Failed sending study file document: {e}")
         return None
 
 def send_shuffled_quiz_to_telegram(quiz_item: dict) -> bool:
-    """Shuffles options dynamically to maximize confusion and prevent layout dependency."""
+    """Shuffles choices dynamically to maximize confusion and prevent layout dependency."""
     original_options = list(quiz_item["options"])
     correct_content = original_options[quiz_item["correct_option_idx"]]
     
-    # Shuffle options list right before packing payload
     shuffled_options = list(original_options)
     random.shuffle(shuffled_options)
     new_correct_idx = shuffled_options.index(correct_content)
 
+    # FIXED: Clean Telegram URL without markdown links or brackets
     url = f"[https://api.telegram.org/bot](https://api.telegram.org/bot){TG_TOKEN}/sendPoll"
     payload = {
         "chat_id": TG_CHAT_ID,
@@ -228,8 +229,19 @@ def send_shuffled_quiz_to_telegram(quiz_item: dict) -> bool:
         resp = requests.post(url, json=payload, timeout=20)
         return resp.ok
     except Exception as e:
-        log(f"Connection error deploying quiz: {e}")
+        log(f"Connection error deploying quiz poll: {e}")
         return False
+
+def save_to_database(quiz_list: List[dict], subject: str) -> None:
+    db = load_json_safe("ssc_question_db.json", [])
+    for quiz in quiz_list:
+        db.append({
+            "timestamp": datetime.now().isoformat(),
+            "subject": subject,
+            "hash": hashlib.md5(quiz["question"].encode()).hexdigest(),
+            "data": quiz
+        })
+    save_json_atomic("ssc_question_db.json", db[-10000:])
 
 # --- MAIN ENGINE ---
 
@@ -267,19 +279,18 @@ if __name__ == "__main__":
             valid_new_quizzes.append(item)
             memory.append(q_hash)
 
-        if len(valid_new_quizzes) >= 5:  # Ensure we have a decent sized dataset to send
-            # Step 1: Send clean .txt file first
+        if len(valid_new_quizzes) >= 5:  # Ensure a decent batch size is ready
+            # Step 1: Send clean date-stamped text file first
             txt_file = build_and_send_txt_file(valid_new_quizzes, subject)
             
             if txt_file:
-                log(f"Txt file {txt_file} sent. Initiating confusing mock test poll stream...")
+                log(f"Txt file {txt_file} sent. Initiating shuffled mock test poll stream...")
                 # Step 2: Send interactive quiz stream with options shuffled
                 for idx, quiz in enumerate(valid_new_quizzes):
                     send_shuffled_quiz_to_telegram(quiz)
-                    time.sleep(3) # Anti flood delay mitigation
+                    time.sleep(3) # Anti-flood delay mitigation
                     
-            with open("ssc_question_db.json", "w") as f: # standard basic history logging
-                json.dump(valid_new_quizzes, f, default=str)
+            save_to_database(valid_new_quizzes, subject)
             save_json_atomic("global_memory.json", memory[-30000:])
         else:
             log("Not enough unique questions generated in this cycle.")
