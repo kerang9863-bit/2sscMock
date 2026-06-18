@@ -31,7 +31,7 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
 
-      - name: Run SSC Quiz Factory Pro v3.0
+      - name: Run SSC Quiz Factory Pro v3.1
         env:
           GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
           OPENROUTER_API_KEYS: ${{ secrets.OPENROUTER_API_KEYS }}
