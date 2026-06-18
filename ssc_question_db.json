@@ -1,0 +1,482 @@
+[
+  {
+    "timestamp": "2026-06-18T08:04:54.458297",
+    "subject": "GK_CurrentAffairs",
+    "hash": "b295c1c235267f2c377fbfbc1e01fb71",
+    "data": {
+      "question": "Who founded the city of Delhi?",
+      "options": [
+        "Qutb-ud-din Aibak",
+        "Prithviraj Chauhan",
+        "Iltutmish",
+        "Ashoka"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Founded in 1192"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:04:54.458329",
+    "subject": "GK_CurrentAffairs",
+    "hash": "5234cb1b9f9fe7cc63dac79cca69e8b7",
+    "data": {
+      "question": "Which river is known as the Ganga of South India?",
+      "options": [
+        "Godavari",
+        "Krishna",
+        "Kaveri",
+        "Tungabhadra"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Largest in South"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:04:54.458334",
+    "subject": "GK_CurrentAffairs",
+    "hash": "bee3832798ee993846f9cd01b9e460d5",
+    "data": {
+      "question": "What is the largest planet in our solar system?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Diameter of 142984 km"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:04:54.458337",
+    "subject": "GK_CurrentAffairs",
+    "hash": "d3ed42296b5c04fc2f61924ebec5e9fe",
+    "data": {
+      "question": "Who wrote the book 'India Wins Freedom'?",
+      "options": [
+        "Abul Kalam Azad",
+        "Jawaharlal Nehru",
+        "Mahatma Gandhi",
+        "Subhas Chandra Bose"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Autobiography of Azad"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:04:54.458340",
+    "subject": "GK_CurrentAffairs",
+    "hash": "193bd981f1c38e2f0ea0da1a89f5d7cb",
+    "data": {
+      "question": "What is the process by which plants make food?",
+      "options": [
+        "Respiration",
+        "Photosynthesis",
+        "Decomposition",
+        "Fermentation"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Uses sunlight"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:04:54.458343",
+    "subject": "GK_CurrentAffairs",
+    "hash": "b7cb11a17c419ddd1d4bb589af40d6dd",
+    "data": {
+      "question": "Who is the author of the book 'Discovery of India'?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Subhas Chandra Bose",
+        "Mahatma Gandhi",
+        "Rabindranath Tagore"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Written in prison"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:04:54.458346",
+    "subject": "GK_CurrentAffairs",
+    "hash": "48367700af5b031f6b8744ba4a4fbba5",
+    "data": {
+      "question": "What is the largest state in India by area?",
+      "options": [
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Maharashtra"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "342,239 sq km"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:04:54.458351",
+    "subject": "GK_CurrentAffairs",
+    "hash": "918b15deaaa84003edee92a8795eab2c",
+    "data": {
+      "question": "Who was the first President of India?",
+      "options": [
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru",
+        "Sardar Patel",
+        "Subhas Chandra Bose"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Served from 1950"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:04:54.458356",
+    "subject": "GK_CurrentAffairs",
+    "hash": "532e4b1afec18d7b2cf260d43c86f527",
+    "data": {
+      "question": "What is the capital of Arunachal Pradesh?",
+      "options": [
+        "Itanagar",
+        "Dispur",
+        "Gangtok",
+        "Shillong"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Founded in 1972"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:04:54.458359",
+    "subject": "GK_CurrentAffairs",
+    "hash": "5d87e9e373c05ce9c740af00e618564f",
+    "data": {
+      "question": "Who is the father of Indian Constitution?",
+      "options": [
+        "Dr. B.R. Ambedkar",
+        "Jawaharlal Nehru",
+        "Mahatma Gandhi",
+        "Sardar Patel"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Drafted the Constitution"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:05:34.452778",
+    "subject": "English",
+    "hash": "7287a1bdbc94abc605c2697964ca62cd",
+    "data": {
+      "question": "Choose the correct form of verb for 'By the time I ______ my homework, it was midnight.'",
+      "options": [
+        "will have finished",
+        "had finished",
+        "finish",
+        "have finished"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Use past perfect for past action"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:05:34.452802",
+    "subject": "English",
+    "hash": "06c47ec3985cfa4001071e9d48483687",
+    "data": {
+      "question": "The word 'fast' is a ______ for 'quick'.",
+      "options": [
+        "synonym",
+        "antonym",
+        "homonym",
+        "hypernym"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Same meaning"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:05:34.452805",
+    "subject": "English",
+    "hash": "5f92e2877318924907e8deae17b3e37b",
+    "data": {
+      "question": "Identify the antonym of 'ancient'.",
+      "options": [
+        "old",
+        "new",
+        "big",
+        "happy"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Opposite meaning"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:05:34.452808",
+    "subject": "English",
+    "hash": "89c297e069a59e56863419d83b131cd1",
+    "data": {
+      "question": "Which of the following is in the passive voice?",
+      "options": [
+        "The dog bites the man.",
+        "The man was bitten by dog.",
+        "The dog is biting man.",
+        "The man bites dog."
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Subject receives action"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:05:34.452811",
+    "subject": "English",
+    "hash": "57a3acdd06b2434aac4a930dfdf62e09",
+    "data": {
+      "question": "Choose the correct narration for 'Mother said to me, “Where are you going?”'",
+      "options": [
+        "Mother said to me where I was going.",
+        "Mother asked me where I was going.",
+        "Mother told me where I was going.",
+        "Mother told to me where I was going."
+      ],
+      "correct_option_idx": 1,
+      "explanation": " Reported speech"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:05:34.452814",
+    "subject": "English",
+    "hash": "f771fb793ea44e79e3521b637d96650c",
+    "data": {
+      "question": "The word that best fills the blank is _______. 'His _______ in public speaking has made him a popular leader.'",
+      "options": [
+        "proficiency",
+        "inefficiency",
+        "sophistication",
+        "inexperience"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Skill or expertise"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:05:34.452817",
+    "subject": "English",
+    "hash": "c3c2efdb2ba659c894d03eb7f19b2541",
+    "data": {
+      "question": "Identify the correct form of verb for 'If I ______ (know) the answer, I would tell you.'",
+      "options": [
+        "know",
+        "knew",
+        "have known",
+        "had known"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Use past simple for if clause"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:05:34.452820",
+    "subject": "English",
+    "hash": "a00a390088a7ab72296ca6f631143e23",
+    "data": {
+      "question": "The word 'gigantic' is a ______ for 'big'.",
+      "options": [
+        "synonym",
+        "antonym",
+        "homonym",
+        "hypernym"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Same meaning"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:05:34.452822",
+    "subject": "English",
+    "hash": "399439bb49f0d1a427007d2ab000b923",
+    "data": {
+      "question": "Choose the correct form of verb for 'By next year, I ______ English for five years.'",
+      "options": [
+        "will have studied",
+        "am studying",
+        "have studied",
+        "study"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Use future perfect"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:05:34.452825",
+    "subject": "English",
+    "hash": "c32db639d115827b656450826d32477f",
+    "data": {
+      "question": "Identify the antonym of 'chaos'.",
+      "options": [
+        "order",
+        "peace",
+        "happy",
+        "big"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Opposite meaning"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:06:15.681186",
+    "subject": "Math",
+    "hash": "9f7af06f1bdacb12618a7e54596c3999",
+    "data": {
+      "question": "A bag contains 5 red and 3 blue balls. If 2 balls are drawn at random, what is the probability of getting 1 red and 1 blue ball?",
+      "options": [
+        "2/7",
+        "4/7",
+        "5/7",
+        "1/2"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Use formula P = (5C1 * 3C1) / 8C2"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:06:15.681209",
+    "subject": "Math",
+    "hash": "06ea637933ce73cdffd14af4ffe26977",
+    "data": {
+      "question": "The sum of the first n natural numbers is given by the formula?",
+      "options": [
+        "n(n+1)/2",
+        "n(n-1)/2",
+        "n^2",
+        "2n"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Formula: n(n+1)/2"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:06:15.681213",
+    "subject": "Math",
+    "hash": "ed78a417c80c359e2e1e791a844f5002",
+    "data": {
+      "question": "What is the value of x in the equation 2^x + 3^x = 5^x?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "By observation, x = 2"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:06:15.681215",
+    "subject": "Math",
+    "hash": "522168eb9df3762ca9b5ce630422158f",
+    "data": {
+      "question": "The equation of a circle with center (a, b) and radius r is?",
+      "options": [
+        "(x-a)^2 + (y-b)^2 = r",
+        "(x+a)^2 + (y+b)^2 = r^2",
+        "(x-a)^2 + (y-b)^2 = r^2",
+        "(x+a)^2 + (y+b)^2 = r"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "Standard equation of circle"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:06:15.681218",
+    "subject": "Math",
+    "hash": "ac85c6ce9b4c2366b4c6aaa03badbd23",
+    "data": {
+      "question": "A train travels from station A to station B at 80 km/h and returns at 40 km/h. What is the average speed?",
+      "options": [
+        "40 km/h",
+        "60 km/h",
+        "50 km/h",
+        "80 km/h"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "Use formula: avg speed = (2 * 80 * 40) / (80 + 40)"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:06:15.681222",
+    "subject": "Math",
+    "hash": "f26a55156efc4ecda2a458a42c9b38ac",
+    "data": {
+      "question": "What is the value of sin(30 degrees)?",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "2/3"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Trigonometric value"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:06:15.681224",
+    "subject": "Math",
+    "hash": "920c494526e82338ef98db9e032fce45",
+    "data": {
+      "question": "A man invests Rs. 1000 at 10% interest. What is the amount after 2 years?",
+      "options": [
+        "1100",
+        "1200",
+        "1210",
+        "1000"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "Use formula: A = P(1 + r/100)^n"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:06:15.681227",
+    "subject": "Math",
+    "hash": "bb78627fb1f36e4b223e61aa369aa332",
+    "data": {
+      "question": "The equation of the line passing through (1, 2) and (3, 4) is?",
+      "options": [
+        "y - 2 = (1/2)(x - 1)",
+        "y - 2 = (3/2)(x - 1)",
+        "y - 2 = (1)(x - 1)",
+        "y - 2 = (2)(x - 1)"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "Two-point form"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:06:15.681230",
+    "subject": "Math",
+    "hash": "0f959ae3169cb855efde53c887cd53c5",
+    "data": {
+      "question": "What is the value of (1 + 1/2 + 1/3 + ... + 1/n) as n approaches infinity?",
+      "options": [
+        "0",
+        "1",
+        "e",
+        "infinity"
+      ],
+      "correct_option_idx": 3,
+      "explanation": "Harmonic series diverges"
+    }
+  },
+  {
+    "timestamp": "2026-06-18T08:06:15.681232",
+    "subject": "Math",
+    "hash": "bd6ff9947a3c3902c3cdabf0be534efd",
+    "data": {
+      "question": "A person can row a boat at 10 km/h in still water. If the speed of the stream is 2 km/h, what is the speed of the boat upstream?",
+      "options": [
+        "10 - 2",
+        "10 + 2",
+        "8",
+        "12"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "Upstream speed = speed - stream speed"
+    }
+  }
+]
