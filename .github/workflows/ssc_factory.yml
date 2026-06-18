@@ -1,4 +1,4 @@
-name: SSC Quiz Factory Pro v3.2
+name: SSC Quiz Factory Pro v3.3
 
 on:
   schedule:
@@ -31,14 +31,14 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
 
-      - name: Run SSC Quiz Factory Pro v3.2
+      - name: Run SSC Quiz Factory Pro v3.3
         env:
           GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
           OPENROUTER_API_KEYS: ${{ secrets.OPENROUTER_API_KEYS }}
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python ssc_quiz_factory_pro_v32.py
+        run: python ssc_quiz_factory_pro_v33.py
 
       - name: Sync Memory & Database to Repository
         if: always()
@@ -46,7 +46,7 @@ jobs:
           git config --local user.email "quiz-factory@github.com"
           git config --local user.name "SSC-Quiz-Factory"
 
-          # Track all persistence files used by v3.2
+          # Track all persistence files used by v3.3
           git add global_memory.json ssc_question_db.json factory.log 2>/dev/null || true
 
           if git diff --staged --quiet; then
