@@ -1,0 +1,642 @@
+[
+  {
+    "timestamp": "2026-06-18T10:08:40.088270",
+    "subject": "GK_CurrentAffairs",
+    "hash": "2f72d8dc030621dbb5d1b2df8ab43d3c",
+    "data": {
+      "question": "The largest state in India in terms of area is",
+      "options": [
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Maharashtra"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Rajasthan is the largest state in India, covering an area of approximately 342,239 square kilometers, which is about 10.74% of the country's total area."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:40.088292",
+    "subject": "GK_CurrentAffairs",
+    "hash": "81c0201d9fde27fdc3b80d0206939347",
+    "data": {
+      "question": "The process by which plants convert sunlight into energy is called",
+      "options": [
+        "Respiration",
+        "Photosynthesis",
+        "Decomposition",
+        "Fermentation"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Photosynthesis is the process by which plants, algae, and some bacteria convert sunlight, carbon dioxide, and water into glucose and oxygen, releasing energy that is stored in the form of glucose."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:40.088297",
+    "subject": "GK_CurrentAffairs",
+    "hash": "79311a029584a891071db787d9114619",
+    "data": {
+      "question": "The longest river in India is",
+      "options": [
+        "Ganga",
+        "Brahmaputra",
+        "Godavari",
+        "Krishna"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The Ganga river is approximately 2,525 kilometers long and flows through several states in India, including Uttarakhand, Uttar Pradesh, Bihar, and West Bengal, before emptying into the Bay of Bengal."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:40.088300",
+    "subject": "GK_CurrentAffairs",
+    "hash": "2dac3cfd07d6150ee990c6444e01f3bd",
+    "data": {
+      "question": "The highest mountain peak in India is",
+      "options": [
+        "Kangchenjunga",
+        "Nanda Devi",
+        "Mount Everest",
+        "K2"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Kangchenjunga is the highest mountain peak in India, located in the Himalayas on the border between Sikkim and Nepal, with an elevation of 8,586 meters above sea level."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:40.088305",
+    "subject": "GK_CurrentAffairs",
+    "hash": "c976445219dd706effd23a387e095a51",
+    "data": {
+      "question": "The largest planet in our solar system is",
+      "options": [
+        "Earth",
+        "Saturn",
+        "Jupiter",
+        "Uranus"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "Jupiter is the largest planet in our solar system, with a diameter of approximately 142,984 kilometers, which is about 11 times the diameter of the Earth."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:40.088309",
+    "subject": "GK_CurrentAffairs",
+    "hash": "d9ab55af31db599a6fecae5afcccb8d4",
+    "data": {
+      "question": "The largest desert in India is",
+      "options": [
+        "Thar Desert",
+        "Cholistan Desert",
+        "Kutch Desert",
+        "Rann of Kutch"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The Thar Desert, also known as the Cholistan Desert, is the largest desert in India, covering an area of approximately 260,000 square kilometers in the northwestern part of the country."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:40.088313",
+    "subject": "GK_CurrentAffairs",
+    "hash": "59807317dfdefb4463ecf96ffe29dcaf",
+    "data": {
+      "question": "The first president of India was",
+      "options": [
+        "Jawaharlal Nehru",
+        "Dr. Rajendra Prasad",
+        "Subhas Chandra Bose",
+        "Mahatma Gandhi"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Dr. Rajendra Prasad was the first president of India, serving from 1950 to 1962, and played a key role in the country's transition to independence and the establishment of its democratic institutions."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:40.088318",
+    "subject": "GK_CurrentAffairs",
+    "hash": "2b27fa471a5b6d394731cabf89e1277b",
+    "data": {
+      "question": "The largest city in India by population is",
+      "options": [
+        "Delhi",
+        "Mumbai",
+        "Kolkata",
+        "Chennai"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Delhi is the largest city in India by population, with over 29 million people living in the National Capital Territory, which includes the city of Delhi and its surrounding areas."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:40.088323",
+    "subject": "GK_CurrentAffairs",
+    "hash": "efb8aa427f6ee9a5c775c6606ad8eed1",
+    "data": {
+      "question": "The process by which water moves through a plant, from the roots to the leaves, is called",
+      "options": [
+        "Respiration",
+        "Transpiration",
+        "Photosynthesis",
+        "Evaporation"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Transpiration is the process by which water moves through a plant, from the roots to the leaves, and is then released into the air as water vapor, playing a crucial role in the plant's growth and development."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:40.088328",
+    "subject": "GK_CurrentAffairs",
+    "hash": "9a26b670bc59ba58f64d6ee835da431b",
+    "data": {
+      "question": "The largest state in India by population is",
+      "options": [
+        "Uttar Pradesh",
+        "Maharashtra",
+        "Bihar",
+        "West Bengal"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Uttar Pradesh is the largest state in India by population, with over 200 million people, accounting for approximately 16.5% of the country's total population."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:45.438596",
+    "subject": "English",
+    "hash": "b74f0133084e74995f36be41b38a528f",
+    "data": {
+      "question": "Identify the correct form of the verb in the sentence: By the time I ______ my homework, it was already midnight.",
+      "options": [
+        "will have finished",
+        "had finished",
+        "finish",
+        "have finished"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The sentence is in the past perfect tense, which is used to describe an action that occurred before another action in the past. The correct form of the verb is 'had finished' because it indicates that the action of finishing homework was completed before the time it was already midnight."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:45.438613",
+    "subject": "English",
+    "hash": "197d40659fa455c0f07428b80710d187",
+    "data": {
+      "question": "What is the antonym of the word 'verbose'?",
+      "options": [
+        "concise",
+        "vivid",
+        "detailed",
+        "lengthy"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'verbose' means using or containing too many words. The antonym of 'verbose' is 'concise', which means giving a lot of information clearly and in a few words."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:45.438616",
+    "subject": "English",
+    "hash": "cc9264ea8fa7fd68959b304edb01cfe6",
+    "data": {
+      "question": "Choose the correct synonym for the word 'narrate'",
+      "options": [
+        "describe",
+        "explain",
+        "recite",
+        "all of the above"
+      ],
+      "correct_option_idx": 3,
+      "explanation": "The word 'narrate' means to tell a story or give an account of something. The synonyms of 'narrate' are 'describe', 'explain', and 'recite', which all convey the idea of telling or giving an account of something."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:45.438620",
+    "subject": "English",
+    "hash": "4167dc485a549f157f402f06f722da9a",
+    "data": {
+      "question": "Identify the correct form of the pronoun in the sentence: The manager asked ______ to come to his office.",
+      "options": [
+        "I",
+        "me",
+        "myself",
+        "mine"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The sentence is in the objective case, which is used as the object of a verb or preposition. The correct form of the pronoun is 'me' because it is the object of the verb 'asked'."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:45.438623",
+    "subject": "English",
+    "hash": "2e91f8e9442cc988580d0e0edc9c51fe",
+    "data": {
+      "question": "What is the correct form of the adjective in the sentence: This is ______ book I have ever read.",
+      "options": [
+        "most interesting",
+        "more interesting",
+        "the most interesting",
+        "the more interesting"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The sentence is in the superlative degree, which is used to compare three or more things. The correct form of the adjective is 'the most interesting' because it indicates that the book is the most interesting among all the books read."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:45.438627",
+    "subject": "English",
+    "hash": "87efe4a4afe5429f452aed4f4ef4955d",
+    "data": {
+      "question": "Choose the correct antonym for the word 'chaotic'",
+      "options": [
+        "orderly",
+        "disorganized",
+        "messy",
+        "cluttered"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'chaotic' means completely disorganized or in a state of complete confusion. The antonym of 'chaotic' is 'orderly', which means well-organized and tidy."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:45.438630",
+    "subject": "English",
+    "hash": "dc6829d59a435230445c77f6158d8c28",
+    "data": {
+      "question": "Identify the correct form of the verb in the sentence: If I ______ her, I would tell her the truth.",
+      "options": [
+        "know",
+        "knew",
+        "have known",
+        "had known"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The sentence is in the second conditional, which is used to describe a hypothetical or uncertain situation. The correct form of the verb is 'knew' because it is in the past simple tense, which is used to describe a hypothetical past action."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:45.438633",
+    "subject": "English",
+    "hash": "a8496920f4921cca394e556e6165d486",
+    "data": {
+      "question": "What is the correct synonym for the word 'vibrant'",
+      "options": [
+        "dull",
+        "bright",
+        "colorful",
+        "all of the above except dull"
+      ],
+      "correct_option_idx": 3,
+      "explanation": "The word 'vibrant' means full of energy and life. The synonyms of 'vibrant' are 'bright' and 'colorful', which all convey the idea of something being full of energy and life."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:45.438636",
+    "subject": "English",
+    "hash": "e8880ce9900bfeb89995809fde30e395",
+    "data": {
+      "question": "Choose the correct form of the adjective in the sentence: This is ______ thing I have ever seen.",
+      "options": [
+        "most strange",
+        "more strange",
+        "the most strange",
+        "the more strange"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The sentence is in the superlative degree, which is used to compare three or more things. The correct form of the adjective is 'the most strange' because it indicates that the thing is the most strange among all the things seen."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:45.438640",
+    "subject": "English",
+    "hash": "3b51721ba34cabc8d4e381dcac3e5b76",
+    "data": {
+      "question": "Identify the correct form of the pronoun in the sentence: The teacher gave ______ the homework to grade.",
+      "options": [
+        "I",
+        "me",
+        "myself",
+        "mine"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The sentence is in the objective case, which is used as the object of a verb or preposition. The correct form of the pronoun is 'me' because it is the object of the verb 'gave'."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:52.998778",
+    "subject": "Math",
+    "hash": "3252446c4fea381a25f1c718ca3b9b1d",
+    "data": {
+      "question": "A train travels from station A to station B at an average speed of 60 km/h and returns to station A at an average speed of 40 km/h. What is the average speed of the train for the entire journey?",
+      "options": [
+        "45 km/h",
+        "48 km/h",
+        "50 km/h",
+        "55 km/h"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "To find the average speed for the entire journey, we need to find the total distance traveled and the total time taken. Let's assume the distance from A to B is x km. The time taken to travel from A to B is x/60 hours and the time taken to travel from B to A is x/40 hours. The total time taken is x/60 + x/40 = (2x + 3x)/120 = 5x/120 = x/24 hours. The total distance traveled is 2x km. The average speed is total distance/total time = 2x/(x/24) = 48 km/h."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:52.998794",
+    "subject": "Math",
+    "hash": "262b44750315a2ec59f9e482cc2af69f",
+    "data": {
+      "question": "A sum of money amounts to Rs. 900 in 3 years and Rs. 1000 in 5 years at simple interest. What is the rate of interest?",
+      "options": [
+        "6%",
+        "8%",
+        "10%",
+        "12%"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The simple interest for 2 years is Rs. 1000 - Rs. 900 = Rs. 100. The simple interest for 3 years is Rs. 900 - principal. The simple interest for 1 year is Rs. 100/2 = Rs. 50. The simple interest for 3 years is Rs. 50 * 3 = Rs. 150. The principal is Rs. 900 - Rs. 150 = Rs. 750. The total interest for 5 years is Rs. 1000 - Rs. 750 = Rs. 250. The rate of interest is (100 * 250)/(750 * 5) * 100 = 8%."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:52.998799",
+    "subject": "Math",
+    "hash": "5ac34bdd27400f9622beba45a034d8d8",
+    "data": {
+      "question": "A man can row a boat at a speed of 12 km/h in still water. If the speed of the stream is 4 km/h, what is the speed of the boat downstream?",
+      "options": [
+        "8 km/h",
+        "12 km/h",
+        "16 km/h",
+        "20 km/h"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The speed of the boat downstream is the sum of the speed of the boat in still water and the speed of the stream. So, the speed of the boat downstream is 12 km/h + 4 km/h = 16 km/h."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:52.998803",
+    "subject": "Math",
+    "hash": "fd61427cc2a6fbfeae7dd80522a915e4",
+    "data": {
+      "question": "The ratio of the ages of two persons is 6:10. If the sum of their ages is 64, what is the age of the younger person?",
+      "options": [
+        "24",
+        "28",
+        "32",
+        "36"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "Let the ages of the two persons be 6x and 10x. The sum of their ages is 6x + 10x = 64. 16x = 64, x = 4. The age of the younger person is 6x = 6 * 4 = 24."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:52.998807",
+    "subject": "Math",
+    "hash": "b10886c1971587b1a20889c23e090607",
+    "data": {
+      "question": "A shopkeeper sells an article at a profit of 20%. If the cost price of the article is Rs. 500, what is the selling price?",
+      "options": [
+        "500",
+        "550",
+        "600",
+        "650"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The profit is 20% of the cost price, which is 20/100 * 500 = Rs. 100. The selling price is the sum of the cost price and the profit, which is Rs. 500 + Rs. 100 = Rs. 600."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:52.998810",
+    "subject": "Math",
+    "hash": "39a3466288f86e8811490280b113beb3",
+    "data": {
+      "question": "The area of a rectangle is 120 square cm. If the length of the rectangle is 12 cm, what is the breadth of the rectangle?",
+      "options": [
+        "8 cm",
+        "9 cm",
+        "10 cm",
+        "12 cm"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The area of a rectangle is length * breadth. So, 12 * breadth = 120. Breadth = 120/12 = 10 cm."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:52.998814",
+    "subject": "Math",
+    "hash": "6487f8f15abfb2bfdce8be87f599189e",
+    "data": {
+      "question": "A person invests Rs. 1000 at an interest rate of 10% per annum. How much will he get after 2 years at compound interest?",
+      "options": [
+        "1100",
+        "1150",
+        "1210",
+        "1300"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The interest for the first year is 10% of Rs. 1000, which is Rs. 100. The amount after the first year is Rs. 1000 + Rs. 100 = Rs. 1100. The interest for the second year is 10% of Rs. 1100, which is Rs. 110. The amount after the second year is Rs. 1100 + Rs. 110 = Rs. 1210."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:52.998817",
+    "subject": "Math",
+    "hash": "840e4570e4936dd35b9d21b717db4c4b",
+    "data": {
+      "question": "A train travels 250 km in 5 hours. How many kilometers will it travel in 7 hours at the same speed?",
+      "options": [
+        "350 km",
+        "400 km",
+        "450 km",
+        "500 km"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The speed of the train is 250 km/5 hours = 50 km/hour. The distance traveled in 7 hours is 50 km/hour * 7 hours = 350 km."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:52.998821",
+    "subject": "Math",
+    "hash": "cf78d88227d6c44cd645813cc37f6158",
+    "data": {
+      "question": "The sum of the digits of a two-digit number is 12. If the number is divided by the sum of its digits, the quotient is 2 and the remainder is 6. What is the number?",
+      "options": [
+        "48",
+        "54",
+        "60",
+        "66"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "Let the number be 10x + y, where x and y are the digits. The sum of the digits is x + y = 12. The number divided by the sum of its digits is (10x + y)/(x + y) = 2 remainder 6. (10x + y) = 2 * (x + y) + 6. 10x + y = 2x + 2y + 6. 8x - y = 6. Solving the equations x + y = 12 and 8x - y = 6, we get x = 6 and y = 6. The number is 10 * 6 + 6 = 66."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:08:52.998824",
+    "subject": "Math",
+    "hash": "c82177c517752f53604f59011da70e18",
+    "data": {
+      "question": "A man can do a piece of work in 10 days. If he works at 3/4th of his capacity, how many days will he take to complete the work?",
+      "options": [
+        "10 days",
+        "12 days",
+        "13.33 days",
+        "15 days"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "If the man works at 3/4th of his capacity, he will take more time to complete the work. The number of days he will take is inversely proportional to his capacity. So, the number of days he will take is 10 * (4/3) = 40/3 = 13.33 days."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:09:07.658849",
+    "subject": "Reasoning",
+    "hash": "0f3a2ff61e733e2f505fe28ed5942eae",
+    "data": {
+      "question": "A bat and a ball together cost 1.10 dollars. The bat costs 1.00 dollar more than the ball. How much does the ball cost?",
+      "options": [
+        "0.05 dollars",
+        "0.10 dollars",
+        "0.15 dollars",
+        "0.20 dollars"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Let's assume the cost of the ball is x dollars. Since the bat costs 1.00 dollar more than the ball, the cost of the bat is x + 1.00 dollars. The total cost of the bat and the ball is 1.10 dollars, so we can write the equation x + (x + 1.00) = 1.10. Simplifying the equation, we get 2x + 1.00 = 1.10. Subtracting 1.00 from both sides, we get 2x = 0.10. Dividing both sides by 2, we get x = 0.05."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:09:07.658867",
+    "subject": "Reasoning",
+    "hash": "5d4efcd523e07f21453fc089392ce39e",
+    "data": {
+      "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+      "options": [
+        "5 minutes",
+        "10 minutes",
+        "15 minutes",
+        "20 minutes"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "If 5 machines can make 5 widgets in 5 minutes, it means that each machine can make 1 widget in 5 minutes. Therefore, 100 machines can make 100 widgets in the same amount of time, which is 5 minutes."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:09:07.658870",
+    "subject": "Reasoning",
+    "hash": "0b1b83899f1d867f1acc138a3ac09495",
+    "data": {
+      "question": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. How many days will it take for the snail to reach the top of the well?",
+      "options": [
+        "18 days",
+        "19 days",
+        "20 days",
+        "21 days"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The snail climbs 3 feet up and slips 2 feet back, so it effectively moves 1 foot up each day. On the 18th day, the snail will climb 3 feet and reach 20 feet, but since it's already at the top, it won't slip back. Therefore, it takes 18 days for the snail to climb 17 feet, and on the 18th day, it reaches the top, making the total number of days 18, but since the question asks for the day it reaches the top, the answer is 18 + 1 = 19 days is incorrect and the correct answer is 18 + 1 - 1 = 18 days is also incorrect, it will take 18 days to climb 17 feet and on the 18th day it will climb the last 3 feet, so the answer is 18 days."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:09:07.658873",
+    "subject": "Reasoning",
+    "hash": "64b1cd8a3a385ff6bcccb419e4a29d60",
+    "data": {
+      "question": "A woman has two coins that add up to 30 cents. One coin is not a nickel. What are the two coins?",
+      "options": [
+        "quarter and nickel",
+        "dime and twenty cent coin",
+        "quarter and quarter",
+        "quarter and dime"
+      ],
+      "correct_option_idx": 3,
+      "explanation": "The problem states that one coin is not a nickel. This means the other coin can be a nickel. Since the total is 30 cents, the other coin must be a quarter, which is 25 cents. Therefore, the two coins are a quarter and a nickel."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:09:07.658877",
+    "subject": "Reasoning",
+    "hash": "654f4b921a260b861cbd6dc2b84e3128",
+    "data": {
+      "question": "If Sally can paint a house in 4 hours, and John can paint a house in 6 hours, how long will it take them to paint a house together?",
+      "options": [
+        "2 hours",
+        "2.4 hours",
+        "3 hours",
+        "3.6 hours"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "To find the time it takes for Sally and John to paint a house together, we need to find their combined rate of work. Sally can paint a house in 4 hours, so her rate is 1/4 of a house per hour. John can paint a house in 6 hours, so his rate is 1/6 of a house per hour. When they work together, their combined rate is 1/4 + 1/6. To add these fractions, we need a common denominator, which is 12. So, we get (3/12) + (2/12) = 5/12 of a house per hour. Since they can paint 5/12 of a house in 1 hour, they can paint a whole house in 12/5 hours, which is 2.4 hours."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:09:07.658880",
+    "subject": "Reasoning",
+    "hash": "cfcc28cc0ab477ed6578db4cec82ffc9",
+    "data": {
+      "question": "A bakery sells 250 loaves of bread per day. They make a profit of 20 cents per loaf. How much profit does the bakery make in a day?",
+      "options": [
+        "$50",
+        "$40",
+        "$45",
+        "$25"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "To find the total profit, we multiply the number of loaves sold by the profit per loaf. The bakery sells 250 loaves per day, and they make a profit of 20 cents per loaf. So, the total profit is 250 * $0.20 = $50."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:09:07.658884",
+    "subject": "Reasoning",
+    "hash": "5f13c373fb22d2cc27bcb45f048c37a4",
+    "data": {
+      "question": "A car travels from city A to city B at an average speed of 60 km/h and returns at an average speed of 40 km/h. What is the average speed of the car for the entire trip?",
+      "options": [
+        "48 km/h",
+        "50 km/h",
+        "45 km/h",
+        "49 km/h"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "To find the average speed for the entire trip, we can use the formula: average speed = total distance / total time. Since the distance from A to B is the same as from B to A, let's call it D. The time taken to travel from A to B is D/60, and the time taken to travel from B to A is D/40. The total time is D/60 + D/40. To add these fractions, we need a common denominator, which is 120. So, we get (2D + 3D)/120 = 5D/120 = D/24. The total distance is 2D. So, the average speed is 2D / (D/24) = 48 km/h."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:09:07.658887",
+    "subject": "Reasoning",
+    "hash": "01ee65a8bf213a98d3726d0627c15018",
+    "data": {
+      "question": "A group of friends want to share some candy equally. If they have 48 pieces of candy and there are 8 friends, how many pieces of candy will each friend get?",
+      "options": [
+        "5 pieces",
+        "6 pieces",
+        "7 pieces",
+        "8 pieces"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "To find out how many pieces of candy each friend will get, we divide the total number of pieces by the number of friends. So, 48 pieces / 8 friends = 6 pieces per friend."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:09:07.658891",
+    "subject": "Reasoning",
+    "hash": "4c2fb8eef5698b923c73e17017fcff27",
+    "data": {
+      "question": "A water tank can hold 1200 liters of water. If 3/4 of the tank is already filled, how many more liters can be added to the tank?",
+      "options": [
+        "300 liters",
+        "200 liters",
+        "400 liters",
+        "100 liters"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "If 3/4 of the tank is already filled, then 1/4 of the tank is empty. To find out how many liters 1/4 of the tank is, we multiply the total capacity by 1/4. So, 1200 * 1/4 = 300 liters. Therefore, 300 liters can be added to the tank."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T10:09:07.658895",
+    "subject": "Reasoning",
+    "hash": "beb49b4d071844b56792a585a2edcd52",
+    "data": {
+      "question": "In a class, the average height of 10 students is 150 cm. If two more students with heights 160 cm and 140 cm join the class, what is the new average height of the class?",
+      "options": [
+        "149 cm",
+        "150 cm",
+        "151 cm",
+        "152 cm"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "Initially, the total height of the 10 students is 10 * 150 = 1500 cm. When two more students join, the total height becomes 1500 + 160 + 140 = 1800 cm. The new total number of students is 10 + 2 = 12. To find the new average height, we divide the total height by the total number of students. So, 1800 / 12 = 150 cm. However, we need to consider the effect of adding the two students. The total height increased by 300 cm (160 + 140), and the total number of students increased by 2. The increase in total height is 300 cm, and the increase in the number of students is 2, so the increase in average height is (300 / 12) = 25 cm. But since one student is 10 cm above the average, and the other is 10 cm below the average, they cancel each other out in terms of average, so the new average is still (1500 + 160 + 140) / 12 = 1500 / 10 + 300 / 12 = 150 + (300 / 12) = 150 + 25 = 151 cm."
+    }
+  }
+]
