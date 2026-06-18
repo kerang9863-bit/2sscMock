@@ -5,9 +5,8 @@ import hashlib
 import time
 import re
 import random
-from fpdf import FPDF
 from datetime import datetime
-from typing import Optional, Tuple
+from typing import Optional, Tuple, List
 
 # --- CONFIG ---
 PROVIDERS = []
@@ -34,7 +33,7 @@ for key in openrouter_keys:
             "Authorization": f"Bearer {key}",
             "Content-Type": "application/json",
             "HTTP-Referer": "https://github.com",
-            "X-Title": "SSC Factory"
+            "X-Title": "SSC Quiz Factory"
         },
         "format": "openai"
     })
@@ -54,11 +53,12 @@ TG_TOKEN = os.getenv("TELEGRAM_TOKEN")
 TG_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 RUN_DURATION_SECONDS = 110 * 60
 
+# Prompts tuned for 10+ high quality items
 SUBJECTS = {
-    "GK_CurrentAffairs": "unique SSC level GK questions based on established facts and general knowledge. Focus on Indian history, geography, polity, science, and static GK. Do NOT include speculative future events or placeholder notes.",
-    "English": "unique SSC level English questions (Grammar, Vocab, Narration) with clear answers.",
-    "Math": "unique SSC level Math questions. IMPORTANT: Provide a Short-Trick and a Full Step-by-Step Solution for EVERY question.",
-    "Reasoning": "unique SSC level Reasoning questions with detailed logical explanations for each answer."
+    "GK_CurrentAffairs": "SSC level GK questions. Focus on Indian history, geography, polity, science, and static GK.",
+    "English": "SSC level English questions focusing on Grammar, Vocabulary, Synonyms, Antonyms, or Narration.",
+    "Math": "SSC level Arithmetic or Advance Math questions.",
+    "Reasoning": "SSC level Verbal or Non-Verbal Reasoning questions requiring logical deduction."
 }
 
 # --- UTILITIES ---
@@ -83,52 +83,53 @@ def save_json_atomic(filepath: str, data) -> None:
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     os.replace(tmp, filepath)
-    log(f"Saved {filepath} ({len(json.dumps(data))} bytes)")
 
-def validate_batch(content: str) -> Tuple[bool, str]:
-    if not content:
-        return False, "Empty content"
-    if len(content) < 500:
-        return False, f"Content too short ({len(content)} chars)"
+def clean_json_string(raw_text: str) -> str:
+    cleaned = raw_text.strip()
+    if cleaned.startswith("```json"):
+        cleaned = cleaned[7:]
+    elif cleaned.startswith("```"):
+        cleaned = cleaned[3:]
+    if cleaned.endswith("```"):
+        cleaned = cleaned[:-3]
+    return cleaned.strip()
 
-    questions = re.findall(r'(?:^|\n)(?:Q?\d+[\.\)\:]\s*)', content, re.IGNORECASE)
-    if len(questions) < 3:
-        questions = re.findall(r'(?:^|\n)\d+[\.\)\:]', content)
+def validate_quiz_json(parsed_data) -> bool:
+    if not isinstance(parsed_data, list) or len(parsed_data) == 0:
+        return False
+    for item in parsed_data:
+        if not all(k in item for k in ("question", "options", "correct_option_idx", "explanation")):
+            return False
+        if not isinstance(item["options"], list) or len(item["options"]) != 4:
+            return False
+        if not isinstance(item["correct_option_idx"], int) or item["correct_option_idx"] >= 4:
+            return False
+        if len(item["question"]) > 300 or len(item["explanation"]) > 200:
+            return False
+    return True
 
-    answers = re.findall(r'(?i)(?:^|\n)(?:ans(?:wer)?[\:\s]|solution[\:\s]|short\s*trick|correct\s*answer|explanation[\:\s])', content)
+# --- CORE LOGIC ---
 
-    if "needs future information" in content.lower() or "placeholder" in content.lower():
-        return False, "Contains placeholder/future speculation"
-
-    if len(questions) < 3 and len(answers) < 3:
-        return False, f"Only {len(questions)} questions, {len(answers)} answers detected"
-
-    return True, f"OK: ~{len(questions)} questions, ~{len(answers)} answers"
-
-# --- CORE FUNCTIONS ---
-
-def fetch_content(subject: str, prompt_detail: str, provider_idx: int, retries: int = 3) -> Tuple[Optional[str], bool]:
+def fetch_quiz_data(subject: str, prompt_detail: str, provider_idx: int, retries: int = 3) -> Tuple[Optional[List[dict]], bool]:
     if provider_idx >= len(PROVIDERS):
         return None, True
 
     provider = PROVIDERS[provider_idx]
-    log(f"Using provider: {provider['name']} (key {provider_idx+1}/{len(PROVIDERS)})")
+    log(f"Provider: {provider['name']} | Subject: {subject}")
 
+    # Forcing exactly 10 questions inside a structured json format
     full_prompt = (
-        "Generate 20 " + prompt_detail + "\n\n"
-        "CRITICAL FORMAT RULES:\n"
-        "1. Every question MUST start with Q1. , Q2. , Q3. etc. on its own line\n"
-        "2. The answer MUST be on the NEXT line, starting with Ans: \n"
-        "3. Example format (STRICT - each on separate line):\n"
-        "   Q1. What is the capital of France?\n"
-        "   Ans: Paris\n"
-        "   Q2. A train 200m long crosses a platform in 30 seconds at 36 km/hr. Find platform length?\n"
-        "   Ans: 100 meters\n"
-        "   Q3. [Next question on its own line]\n"
-        "   Ans: [Answer on its own line]\n"
-        "4. For Math: After Ans:, add Short Trick: then Solution: each on new lines\n"
-        "5. NO markdown, NO **, NO tables, NO placeholder notes\n"
-        "6. Each question and answer must be on SEPARATE lines - never on same line"
+        f"Generate exactly 10 completely unique {prompt_detail}\n\n"
+        "STRICT SYSTEM OUTPUT FORMAT RULES:\n"
+        "Return ONLY a raw valid JSON array containing objects with these exact keys. No markdown, no wrappers.\n"
+        "[\n"
+        "  {\n"
+        "    \"question\": \"Question text (Max 300 chars, NO markdown like **)\",\n"
+        "    \"options\": [\"Option A\", \"Option B\", \"Option C\", \"Option D\"],\n"
+        "    \"correct_option_idx\": 0, (Integer index of the correct answer, 0 to 3)\n"
+        "    \"explanation\": \"Short trick or explanation formula. (CRITICAL: MUST BE UNDER 200 CHARACTERS TOTAL)\"\n"
+        "  }\n"
+        "]"
     )
 
     for attempt in range(retries):
@@ -136,171 +137,101 @@ def fetch_content(subject: str, prompt_detail: str, provider_idx: int, retries: 
             if provider["format"] == "gemini":
                 data = {
                     "contents": [{"parts": [{"text": full_prompt}]}],
-                    "generationConfig": {"temperature": 0.7}
+                    "generationConfig": {"temperature": 0.5, "responseMimeType": "application/json"}
                 }
             else:
                 data = {
                     "model": provider["model"],
                     "messages": [{"role": "user", "content": full_prompt}],
-                    "temperature": 0.7
+                    "temperature": 0.5,
+                    "response_format": {"type": "json_object"} if "groq" in provider["url"] else None
                 }
 
-            res = requests.post(
-                provider["url"],
-                headers=provider["headers"],
-                json=data,
-                timeout=50
-            )
-
+            res = requests.post(provider["url"], headers=provider["headers"], json=data, timeout=50)
             if res.status_code in [429, 402]:
-                log(f"{provider['name']} key exhausted (HTTP {res.status_code})")
                 return None, True
-
             if res.status_code >= 500:
-                wait = (2 ** attempt) + random.uniform(0, 1)
-                log(f"Server error {res.status_code}, retrying in {wait:.1f}s...")
-                time.sleep(wait)
+                time.sleep(2 ** attempt)
                 continue
-
             if not res.ok:
-                log(f"API error {res.status_code}: {res.text[:200]}")
                 return None, False
 
             payload = res.json()
+            raw_content = payload["candidates"][0]["content"]["parts"][0]["text"] if provider["format"] == "gemini" else payload["choices"][0]["message"]["content"]
+            
+            cleaned_content = clean_json_string(raw_content)
+            parsed_json = json.loads(cleaned_content)
 
-            if provider["format"] == "gemini":
-                content = payload["candidates"][0]["content"]["parts"][0]["text"].replace("**", "")
+            if isinstance(parsed_json, dict) and "questions" in parsed_json:
+                parsed_json = parsed_json["questions"]
+
+            if validate_quiz_json(parsed_json):
+                return parsed_json, False
             else:
-                content = payload["choices"][0]["message"]["content"].replace("**", "")
-
-            preview = content[:300].replace("\n", " | ")
-            log(f"DEBUG Response preview: {preview}")
-
-            valid, reason = validate_batch(content)
-            if not valid:
-                log(f"Validation failed: {reason}")
+                log(f"Validation schema failure on attempt {attempt+1}. Retrying...")
                 time.sleep(2)
-                continue
-
-            return content, False
-
-        except (requests.RequestException, json.JSONDecodeError, KeyError) as e:
-            log(f"Request error on {provider['name']} (attempt {attempt+1}): {e}")
-            time.sleep(2 ** attempt)
         except Exception as e:
-            log(f"UNEXPECTED ERROR on {provider['name']}: {e}")
-            raise
+            log(f"Error parsing data: {e}")
+            time.sleep(2)
 
     return None, False
 
-def create_pdf(content: str, subject: str) -> str:
-    """PDF with proper layout: questions wrap, answers below, nothing cut off."""
-    pdf = FPDF()
-    pdf.add_page()
+def build_and_send_txt_file(quiz_data: List[dict], subject: str) -> Optional[str]:
+    """Generates a clean date-stamped text file for organized static study."""
+    date_str = datetime.now().strftime("%d_%b_%Y")
+    filename = f"{subject}_{date_str}.txt"
+    
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(f"=== SSC MTS {subject.upper()} STUDY SET - {datetime.now().strftime('%d %b %Y')} ===\n\n")
+        for idx, item in enumerate(quiz_data):
+            f.write(f"Q{idx+1}: {item['question']}\n")
+            for o_idx, opt in enumerate(item['options']):
+                prefix = ["A", "B", "C", "D"][o_idx]
+                f.write(f"  {prefix}) {opt}\n")
+            correct_letter = ["A", "B", "C", "D"][item['correct_option_idx']]
+            f.write(f"CORRECT ANSWER: {correct_letter}) {item['options'][item['correct_option_idx']]}\n")
+            f.write(f"EXPLANATION: {item['explanation']}\n")
+            f.write("-" * 40 + "\n\n")
+            
+    # Send document to Telegram
+    url = f"[https://api.telegram.org/bot](https://api.telegram.org/bot){TG_TOKEN}/sendDocument"
+    try:
+        with open(filename, "rb") as doc:
+            resp = requests.post(url, data={"chat_id": TG_CHAT_ID, "caption": f"📖 {subject} Study Material ({datetime.now().strftime('%d %b %Y')})"}, files={"document": doc}, timeout=30)
+            return filename if resp.ok else None
+    except Exception as e:
+        log(f"Failed sending study file: {e}")
+        return None
 
-    # Wider margins for more text space
-    pdf.set_margins(12, 12, 12)
-    pdf.set_auto_page_break(auto=True, margin=15)
+def send_shuffled_quiz_to_telegram(quiz_item: dict) -> bool:
+    """Shuffles options dynamically to maximize confusion and prevent layout dependency."""
+    original_options = list(quiz_item["options"])
+    correct_content = original_options[quiz_item["correct_option_idx"]]
+    
+    # Shuffle options list right before packing payload
+    shuffled_options = list(original_options)
+    random.shuffle(shuffled_options)
+    new_correct_idx = shuffled_options.index(correct_content)
 
-    font_name = "Arial"
-
-    # Header
-    pdf.set_font(font_name, 'B', 16)
-    pdf.set_text_color(0, 51, 102)
-    pdf.cell(0, 10, f"SSC {subject.upper()} PRACTICE SET", ln=True, align='C')
-    pdf.set_font(font_name, '', 9)
-    pdf.set_text_color(128, 128, 128)
-    pdf.cell(0, 5, f"Generated: {datetime.now().strftime('%d %b %Y, %H:%M')}", ln=True, align='C')
-    pdf.ln(4)
-
-    # Available width for text
-    text_width = pdf.w - pdf.l_margin - pdf.r_margin
-
-    for raw_line in content.split('\n'):
-        line = raw_line.strip()
-        if not line:
-            continue
-
-        # Check if this is an answer line
-        is_answer = any(line.lower().startswith(x) for x in [
-            'ans:', 'answer:', 'solution:', 'short trick:', 
-            'explanation:', 'correct answer:'
-        ])
-
-        # Check if it's a numbered step (like "1. Division: 5/10 = 0.5")
-        is_numbered_step = re.match(r'^\d+[\.\)]\s+[A-Za-z]', line) and any(x in line.lower() for x in ['division', 'multiplication', 'addition', 'subtraction', 'step', 'calculation'])
-        if is_numbered_step:
-            is_answer = True
-
-        is_question = re.match(r'^Q?\d+[\.\)\:]', line) or line.lower().startswith('question')
-
-        # Pre-encode to latin-1 to prevent any Unicode crashes
-        safe_line = line.encode('latin-1', 'replace').decode('latin-1')
-
-        if is_question:
-            # Question: bold, black, with spacing before
-            pdf.set_text_color(0, 0, 0)
-            pdf.set_font(font_name, 'B', 10)
-            pdf.ln(3)
-            pdf.multi_cell(text_width, 6, safe_line)
-
-        elif is_answer:
-            # Answer: bold, green, indented slightly, with spacing
-            pdf.set_text_color(0, 128, 0)
-            pdf.set_font(font_name, 'B', 10)
-            pdf.set_x(pdf.l_margin + 5)  # Slight indent
-            pdf.multi_cell(text_width - 5, 6, safe_line)
-            pdf.ln(1)
-
-        else:
-            # Other text (explanations, etc): normal, gray
-            pdf.set_text_color(50, 50, 50)
-            pdf.set_font(font_name, '', 9)
-            pdf.set_x(pdf.l_margin + 5)
-            pdf.multi_cell(text_width - 5, 5, safe_line)
-
-    fname = f"{subject}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf"
-    pdf.output(fname)
-    log(f"PDF created: {fname}")
-    return fname
-
-def send_to_telegram(filepath: str, subject: str) -> bool:
-    if not TG_TOKEN or not TG_CHAT_ID:
-        log("Telegram credentials missing!")
-        return False
+    url = f"[https://api.telegram.org/bot](https://api.telegram.org/bot){TG_TOKEN}/sendPoll"
+    payload = {
+        "chat_id": TG_CHAT_ID,
+        "question": quiz_item["question"],
+        "options": json.dumps(shuffled_options),
+        "is_anonymous": True,
+        "type": "quiz",
+        "correct_option_id": new_correct_idx,
+        "explanation": quiz_item["explanation"]
+    }
 
     try:
-        with open(filepath, "rb") as f:
-            resp = requests.post(
-                f"https://api.telegram.org/bot{TG_TOKEN}/sendDocument",
-                data={
-                    "chat_id": TG_CHAT_ID,
-                    "caption": f"SSC {subject} Practice Set\n{datetime.now().strftime('%d %b %Y')}"
-                },
-                files={"document": f},
-                timeout=30
-            )
-            if resp.ok:
-                log(f"Telegram sent: {filepath}")
-                return True
-            else:
-                log(f"Telegram failed HTTP {resp.status_code}: {resp.text[:200]}")
-                return False
+        resp = requests.post(url, json=payload, timeout=20)
+        return resp.ok
     except Exception as e:
-        log(f"Telegram error: {e}")
+        log(f"Connection error deploying quiz: {e}")
         return False
 
-def save_to_database(content: str, subject: str) -> None:
-    db = load_json_safe("ssc_question_db.json", [])
-    db.append({
-        "timestamp": datetime.now().isoformat(),
-        "subject": subject,
-        "hash": hashlib.md5(content.encode()).hexdigest(),
-        "content": content
-    })
-    save_json_atomic("ssc_question_db.json", db[-10000:])
-
-# --- MAIN ---
+# --- MAIN ENGINE ---
 
 if __name__ == "__main__":
     start_time = time.time()
@@ -308,81 +239,50 @@ if __name__ == "__main__":
     memory = load_json_safe("global_memory.json")
 
     if not PROVIDERS:
-        log("FATAL: No API providers configured")
-        log("Set GROQ_API_KEYS, OPENROUTER_API_KEYS, or GEMINI_API_KEYS")
+        log("FATAL: Providers configured nahi hain.")
         exit(1)
 
-    log(f"Starting SSC Factory with {len(PROVIDERS)} provider keys")
-    log(f"Max runtime: {RUN_DURATION_SECONDS/60:.0f} minutes")
+    log(f"Starting Shuffled Quiz Factory with {len(PROVIDERS)} keys.")
 
-    for subject, prompt in SUBJECTS.items():
-        elapsed = time.time() - start_time
-        if elapsed > RUN_DURATION_SECONDS:
-            log(f"Time limit reached ({elapsed/60:.1f}m)")
+    for subject, prompt_detail in SUBJECTS.items():
+        if (time.time() - start_time) > RUN_DURATION_SECONDS:
             break
-
         if provider_idx >= len(PROVIDERS):
-            log("All providers exhausted")
             break
 
-        log(f"\n{'='*50}")
-        log(f"SUBJECT: {subject}")
-        log(f"{'='*50}")
+        log(f"\nRunning 10-Question Engine for: {subject}")
+        quiz_data, rotate = fetch_quiz_data(subject, prompt_detail, provider_idx)
 
-        accumulator = []
-        attempts = 0
-        max_attempts = 30
+        if rotate:
+            provider_idx += 1
+            continue
+        if not quiz_data:
+            continue
 
-        while len(accumulator) < 5 and attempts < max_attempts:
-            attempts += 1
-            log(f"Fetching batch {len(accumulator)+1}/5 (attempt {attempts})...")
-
-            content, rotate = fetch_content(subject, prompt, provider_idx)
-
-            if rotate:
-                provider_idx += 1
-                if provider_idx >= len(PROVIDERS):
-                    log("No more providers")
-                    break
+        valid_new_quizzes = []
+        for item in quiz_data:
+            q_hash = hashlib.md5(item["question"].encode()).hexdigest()
+            if q_hash in memory:
                 continue
+            valid_new_quizzes.append(item)
+            memory.append(q_hash)
 
-            if not content:
-                continue
-
-            h = hashlib.md5(content.encode()).hexdigest()
-            if h in memory:
-                log(f"Duplicate detected (hash: {h[:8]}...), skipping")
-                continue
-
-            accumulator.append(content)
-            memory.append(h)
-            save_to_database(content, subject)
+        if len(valid_new_quizzes) >= 5:  # Ensure we have a decent sized dataset to send
+            # Step 1: Send clean .txt file first
+            txt_file = build_and_send_txt_file(valid_new_quizzes, subject)
+            
+            if txt_file:
+                log(f"Txt file {txt_file} sent. Initiating confusing mock test poll stream...")
+                # Step 2: Send interactive quiz stream with options shuffled
+                for idx, quiz in enumerate(valid_new_quizzes):
+                    send_shuffled_quiz_to_telegram(quiz)
+                    time.sleep(3) # Anti flood delay mitigation
+                    
+            with open("ssc_question_db.json", "w") as f: # standard basic history logging
+                json.dump(valid_new_quizzes, f, default=str)
             save_json_atomic("global_memory.json", memory[-30000:])
-            log(f"Batch saved ({len(content)} chars)")
-            time.sleep(2)
-
-        if len(accumulator) >= 5:
-            full_text = "\n\n".join(accumulator)
-            try:
-                pdf_path = create_pdf(full_text, subject)
-                success = send_to_telegram(pdf_path, subject)
-                if success:
-                    log(f"{subject} COMPLETE")
-                else:
-                    log(f"{subject} PDF saved locally (Telegram failed)")
-            except Exception as e:
-                log(f"PDF creation failed for {subject}: {e}")
         else:
-            log(f"{subject} INCOMPLETE: only {len(accumulator)}/5 batches")
+            log("Not enough unique questions generated in this cycle.")
 
     save_json_atomic("global_memory.json", memory[-30000:])
-    log(f"Final memory saved: {len(memory)} entries")
-
-    log("Files in directory:")
-    for f in os.listdir('.'):
-        if f.endswith(('.json', '.pdf')):
-            size = os.path.getsize(f)
-            log(f"  {f}: {size} bytes")
-
-    total_time = time.time() - start_time
-    log(f"\nFactory complete. Runtime: {total_time/60:.1f} minutes")
+    log("\nAll workflows completed cleanly!")
