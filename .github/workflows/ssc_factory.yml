@@ -1,8 +1,10 @@
-name: SSC Mega Factory
+name: SSC Interactive Quiz Factory
+
 on:
   schedule:
-    - cron: '*/30 * * * *'
-  workflow_dispatch:
+    # Yeh cron job har subject ko time par update karne ke liye runs schedule karega
+    - cron: '0 2 * * *'  # Indian Standard Time (IST) ke mutabik har subah 7:30 AM par apne aap chalega
+  workflow_dispatch:     # Isse aap GitHub par jaakar "Run workflow" button dabakar manually bhi jab chahein chala sakte hain
 
 jobs:
   build:
@@ -12,23 +14,24 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository Code
+        uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Setup Python Environment
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Cache pip dependencies
+      - name: Cache Pip Dependencies
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: pip install -r requirements.txt
 
-      - name: Run Factory
+      - name: Run Quiz Factory Script
         env:
           GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
           OPENROUTER_API_KEYS: ${{ secrets.OPENROUTER_API_KEYS }}
@@ -37,31 +40,18 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python mega_factory.py
 
-      - name: Upload artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: ssc-factory-${{ github.run_number }}-${{ github.run_attempt }}
-          path: |
-            *.pdf
-            *.json
-          retention-days: 7
-
-      - name: Sync JSON to repository
+      - name: Sync Progress & Memory to Repository
         if: always()
         run: |
-          git config --local user.email "factory@github.com"
-          git config --local user.name "SSC-Factory"
+          git config --local user.email "quiz-factory@github.com"
+          git config --local user.name "SSC-Quiz-Factory"
 
+          # Naye setup ke mutabik json tracking files ko track aur stage karega
           git add global_memory.json ssc_question_db.json 2>/dev/null || true
 
           if git diff --staged --quiet; then
-            echo "No JSON changes to commit"
+            echo "No duplicate hash memory changes to commit."
           else
-            git commit -m "Sync memory: $(date -u +%Y-%m-%d-%H:%M) [run ${{ github.run_number }}]"
-            git push || echo "Push failed"
+            git commit -m "Sync quiz hash memory: $(date -u +%Y-%m-%d-%H:%M) [run ${{ github.run_number }}]"
+            git push || echo "Push operation failed or network conflict occurred."
           fi
-
-          echo "=== Files in repo ==="
-          ls -la *.json 2>/dev/null || echo "No JSON files"
-
