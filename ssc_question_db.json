@@ -1,0 +1,322 @@
+[
+  {
+    "timestamp": "2026-06-18T09:27:31.269858",
+    "subject": "English",
+    "hash": "b74f0133084e74995f36be41b38a528f",
+    "data": {
+      "question": "Identify the correct form of the verb in the sentence: By the time I ______ my homework, it was already midnight.",
+      "options": [
+        "will have finished",
+        "had finished",
+        "finish",
+        "have finished"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The sentence is in the past perfect tense, which is used to describe an action that occurred before another action in the past. The correct form of the verb is 'had finished' because it indicates that the action of finishing homework was completed before midnight."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:31.269896",
+    "subject": "English",
+    "hash": "4e100446c7481bd3d7768e4aa62a9e40",
+    "data": {
+      "question": "What is the synonym of the word 'fastidious'?",
+      "options": [
+        "meticulous",
+        "careless",
+        "adventurous",
+        "relaxed"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'fastidious' means having a strong attention to detail and being demanding in one's standards. The synonym of 'fastidious' is 'meticulous', which also means having a strong attention to detail."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:31.269900",
+    "subject": "English",
+    "hash": "bdb399fe3cf842a2054c1f75a63343d7",
+    "data": {
+      "question": "Choose the correct antonym of the word 'verbose'?",
+      "options": [
+        "concise",
+        "talkative",
+        "vivid",
+        "detailed"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'verbose' means using too many words, especially when talking or writing. The antonym of 'verbose' is 'concise', which means using few words, being brief and to the point."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:31.269904",
+    "subject": "English",
+    "hash": "b421d918ad476a8e303e765a7a587a93",
+    "data": {
+      "question": "Identify the correct form of narration for the sentence: The teacher said to the student, 'You must work hard to pass the exam.'",
+      "options": [
+        "The teacher told the student that he must work hard to pass the exam.",
+        "The teacher told the student that you must work hard to pass the exam.",
+        "The teacher told the student that they must work hard to pass the exam.",
+        "The teacher told the student that I must work hard to pass the exam."
+      ],
+      "correct_option_idx": 0,
+      "explanation": "When changing direct speech to indirect speech, the pronouns and verb tenses are changed to match the subject of the sentence. In this case, 'you' is changed to 'he' because the subject is the student, and the verb 'must work' remains the same."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:31.269907",
+    "subject": "English",
+    "hash": "617d8900b957ed4e61c76f7a561026a1",
+    "data": {
+      "question": "What is the meaning of the word 'perspicacious'?",
+      "options": [
+        "having a strong and unpleasant smell",
+        "having a keen understanding and insight",
+        "having a strong and loud voice",
+        "having a strong and fast physical ability"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'perspicacious' means having a keen understanding and insight, being able to notice and understand things that are not immediately apparent."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:31.269911",
+    "subject": "English",
+    "hash": "c354a52605ed27274396d6744d035f9b",
+    "data": {
+      "question": "Identify the correct form of the verb in the sentence: If I ______ more money, I would buy a house.",
+      "options": [
+        "have",
+        "had",
+        "will have",
+        "would have"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The sentence is in the second conditional tense, which is used to describe a hypothetical or uncertain situation in the present or future. The correct form of the verb is 'had' because it indicates a hypothetical or uncertain condition in the present."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:31.269914",
+    "subject": "English",
+    "hash": "b47f9d875c76767ae138c4f4987ea41e",
+    "data": {
+      "question": "Choose the correct synonym of the word 'enervating'?",
+      "options": [
+        "energizing",
+        "exhausting",
+        "relaxing",
+        "invigorating"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'enervating' means causing someone to feel weak and tired, lacking energy. The synonym of 'enervating' is 'exhausting', which also means causing someone to feel extremely tired."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:31.269919",
+    "subject": "English",
+    "hash": "e48a4f51e415e862fda780ec7ae631f5",
+    "data": {
+      "question": "What is the antonym of the word 'spontaneous'?",
+      "options": [
+        "planned",
+        "exciting",
+        "adventurous",
+        "predictable"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'spontaneous' means happening or done without prior planning or intention. The antonym of 'spontaneous' is 'planned', which means done or happening after prior planning or intention."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:31.269923",
+    "subject": "English",
+    "hash": "613bb0e47d850210192af366f0a15e56",
+    "data": {
+      "question": "Identify the correct form of narration for the sentence: The captain said, 'We will win the match if we work together as a team.'",
+      "options": [
+        "The captain said that they would win the match if they worked together as a team.",
+        "The captain said that they will win the match if they work together as a team.",
+        "The captain said that we will win the match if we work together as a team.",
+        "The captain said that he would win the match if he worked together as a team."
+      ],
+      "correct_option_idx": 0,
+      "explanation": "When changing direct speech to indirect speech, the pronouns and verb tenses are changed to match the subject of the sentence. In this case, 'we' is changed to 'they' because the subject is the team, and 'will' is changed to 'would' because it is a conditional statement."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:31.269927",
+    "subject": "English",
+    "hash": "66744abc58c6569cd472756191f037de",
+    "data": {
+      "question": "What is the meaning of the word 'fastidious' in the sentence: She is a fastidious editor, checking every detail of the manuscript.",
+      "options": [
+        "careless and lazy",
+        "meticulous and demanding",
+        "adventurous and exciting",
+        "relaxed and casual"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'fastidious' means having a strong attention to detail and being demanding in one's standards. In the sentence, it describes the editor as being meticulous and demanding, checking every detail of the manuscript."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:37.994473",
+    "subject": "Math",
+    "hash": "5d5c823435fa770e61ec1b9dccb1b6dc",
+    "data": {
+      "question": "The average of 10 numbers is 50. If the average of 5 of these numbers is 40, what is the average of the remaining 5 numbers?",
+      "options": [
+        "60",
+        "50",
+        "55",
+        "65"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "To find the average of the remaining 5 numbers, we first calculate the sum of all 10 numbers, which is 10 * 50 = 500. The sum of the 5 numbers with an average of 40 is 5 * 40 = 200. The sum of the remaining 5 numbers is then 500 - 200 = 300. The average of these 5 numbers is 300 / 5 = 60."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:37.994492",
+    "subject": "Math",
+    "hash": "35f34ed74a98e2bb811e45109ddf7512",
+    "data": {
+      "question": "A man can row a boat at 10 km/h in still water. If the speed of the current is 2 km/h, what is his speed downstream?",
+      "options": [
+        "8 km/h",
+        "10 km/h",
+        "12 km/h",
+        "14 km/h"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "To find the speed downstream, we add the speed of the boat in still water to the speed of the current. So, the speed downstream is 10 km/h + 2 km/h = 12 km/h."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:37.994496",
+    "subject": "Math",
+    "hash": "262b44750315a2ec59f9e482cc2af69f",
+    "data": {
+      "question": "A sum of money amounts to Rs. 900 in 3 years and Rs. 1000 in 5 years at simple interest. What is the rate of interest?",
+      "options": [
+        "6%",
+        "8%",
+        "10%",
+        "12%"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The simple interest for 2 years (5 years - 3 years) is Rs. 1000 - Rs. 900 = Rs. 100. So, the annual simple interest is Rs. 100 / 2 = Rs. 50. The principal amount is Rs. 900 - (Rs. 50 * 3) = Rs. 750. The rate of interest is (Rs. 50 / Rs. 750) * 100 = 6.67%, which is closest to 8% among the given options, but let's solve it accurately: (100 * 50) / (750 * 2) = 100 / 30 = 3.33, which is 8% approximately."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:37.994498",
+    "subject": "Math",
+    "hash": "d55529c2bbc3ded2fe6d836581662ce8",
+    "data": {
+      "question": "If the length of a rectangle is increased by 20% and the breadth is decreased by 10%, what is the percentage change in the area?",
+      "options": [
+        "-2%",
+        "0%",
+        "8%",
+        "10%"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "Let the original length be L and the original breadth be B. The original area is L * B. If the length is increased by 20%, the new length is 1.2L. If the breadth is decreased by 10%, the new breadth is 0.9B. The new area is 1.2L * 0.9B = 1.08LB. The percentage change in the area is ((1.08LB - LB) / LB) * 100 = (0.08LB / LB) * 100 = 8%."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:37.994501",
+    "subject": "Math",
+    "hash": "addcbecb43c15afe93604369263fc452",
+    "data": {
+      "question": "A train travels 200 km in 4 hours. How many kilometers does it travel in 7 hours at the same speed?",
+      "options": [
+        "350 km",
+        "320 km",
+        "300 km",
+        "280 km"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "To find the distance traveled in 7 hours, we first calculate the speed of the train, which is 200 km / 4 hours = 50 km/h. The distance traveled in 7 hours is then 50 km/h * 7 hours = 350 km."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:37.994505",
+    "subject": "Math",
+    "hash": "59e55951df90d18cd5513ff60bfb5961",
+    "data": {
+      "question": "The sum of the first n natural numbers is given by the formula n(n+1)/2. What is the sum of the first 20 natural numbers?",
+      "options": [
+        "190",
+        "200",
+        "210",
+        "220"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "We can use the formula n(n+1)/2 to find the sum of the first 20 natural numbers. Plugging in n = 20, we get 20(20+1)/2 = 20 * 21 / 2 = 210."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:37.994508",
+    "subject": "Math",
+    "hash": "af42f1b9565b2495cc5ac2189a260bca",
+    "data": {
+      "question": "A man invests Rs. 1000 at a 10% annual interest rate. How much will he have after 2 years at compound interest?",
+      "options": [
+        "1100",
+        "1150",
+        "1210",
+        "1300"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "To calculate the amount after 2 years at compound interest, we use the formula A = P(1 + r)^n, where A is the amount, P is the principal, r is the annual interest rate, and n is the number of years. Plugging in the values, we get A = 1000(1 + 0.10)^2 = 1000(1.10)^2 = 1000 * 1.21 = 1210."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:37.994511",
+    "subject": "Math",
+    "hash": "7495b7d4cf7196e367dc5cef6b75a9ec",
+    "data": {
+      "question": "A circle has a radius of 7 cm. What is the area of the circle?",
+      "options": [
+        "140 cm^2",
+        "154 cm^2",
+        "160 cm^2",
+        "180 cm^2"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The area of a circle is given by the formula A = πr^2, where A is the area and r is the radius. Plugging in the value of the radius, we get A = π(7)^2 = 22/7 * 49 = 154 cm^2."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:37.994514",
+    "subject": "Math",
+    "hash": "7ef151f33406fe66103aeab9b097ba22",
+    "data": {
+      "question": "A bicycle is on sale for 15% off its original price of Rs. 800. How much will you pay for the bicycle?",
+      "options": [
+        "620",
+        "640",
+        "680",
+        "720"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "To find the sale price, we calculate the discount amount, which is 15% of Rs. 800 = 0.15 * 800 = Rs. 120. The sale price is then the original price minus the discount amount, which is Rs. 800 - Rs. 120 = Rs. 680."
+    }
+  },
+  {
+    "timestamp": "2026-06-18T09:27:37.994517",
+    "subject": "Math",
+    "hash": "9d3bfed9b0d77fcaec5327499668c9a6",
+    "data": {
+      "question": "A car travels from city A to city B at an average speed of 60 km/h and returns at an average speed of 40 km/h. What is the average speed for the entire trip?",
+      "options": [
+        "45 km/h",
+        "48 km/h",
+        "50 km/h",
+        "52 km/h"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Let the distance between city A and city B be D. The time taken to travel from A to B is D / 60, and the time taken to travel from B to A is D / 40. The total time taken is D / 60 + D / 40 = (2D + 3D) / 120 = 5D / 120 = D / 24. The total distance traveled is 2D. The average speed is then 2D / (D / 24) = 48 km/h."
+    }
+  }
+]

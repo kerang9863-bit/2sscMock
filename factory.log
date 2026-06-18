@@ -1,0 +1,68 @@
+[09:27:19.295] [INFO] 
+======================================================================
+[09:27:19.295] [INFO]   SSC MTS QUIZ FACTORY PRO v3.0
+[09:27:19.295] [INFO]   Professional Grade Quiz Generation System
+[09:27:19.295] [INFO] ======================================================================
+[09:27:19.295] [INFO] Loaded 6 API provider(s)
+[09:27:19.295] [INFO] Subjects configured: ['GK_CurrentAffairs', 'English', 'Math', 'Reasoning']
+[09:27:19.295] [INFO] Runtime limit: 110 minutes
+[09:27:19.295] [INFO] ======================================================================
+
+[09:27:19.295] [GK_CurrentAffairs] [INFO] 
+============================================================
+[09:27:19.295] [GK_CurrentAffairs] [INFO] 🚀 Starting generation for: GK_CurrentAffairs
+[09:27:19.295] [GK_CurrentAffairs] [INFO] ============================================================
+[09:27:19.295] [GK_CurrentAffairs] [INFO] Using provider: Groq-1 | Subject: GK_CurrentAffairs
+[09:27:19.423] [GK_CurrentAffairs] [WARNING] Rate limited on Groq-1
+[09:27:19.424] [GK_CurrentAffairs] [ERROR] Unexpected error: ProviderEngine.report_failure() got an unexpected keyword argument 'is_rate_limit'
+[09:27:21.526] [GK_CurrentAffairs] [WARNING] Rate limited on Groq-1
+[09:27:21.527] [GK_CurrentAffairs] [ERROR] Unexpected error: ProviderEngine.report_failure() got an unexpected keyword argument 'is_rate_limit'
+[09:27:23.626] [GK_CurrentAffairs] [WARNING] Rate limited on Groq-1
+[09:27:23.626] [GK_CurrentAffairs] [ERROR] Unexpected error: ProviderEngine.report_failure() got an unexpected keyword argument 'is_rate_limit'
+[09:27:25.628] [GK_CurrentAffairs] [ERROR] Failed to generate quiz data
+[09:27:25.628] [English] [INFO] 
+============================================================
+[09:27:25.628] [English] [INFO] 🚀 Starting generation for: English
+[09:27:25.628] [English] [INFO] ============================================================
+[09:27:25.628] [English] [INFO] Using provider: Groq-2 | Subject: English
+[09:27:28.925] [English] [SUCCESS] Generated 10 valid questions via Groq-2
+[09:27:28.926] [English] [INFO] Deduplication: 10 generated → 10 unique
+[09:27:30.023] [SUCCESS] Sent English_18_Jun_2026.txt to Telegram
+[09:27:30.024] [SUCCESS] Cleaned up English_18_Jun_2026.txt
+[09:27:31.268] [SUCCESS] Sent English_MOCK_TEST_18_Jun_2026.html to Telegram
+[09:27:31.269] [SUCCESS] Cleaned up English_MOCK_TEST_18_Jun_2026.html
+[09:27:31.270] [English] [SUCCESS] ✅ Subject English completed successfully
+[09:27:31.270] [Math] [INFO] 
+============================================================
+[09:27:31.270] [Math] [INFO] 🚀 Starting generation for: Math
+[09:27:31.270] [Math] [INFO] ============================================================
+[09:27:31.270] [Math] [INFO] Using provider: Groq-3 | Subject: Math
+[09:27:35.888] [Math] [SUCCESS] Generated 10 valid questions via Groq-3
+[09:27:35.889] [Math] [INFO] Deduplication: 10 generated → 10 unique
+[09:27:36.773] [SUCCESS] Sent Math_18_Jun_2026.txt to Telegram
+[09:27:36.774] [SUCCESS] Cleaned up Math_18_Jun_2026.txt
+[09:27:37.992] [SUCCESS] Sent Math_MOCK_TEST_18_Jun_2026.html to Telegram
+[09:27:37.994] [SUCCESS] Cleaned up Math_MOCK_TEST_18_Jun_2026.html
+[09:27:37.995] [Math] [SUCCESS] ✅ Subject Math completed successfully
+[09:27:37.995] [Reasoning] [INFO] 
+============================================================
+[09:27:37.995] [Reasoning] [INFO] 🚀 Starting generation for: Reasoning
+[09:27:37.995] [Reasoning] [INFO] ============================================================
+[09:27:37.995] [Reasoning] [INFO] Using provider: Gemini-1 | Subject: Reasoning
+[09:27:38.121] [Reasoning] [WARNING] Rate limited on Gemini-1
+[09:27:38.121] [Reasoning] [ERROR] Unexpected error: ProviderEngine.report_failure() got an unexpected keyword argument 'is_rate_limit'
+[09:27:40.232] [Reasoning] [WARNING] Rate limited on Gemini-1
+[09:27:40.232] [Reasoning] [ERROR] Unexpected error: ProviderEngine.report_failure() got an unexpected keyword argument 'is_rate_limit'
+[09:27:42.334] [Reasoning] [WARNING] Rate limited on Gemini-1
+[09:27:42.335] [Reasoning] [ERROR] Unexpected error: ProviderEngine.report_failure() got an unexpected keyword argument 'is_rate_limit'
+[09:27:44.336] [Reasoning] [ERROR] Failed to generate quiz data
+[09:27:44.336] [INFO] 
+======================================================================
+[09:27:44.336] [INFO]   SESSION SUMMARY
+[09:27:44.336] [INFO] ======================================================================
+[09:27:44.336] [INFO]   Subjects processed: 2
+[09:27:44.336] [INFO]   Questions generated: 20
+[09:27:44.337] [INFO]   Files sent: 4
+[09:27:44.337] [INFO]   Time elapsed: 0m 25s
+[09:27:44.337] [INFO] ======================================================================
+[09:27:44.337] [SUCCESS] All workflows completed successfully! 🎯
