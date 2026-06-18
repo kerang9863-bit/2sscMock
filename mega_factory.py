@@ -88,8 +88,7 @@ def clean_json_string(raw_text: str) -> str:
     cleaned = raw_text.strip()
     if cleaned.startswith("```json"):
         cleaned = cleaned[7:]
-    elif cleaned.startswith("
-```"):
+    elif cleaned.startswith("```"):
         cleaned = cleaned[3:]
     if cleaned.endswith("```"):
         cleaned = cleaned[:-3]
@@ -193,7 +192,7 @@ def build_and_send_txt_file(quiz_data: List[dict], subject: str) -> Optional[str
             f.write(f"EXPLANATION: {item['explanation']}\n")
             f.write("-" * 40 + "\n\n")
             
-    url = f"[https://api.telegram.org/bot](https://api.telegram.org/bot){TG_TOKEN}/sendDocument"
+    url = f"https://api.telegram.org/bot{TG_TOKEN}/sendDocument"
     try:
         with open(filename, "rb") as doc:
             resp = requests.post(url, data={"chat_id": TG_CHAT_ID, "caption": f"📖 {subject} Study Material ({datetime.now().strftime('%d %b %Y')})"}, files={"document": doc}, timeout=30)
@@ -211,7 +210,7 @@ def send_shuffled_quiz_to_telegram(quiz_item: dict) -> bool:
     random.shuffle(shuffled_options)
     new_correct_idx = shuffled_options.index(correct_content)
 
-    url = f"[https://api.telegram.org/bot](https://api.telegram.org/bot){TG_TOKEN}/sendPoll"
+    url = f"https://api.telegram.org/bot{TG_TOKEN}/sendPoll"
     payload = {
         "chat_id": TG_CHAT_ID,
         "question": quiz_item["question"],
