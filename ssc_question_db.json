@@ -1086,5 +1086,309 @@
       "correct_option_idx": 0,
       "explanation": "The answer is 'a coin'. A coin has a 'head' side and a 'tail' side, but it does not have a body."
     }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:01.002284",
+    "subject": "GK_CurrentAffairs",
+    "hash": "c0d6954f343223057f12e1ce1a3d2f4a",
+    "data": {
+      "question": "Who was the founder of the Indian National Congress",
+      "options": [
+        "A.O. Hume",
+        "Lala Lajpat Rai",
+        "Bal Gangadhar Tilak",
+        "Dadabhai Naoroji"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The Indian National Congress was founded by A.O. Hume in 1885. Hume, a British civil servant, aimed to provide a platform for Indians to express their political aspirations and to promote Indian rights. The first session of the Congress was held in Bombay in December 1885."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:01.002305",
+    "subject": "GK_CurrentAffairs",
+    "hash": "49a0f812dfe2aac15d6bd4dc9357ae06",
+    "data": {
+      "question": "Which mountain range runs along the border between India and Myanmar",
+      "options": [
+        "The Eastern Ghats",
+        "The Western Ghats",
+        "The Purvanchal Range",
+        "The Aravalli Range"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The Purvanchal Range, also known as the Eastern Himalayas, runs along the border between India and Myanmar. This range includes several prominent peaks, including Kanchenjunga, the third-highest peak in the world."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:01.002310",
+    "subject": "GK_CurrentAffairs",
+    "hash": "04fad20c209e40cfbf68584f432fda94",
+    "data": {
+      "question": "What is the largest planet in our solar system",
+      "options": [
+        "Earth",
+        "Saturn",
+        "Jupiter",
+        "Uranus"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "Jupiter is the largest planet in our solar system, with a diameter of approximately 142,984 kilometers. It is a gas giant, primarily composed of hydrogen and helium, and is known for its distinctive banded appearance and massive storms like the Great Red Spot."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:01.002315",
+    "subject": "GK_CurrentAffairs",
+    "hash": "e1725ac9e62923644a129d13da91469f",
+    "data": {
+      "question": "Who was the first President of India",
+      "options": [
+        "Dr. Rajendra Prasad",
+        "Dr. Sarvepalli Radhakrishnan",
+        "Jawaharlal Nehru",
+        "C. Rajagopalachari"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Dr. Rajendra Prasad was the first President of India, serving from 1950 to 1962. He was a key figure in the Indian independence movement and played an important role in the drafting of the Indian Constitution."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:01.002318",
+    "subject": "GK_CurrentAffairs",
+    "hash": "f6198419221221cb19dfbd391b9c717b",
+    "data": {
+      "question": "What is the process by which plants convert sunlight into energy",
+      "options": [
+        "Respiration",
+        "Photosynthesis",
+        "Decomposition",
+        "Fermentation"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Photosynthesis is the process by which plants, algae, and some bacteria convert sunlight, carbon dioxide, and water into glucose and oxygen. This process occurs in specialized organelles called chloroplasts and is essential for life on Earth."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:01.002321",
+    "subject": "GK_CurrentAffairs",
+    "hash": "ef6004be78a864c4326300092e940398",
+    "data": {
+      "question": "Which river is the longest in South India",
+      "options": [
+        "The Godavari River",
+        "The Krishna River",
+        "The Kaveri River",
+        "The Tungabhadra River"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The Godavari River is the longest river in South India, stretching for approximately 1,465 kilometers. It originates in the Western Ghats and flows through several states, including Maharashtra, Telangana, and Andhra Pradesh, before emptying into the Bay of Bengal."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:01.002323",
+    "subject": "GK_CurrentAffairs",
+    "hash": "e0e29e1cc7847a2508398d264675dfad",
+    "data": {
+      "question": "Who was the author of the book 'India Wins Freedom'",
+      "options": [
+        "Abul Kalam Azad",
+        "Jawaharlal Nehru",
+        "Mahatma Gandhi",
+        "Maulana Azad"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Abul Kalam Azad wrote the book 'India Wins Freedom', which is a firsthand account of India's struggle for independence. Azad was a prominent leader in the Indian National Congress and served as the country's first Minister of Education."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:01.002327",
+    "subject": "GK_CurrentAffairs",
+    "hash": "7d87087847318608a793c327ee28802f",
+    "data": {
+      "question": "What is the largest state in India by area",
+      "options": [
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Maharashtra"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Rajasthan is the largest state in India by area, covering approximately 342,239 square kilometers. It is located in the northwestern part of the country and is known for its diverse geography, including deserts, mountains, and forests."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:01.002330",
+    "subject": "GK_CurrentAffairs",
+    "hash": "7435f86217a52aa80f49c17f2be038b6",
+    "data": {
+      "question": "Who was the first woman to fly an aircraft in India",
+      "options": [
+        "Sarla Thakral",
+        "Kalpana Chawla",
+        "Sunita Williams",
+        "P.T. Usha"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Sarla Thakral was the first woman to fly an aircraft in India, earning her pilot's license in 1936. She was a pioneer for women in aviation and paved the way for future generations of female pilots."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:01.002333",
+    "subject": "GK_CurrentAffairs",
+    "hash": "45777724175fc9fc016ec6ab901dd887",
+    "data": {
+      "question": "What is the process by which water moves through a plant, from the roots to the leaves",
+      "options": [
+        "Osmosis",
+        "Transpiration",
+        "Respiration",
+        "Photosynthesis"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Transpiration is the process by which water moves through a plant, from the roots to the leaves, and is then released into the air as water vapor. This process occurs mainly through small openings on the surface of the leaves called stomata and is an important part of the water cycle."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:05.948020",
+    "subject": "English",
+    "hash": "4e100446c7481bd3d7768e4aa62a9e40",
+    "data": {
+      "question": "What is the synonym of the word 'fastidious'?",
+      "options": [
+        "Meticulous",
+        "Careless",
+        "Lazy",
+        "Indifferent"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'fastidious' means having a strong attention to detail and being demanding in one's standards. The synonym of 'fastidious' is 'meticulous', which also means having a strong attention to detail."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:05.948037",
+    "subject": "English",
+    "hash": "bdb399fe3cf842a2054c1f75a63343d7",
+    "data": {
+      "question": "Choose the correct antonym of the word 'verbose'?",
+      "options": [
+        "Concise",
+        "Talkative",
+        "Chatty",
+        "Garrulous"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'verbose' means using too many words, especially when talking or writing. The antonym of 'verbose' is 'concise', which means using few words, being brief and to the point."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:05.948040",
+    "subject": "English",
+    "hash": "b421d918ad476a8e303e765a7a587a93",
+    "data": {
+      "question": "Identify the correct form of narration for the sentence: The teacher said to the student, 'You must work hard to pass the exam.'",
+      "options": [
+        "The teacher told the student that he must work hard to pass the exam.",
+        "The teacher told the student that you must work hard to pass the exam.",
+        "The teacher told the student that they must work hard to pass the exam.",
+        "The teacher told the student that I must work hard to pass the exam."
+      ],
+      "correct_option_idx": 0,
+      "explanation": "When changing direct speech to indirect speech, the first person pronoun 'you' changes to the third person pronoun 'he' or 'she' or 'they' depending on the subject. In this case, 'you' changes to 'he' because the subject is 'the student', which is a singular noun."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:05.948044",
+    "subject": "English",
+    "hash": "a79bc7b817ebc996ebe82fdb2690da05",
+    "data": {
+      "question": "What is the meaning of the idiom 'cut to the chase'?",
+      "options": [
+        "To stop talking and take action",
+        "To start talking and avoid action",
+        "To talk about something else",
+        "To avoid the main topic"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The idiom 'cut to the chase' means to stop talking and get to the point, or to take action instead of just talking. It originated from the film industry, where 'cut to the chase' was a direction to skip unnecessary scenes and get to the exciting part of the movie, which is the chase scene."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:05.948047",
+    "subject": "English",
+    "hash": "043919dafc50e072662defd87f82e47e",
+    "data": {
+      "question": "Identify the correct form of the verb in the sentence: If I ______ more time, I would have finished the project.",
+      "options": [
+        "had",
+        "have",
+        "has",
+        "had had"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The sentence is in the third conditional tense, which is used to describe a past condition and its past consequence. The correct form of the verb is 'had' because it indicates a past condition, and the sentence is describing a past situation and its past consequence."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:05.948050",
+    "subject": "English",
+    "hash": "ea79c804df82ec2b4c3bce19735aad5d",
+    "data": {
+      "question": "What is the synonym of the word 'enormous'?",
+      "options": [
+        "Huge",
+        "Small",
+        "Tiny",
+        "Minuscule"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'enormous' means extremely large or immense. The synonym of 'enormous' is 'huge', which also means extremely large or immense."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:05.948054",
+    "subject": "English",
+    "hash": "88da65ab803f1326a3c47019a1e03821",
+    "data": {
+      "question": "Choose the correct antonym of the word 'spontaneous'?",
+      "options": [
+        "Planned",
+        "Unplanned",
+        "Impulsive",
+        "Deliberate"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'spontaneous' means done or said without prior thought or planning. The antonym of 'spontaneous' is 'planned', which means done or said after prior thought or planning."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:05.948057",
+    "subject": "English",
+    "hash": "ed048b6bbbee918482aab5f2d3604345",
+    "data": {
+      "question": "Identify the correct form of narration for the sentence: The teacher said, 'I will give you a prize if you answer all the questions correctly.'",
+      "options": [
+        "The teacher said that he would give the student a prize if the student answered all the questions correctly.",
+        "The teacher said that he will give the student a prize if the student answers all the questions correctly.",
+        "The teacher said that the teacher would give the student a prize if the student answered all the questions correctly.",
+        "The teacher said that the teacher will give the student a prize if the student answers all the questions correctly."
+      ],
+      "correct_option_idx": 0,
+      "explanation": "When changing direct speech to indirect speech, the first person pronoun 'I' changes to the third person pronoun 'he' or 'she' or 'they' depending on the subject, and the verb tense changes to the past tense. In this case, 'I' changes to 'he' and 'will give' changes to 'would give'."
+    }
+  },
+  {
+    "timestamp": "2026-06-20T06:19:05.948060",
+    "subject": "English",
+    "hash": "065096aeb5ef1533f8bcadeeab04d81a",
+    "data": {
+      "question": "What is the meaning of the phrase 'break a leg'?",
+      "options": [
+        "To wish someone bad luck",
+        "To wish someone good luck",
+        "To tell someone to be careful",
+        "To tell someone to take a risk"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The phrase 'break a leg' is an idiom that means 'good luck'. It is often used to wish someone success before a performance or a challenging situation. The origin of the phrase is unclear, but it is believed to have come from the superstition that it is bad luck to wish someone 'good luck' directly."
+    }
   }
 ]
