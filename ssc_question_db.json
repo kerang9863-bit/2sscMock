@@ -1390,5 +1390,357 @@
       "correct_option_idx": 1,
       "explanation": "The phrase 'break a leg' is an idiom that means 'good luck'. It is often used to wish someone success before a performance or a challenging situation. The origin of the phrase is unclear, but it is believed to have come from the superstition that it is bad luck to wish someone 'good luck' directly."
     }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:22.409876",
+    "subject": "GK_CurrentAffairs",
+    "hash": "0baeb8cbe1bda4965811603af920a6c7",
+    "data": {
+      "question": "The process by which water moves through a plant, from the roots to the leaves, and is then released into the air as water vapor is called",
+      "options": [
+        "Respiration",
+        "Photosynthesis",
+        "Transpiration",
+        "Evaporation"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "Transpiration is the process of water movement through a plant and its evaporation from aerial parts, like leaves, stems, and flowers. It occurs mainly through the stomata, which are small pores on the surface of the leaves. This process is crucial for plants as it helps regulate temperature and maintain water balance."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:22.409897",
+    "subject": "GK_CurrentAffairs",
+    "hash": "a8632e82e4550213a3840702c526767b",
+    "data": {
+      "question": "The Indian Constitution came into effect on",
+      "options": [
+        "January 26, 1950",
+        "August 15, 1947",
+        "October 2, 1950",
+        "November 26, 1949"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The Constitution of India was adopted by the Constituent Assembly on November 26, 1949, but it came into effect on January 26, 1950. This is why January 26 is celebrated as Republic Day in India, marking the transition of the country from a British Dominion to a Republic."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:22.409902",
+    "subject": "GK_CurrentAffairs",
+    "hash": "2e9a37f8cf9049e8b8a3842bec670437",
+    "data": {
+      "question": "The concept of 'zero' was first developed in",
+      "options": [
+        "Ancient Egypt",
+        "Ancient Greece",
+        "Ancient Rome",
+        "Ancient India"
+      ],
+      "correct_option_idx": 3,
+      "explanation": "The concept of 'zero' as a number and a placeholder was first developed in Ancient India. Indian mathematicians and astronomers, such as Aryabhata, used zero in their calculations and developed the decimal system. This innovation significantly advanced mathematics and facilitated trade and scientific progress."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:22.409906",
+    "subject": "GK_CurrentAffairs",
+    "hash": "d86d0564ce447e6fe0a159c86b63b02f",
+    "data": {
+      "question": "The first President of India was",
+      "options": [
+        "Jawaharlal Nehru",
+        "Dr. Rajendra Prasad",
+        "Dr. B.R. Ambedkar",
+        "Subhas Chandra Bose"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Dr. Rajendra Prasad was the first President of India, serving from 1950 to 1962. He played a significant role in the Indian independence movement and was a close associate of Mahatma Gandhi. As President, he worked to establish and stabilize the new government of India."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:22.409910",
+    "subject": "GK_CurrentAffairs",
+    "hash": "278fea268c5a392188569e49167719a9",
+    "data": {
+      "question": "The largest state in India in terms of population is",
+      "options": [
+        "Uttar Pradesh",
+        "Maharashtra",
+        "Bihar",
+        "West Bengal"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Uttar Pradesh is the most populous state in India, with over 200 million people. The state's large population is due to its fertile Indo-Gangetic Plain, which supports intensive agriculture and has historically been a center of population growth and urbanization."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:27.761943",
+    "subject": "English",
+    "hash": "6cf45210cf903f3958cab740c001926e",
+    "data": {
+      "question": "The new policy has been _______ by the management to reduce costs.",
+      "options": [
+        "implanted",
+        "imposed",
+        "imposedly",
+        "imposing"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'imposed' is the correct answer because it means to enforce or apply a rule or policy. In this context, the management has enforced the new policy to reduce costs. The other options are incorrect because 'implanted' means to insert or fix something, 'imposedly' is not a word, and 'imposing' means impressive or grand."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:27.761964",
+    "subject": "English",
+    "hash": "49169e3d0db516282a9ca8fafff432e5",
+    "data": {
+      "question": "The teacher asked the student to _______ the poem in front of the class.",
+      "options": [
+        "recite",
+        "narrate",
+        "describe",
+        "explain"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'recite' is the correct answer because it means to repeat or quote something, usually from memory. In this context, the teacher is asking the student to repeat the poem in front of the class. The other options are incorrect because 'narrate' means to tell a story, 'describe' means to give a detailed account, and 'explain' means to make something clear."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:27.761970",
+    "subject": "English",
+    "hash": "b6d1393e2d9b0ec044eac07ad824cc50",
+    "data": {
+      "question": "The word 'fast' is an antonym of",
+      "options": [
+        "quick",
+        "slow",
+        "rapid",
+        "speedy"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'fast' means moving or able to move quickly, so its antonym is 'slow'. The other options are incorrect because 'quick', 'rapid', and 'speedy' are all synonyms of 'fast'."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:27.761973",
+    "subject": "English",
+    "hash": "5ad6968c28718be67e9989cc8c0902bf",
+    "data": {
+      "question": "The new employee was very _______ on his first day of work.",
+      "options": [
+        "nervous",
+        "confident",
+        "excited",
+        "relaxed"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'nervous' is the correct answer because it is a common feeling for someone on their first day of work. The other options are incorrect because while someone may be 'confident', 'excited', or 'relaxed' on their first day, 'nervous' is a more likely emotion."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:27.761977",
+    "subject": "English",
+    "hash": "8e2c721d657835d4208327f42557855f",
+    "data": {
+      "question": "The manager _______ the employee for his good work.",
+      "options": [
+        "praised",
+        "criticized",
+        "ignored",
+        "scolded"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'praised' is the correct answer because it means to express admiration or approval. In this context, the manager is expressing admiration for the employee's good work. The other options are incorrect because 'criticized' means to express disapproval, 'ignored' means to pay no attention, and 'scolded' means to speak angrily to someone."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:27.761980",
+    "subject": "English",
+    "hash": "dd132693e4d3bb0c38553a991dcbf990",
+    "data": {
+      "question": "The word 'big' is a synonym of",
+      "options": [
+        "large",
+        "small",
+        "huge",
+        "tiny"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'large' is the correct answer because it is a synonym of 'big'. The other options are incorrect because 'small' and 'tiny' are antonyms of 'big', and 'huge' is a more extreme synonym."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:27.761983",
+    "subject": "English",
+    "hash": "936620cb4d71aadd1e2bac280c437cd3",
+    "data": {
+      "question": "The new policy will _______ the company a lot of money.",
+      "options": [
+        "save",
+        "cost",
+        "spend",
+        "waste"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'save' is the correct answer because it means to keep or retain something, especially money. In this context, the new policy will help the company retain money. The other options are incorrect because 'cost' means to require payment, 'spend' means to pay or disburse money, and 'waste' means to use or expend something unnecessarily."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:27.761986",
+    "subject": "English",
+    "hash": "bfff923d9891970396d499aee1806f1a",
+    "data": {
+      "question": "The teacher asked the student to _______ the story in his own words.",
+      "options": [
+        "narrate",
+        "describe",
+        "explain",
+        "summarize"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'narrate' is the correct answer because it means to tell a story, usually in a detailed and sequential manner. In this context, the teacher is asking the student to tell the story in his own words. The other options are incorrect because 'describe' means to give a detailed account, 'explain' means to make something clear, and 'summarize' means to give a brief account."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:27.761989",
+    "subject": "English",
+    "hash": "cfb20b77b91bcba736fc7bc4e46db088",
+    "data": {
+      "question": "The word 'happy' is an antonym of",
+      "options": [
+        "sad",
+        "angry",
+        "joyful",
+        "cheerful"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'sad' is the correct answer because it is an antonym of 'happy'. The other options are incorrect because 'angry' is a different emotion, and 'joyful' and 'cheerful' are synonyms of 'happy'."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:27.761992",
+    "subject": "English",
+    "hash": "9bab1946defde33d4673086ba308b7f0",
+    "data": {
+      "question": "The new employee was given a _______ to help him learn the job.",
+      "options": [
+        "manual",
+        "guide",
+        "tutorial",
+        "handbook"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'manual' is the correct answer because it is a book or document that gives instructions or information. In this context, the new employee was given a manual to help him learn the job. The other options are incorrect because while 'guide', 'tutorial', and 'handbook' are all similar, 'manual' is a more specific and common term for a document that provides instructions."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:40.278107",
+    "subject": "Math",
+    "hash": "54f8497051e88ce5306b47e2ca62627e",
+    "data": {
+      "question": "A train travels from station A to station B at an average speed of 60 km/h and returns at an average speed of 40 km/h. What is the average speed of the train for the entire journey?",
+      "options": [
+        "45 km/h",
+        "48 km/h",
+        "50 km/h",
+        "55 km/h"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "To find the average speed for the entire journey, we can use the formula: Average Speed = (2 * speed1 * speed2) / (speed1 + speed2), where speed1 and speed2 are the speeds for the two parts of the journey. Plugging in the values, we get Average Speed = (2 * 60 * 40) / (60 + 40) = 4800 / 100 = 48 km/h."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:40.278127",
+    "subject": "Math",
+    "hash": "3a53cf68e11ec6ef63c1dafc037b2217",
+    "data": {
+      "question": "The ratio of the ages of two friends is 3:5. If the sum of their ages is 48, what are the ages of the two friends?",
+      "options": [
+        "18 and 30",
+        "20 and 28",
+        "22 and 26",
+        "24 and 24"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Let's denote the ages of the two friends as 3x and 5x, where x is a constant. We are given that the sum of their ages is 48, so we can write: 3x + 5x = 48, which simplifies to: 8x = 48. Solving for x, we get: x = 48 / 8 = 6. Now, substituting x back into the expressions for the ages, we get: 3x = 3 * 6 = 18 and 5x = 5 * 6 = 30. So, the ages of the two friends are 18 and 30."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:40.278131",
+    "subject": "Math",
+    "hash": "973d375f44c4a6cfe0fd2b2c0906cf48",
+    "data": {
+      "question": "A man buys 10 pens for Rs. 100. How much will he pay for 15 pens at the same rate?",
+      "options": [
+        "Rs. 120",
+        "Rs. 130",
+        "Rs. 140",
+        "Rs. 150"
+      ],
+      "correct_option_idx": 3,
+      "explanation": "To find the cost of 15 pens, we can first find the cost of one pen and then multiply it by 15. The cost of one pen is: 100 / 10 = Rs. 10. Now, multiplying this by 15, we get: 10 * 15 = Rs. 150."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:40.278134",
+    "subject": "Math",
+    "hash": "f6a1a1aba068a6a6d0ac28e1a987ff8d",
+    "data": {
+      "question": "A car travels 250 km in 5 hours. How many kilometers will it travel in 7 hours at the same speed?",
+      "options": [
+        "300 km",
+        "350 km",
+        "400 km",
+        "490 km"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "To find the distance traveled in 7 hours, we can first find the speed of the car and then multiply it by 7. The speed of the car is: 250 km / 5 hours = 50 km/h. Now, multiplying this by 7, we get: 50 * 7 = 350 km."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:40.278138",
+    "subject": "Math",
+    "hash": "78141d8af1329a372d2d461e354bcb41",
+    "data": {
+      "question": "The area of a rectangle is 48 square cm. If the length is 8 cm, what is the breadth of the rectangle?",
+      "options": [
+        "4 cm",
+        "5 cm",
+        "6 cm",
+        "8 cm"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "We can use the formula for the area of a rectangle: Area = length * breadth. We are given that the area is 48 square cm and the length is 8 cm, so we can write: 48 = 8 * breadth. Solving for breadth, we get: breadth = 48 / 8 = 6 cm."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:40.278141",
+    "subject": "Math",
+    "hash": "9c8cfa2bc7ac035824620e2ae0e53b2c",
+    "data": {
+      "question": "A sum of money is invested at a rate of 10% per annum simple interest. If the interest earned in 2 years is Rs. 200, what is the principal amount?",
+      "options": [
+        "Rs. 800",
+        "Rs. 900",
+        "Rs. 1000",
+        "Rs. 1200"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "We can use the formula for simple interest: I = P * r * t, where I is the interest, P is the principal amount, r is the rate of interest, and t is the time. We are given that the interest earned in 2 years is Rs. 200 and the rate of interest is 10%, so we can write: 200 = P * 0.1 * 2. Solving for P, we get: P = 200 / (0.1 * 2) = 200 / 0.2 = Rs. 1000."
+    }
+  },
+  {
+    "timestamp": "2026-06-21T06:49:40.278144",
+    "subject": "Math",
+    "hash": "41bb31b6f206c4eeb7e0d231ea482cee",
+    "data": {
+      "question": "A bakery sells 250 loaves of bread per day. If the profit per loaf is Rs. 2, what is the total profit per day?",
+      "options": [
+        "Rs. 400",
+        "Rs. 450",
+        "Rs. 500",
+        "Rs. 550"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "To find the total profit per day, we can multiply the number of loaves sold per day by the profit per loaf: 250 * 2 = Rs. 500."
+    }
   }
 ]
