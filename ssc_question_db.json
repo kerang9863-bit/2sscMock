@@ -2110,5 +2110,117 @@
       "correct_option_idx": 1,
       "explanation": "To find the time it takes to fill the tank with both pipes, first, find the rate at which each pipe fills the tank per minute. Pipe A fills 1/30 of the tank per minute, and pipe B fills 1/45 of the tank per minute. Together, they fill (1/30 + 1/45) of the tank per minute. The common denominator for 30 and 45 is 90, so the combined rate is (3/90 + 2/90) = 5/90 = 1/18 of the tank per minute. Thus, it will take 18 minutes to fill the tank with both pipes used together."
     }
+  },
+  {
+    "timestamp": "2026-06-23T06:05:32.798789",
+    "subject": "Reasoning",
+    "hash": "f95a1a9c7000fbe35ff44093cb3ecc35",
+    "data": {
+      "question": "A bat and a ball together cost 1.10 dollars. The bat costs 1.00 dollars more than the ball. How much does the ball cost?",
+      "options": [
+        "0.05 dollars",
+        "0.10 dollars",
+        "0.15 dollars",
+        "0.20 dollars"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Let's denote the cost of the ball as x dollars. The bat costs 1.00 dollars more than the ball, so the bat costs x + 1.00 dollars. The total cost of the bat and the ball is 1.10 dollars, so we can write the equation: x + (x + 1.00) = 1.10. Simplifying the equation, we get 2x + 1.00 = 1.10. Subtracting 1.00 from both sides, we get 2x = 0.10. Dividing both sides by 2, we get x = 0.05. Therefore, the ball costs 0.05 dollars."
+    }
+  },
+  {
+    "timestamp": "2026-06-23T06:05:32.798813",
+    "subject": "Reasoning",
+    "hash": "88f4bea3e4588e2ba8c2e14cea0007a3",
+    "data": {
+      "question": "There are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb?",
+      "options": [
+        "Turn two switches on for 5 minutes, then turn one off, then enter the room",
+        "Turn one switch on for 5 minutes, then turn it off, then turn another switch on, then enter the room",
+        "Turn all switches on, then turn one off, then enter the room",
+        "Turn one switch on, then enter the room"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "To solve this problem, we can use the following steps: Turn two switches on for 5 minutes, then turn one off, then enter the room. When we enter the room, we can observe the light bulbs. The bulb that is on corresponds to one of the two switches that were turned on. The bulb that is off, but warm, corresponds to the switch that was turned off after being on for 5 minutes. The bulb that is off, and cold, corresponds to the switch that was never turned on. By using this method, we can figure out which switch corresponds to which light bulb."
+    }
+  },
+  {
+    "timestamp": "2026-06-23T06:05:32.798818",
+    "subject": "Reasoning",
+    "hash": "898a49c16b8a86082e0d19c94500797b",
+    "data": {
+      "question": "You are in a room with three doors. Behind one door is a beautiful princess, behind the second door is a ferocious tiger, and behind the third door is a room that is on fire. However, the doors are labelled incorrectly. You can ask one question to one of the guards to figure out which door leads to the princess. What question should you ask?",
+      "options": [
+        "If I were to ask the other guard which door leads to the princess, what would they say?",
+        "Which door leads to the tiger?",
+        "Which door leads to the room that is on fire?",
+        "Which door leads to the princess?"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "To solve this problem, we need to ask a question that will give us the correct information, regardless of whether the guard is truthful or not. The correct question to ask is, 'If I were to ask the other guard which door leads to the princess, what would they say?' Think about it, if you ask one of the guards this question, and the guard you asked is the truthful one, then the other guard (the liar) will point to the wrong door, and the truthful guard will tell you that the liar pointed to the wrong door. And if you ask the liar, then the liar will lie about what the truthful guard said, and point to the wrong door. So in either case, the answer will steer you away from the correct door. So you can safely assume the opposite of what the guard tells you."
+    }
+  },
+  {
+    "timestamp": "2026-06-23T06:05:32.798823",
+    "subject": "Reasoning",
+    "hash": "96f9fdab4765cc3ab13c3490995d12ff",
+    "data": {
+      "question": "There are 8 balls, one of which will be slightly heavier or lighter than the rest. How can you find the heavier or lighter ball in only two weighings on a balance scale?",
+      "options": [
+        "Weigh 3 balls against 3 balls, then weigh 2 balls against 2 balls",
+        "Weigh 4 balls against 4 balls, then weigh 2 balls against 2 balls",
+        "Weigh 2 balls against 2 balls, then weigh 1 ball against 1 ball",
+        "Weigh 1 ball against 1 ball, then weigh 3 balls against 3 balls"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "To solve this problem, we can use the following steps: Weigh 3 balls against 3 balls. If one side is heavier, then the heavier ball is one of those 3 balls. If the two sides are balanced, then the heavier ball is one of the 2 balls that were not weighed. Then, take the 3 balls that might have the heavier ball, and weigh 2 of them against each other. If one is heavier, then that is the heavier ball. If they are balanced, then the third ball is the heavier ball."
+    }
+  },
+  {
+    "timestamp": "2026-06-23T06:05:32.798827",
+    "subject": "Reasoning",
+    "hash": "2d5fa063e57d3389c6cfcc7ce4ed8937",
+    "data": {
+      "question": "A woman has a fox, a goose, and a sack of beans. She must cross a river, but her boat can only hold herself and one of these items at a time. If the fox is left alone with the goose, the fox will eat the goose. If the goose is left alone with the beans, the goose will eat the beans. How can the woman get everything across the river safely?",
+      "options": [
+        "Take the goose across first, then the beans, then the fox, then go back and get the goose",
+        "Take the fox across first, then the beans, then the goose, then go back and get the fox",
+        "Take the beans across first, then the goose, then the fox, then go back and get the beans",
+        "Take the goose across first, then the fox, then the beans, then go back and get the goose"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "To solve this problem, we need to find a sequence of steps that will allow the woman to get everything across the river safely. The correct sequence is: Take the goose across first, then go back and get the beans, then take the beans across and leave them, then go back and get the goose and take it back, then take the fox across, then go back and get the goose. This sequence ensures that the fox and the goose are never left together, and the goose and the beans are never left together."
+    }
+  },
+  {
+    "timestamp": "2026-06-23T06:05:32.798831",
+    "subject": "Reasoning",
+    "hash": "6f48ace6d1f0773a356324966de3fdb6",
+    "data": {
+      "question": "There are three boxes, one containing only apples, one containing only oranges, and one containing both apples and oranges. The boxes are labelled, but the labels are incorrect. How can you figure out what is in each box by only picking one fruit from one box?",
+      "options": [
+        "Pick a fruit from the box labelled 'apples and oranges'",
+        "Pick a fruit from the box labelled 'apples'",
+        "Pick a fruit from the box labelled 'oranges'",
+        "Pick a fruit from any box"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "To solve this problem, we need to pick a fruit from the box that is labelled 'apples and oranges'. Since the labels are incorrect, this box can only contain either only apples or only oranges. Let's say we pick a fruit from this box, and it is an apple. Then we know that this box contains only apples. The box labelled 'apples' must contain oranges, since the labels are incorrect. And the box labelled 'oranges' must contain both apples and oranges, since the labels are incorrect. If we pick a fruit from this box, and it is an orange, then we can apply similar logic to figure out what is in each box."
+    }
+  },
+  {
+    "timestamp": "2026-06-23T06:05:32.798835",
+    "subject": "Reasoning",
+    "hash": "47213ed6a9f7eedb8589a1c5e223717f",
+    "data": {
+      "question": "You are standing in a room with two doors. One door leads to certain death, and the other door leads to freedom. There are two guards standing in front of the doors. One guard always tells the truth, and the other guard always lies. You can ask one question to one of the guards to figure out which door leads to freedom. What question should you ask?",
+      "options": [
+        "If I were to ask the other guard which door leads to freedom, what would they say?",
+        "Which door leads to death?",
+        "Which door leads to freedom?",
+        "If I were to ask you which door leads to death, what would you say?"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "To solve this problem, we need to ask a question that will give us the correct information, regardless of whether the guard is truthful or not. The correct question to ask is, 'If I were to ask the other guard which door leads to freedom, what would they say?' Think about it, if you ask one of the guards this question, and the guard you asked is the truthful one, then the other guard (the liar) will point to the door that leads to death, and the truthful guard will tell you that the liar pointed to the door that leads to death. And if you ask the liar, then the liar will lie about what the truthful guard said, and point to the door that leads to death. So in either case, the answer will steer you away from the door that leads to freedom. So you can safely assume the opposite of what the guard tells you."
+    }
   }
 ]
