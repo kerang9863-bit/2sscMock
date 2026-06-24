@@ -546,3 +546,77 @@
 [06:05:32.802] [INFO]   Time elapsed: 0m 28s
 [06:05:32.802] [INFO] ======================================================================
 [06:05:32.802] [SUCCESS] All workflows completed successfully! 🎯
+[06:04:43.380] [INFO] 
+======================================================================
+[06:04:43.380] [INFO]   SSC MTS QUIZ FACTORY PRO v3.0
+[06:04:43.380] [INFO]   Professional Grade Quiz Generation System
+[06:04:43.380] [INFO] ======================================================================
+[06:04:43.380] [INFO] Loaded 6 API provider(s)
+[06:04:43.381] [INFO] Subjects configured: ['GK_CurrentAffairs', 'English', 'Math', 'Reasoning']
+[06:04:43.381] [INFO] Runtime limit: 110 minutes
+[06:04:43.381] [INFO] ======================================================================
+
+[06:04:43.381] [GK_CurrentAffairs] [INFO] 
+============================================================
+[06:04:43.381] [GK_CurrentAffairs] [INFO] 🚀 Starting generation for: GK_CurrentAffairs
+[06:04:43.381] [GK_CurrentAffairs] [INFO] ============================================================
+[06:04:43.381] [GK_CurrentAffairs] [INFO] Using provider: Groq-1 | Subject: GK_CurrentAffairs
+[06:04:47.908] [GK_CurrentAffairs] [SUCCESS] Generated 10 valid questions via Groq-1
+[06:04:47.909] [GK_CurrentAffairs] [INFO] Deduplication: 10 generated → 2 unique
+[06:04:47.909] [GK_CurrentAffairs] [WARNING] Only 2 unique questions. Skipping.
+[06:04:47.909] [English] [INFO] 
+============================================================
+[06:04:47.909] [English] [INFO] 🚀 Starting generation for: English
+[06:04:47.909] [English] [INFO] ============================================================
+[06:04:47.909] [English] [INFO] Using provider: Groq-2 | Subject: English
+[06:04:53.007] [English] [SUCCESS] Generated 10 valid questions via Groq-2
+[06:04:53.008] [English] [INFO] Deduplication: 10 generated → 8 unique
+[06:04:53.852] [SUCCESS] Sent English_24_Jun_2026.txt to Telegram
+[06:04:53.853] [SUCCESS] Cleaned up English_24_Jun_2026.txt
+[06:04:54.769] [SUCCESS] Sent English_MOCK_TEST_24_Jun_2026.html to Telegram
+[06:04:54.771] [SUCCESS] Cleaned up English_MOCK_TEST_24_Jun_2026.html
+[06:04:54.774] [English] [SUCCESS] ✅ Subject English completed successfully
+[06:04:54.774] [Math] [INFO] 
+============================================================
+[06:04:54.774] [Math] [INFO] 🚀 Starting generation for: Math
+[06:04:54.774] [Math] [INFO] ============================================================
+[06:04:54.774] [Math] [INFO] Using provider: Groq-3 | Subject: Math
+[06:05:00.158] [Math] [WARNING] Invalid quiz structure from Groq-3, retrying...
+[06:05:10.132] [Math] [WARNING] Invalid quiz structure from Groq-3, retrying...
+[06:05:12.199] [Math] [WARNING] Rate limited on Groq-3
+[06:05:12.200] [Math] [WARNING] Provider rotated (attempt 1/6)
+[06:05:12.201] [Math] [INFO] Using provider: Gemini-1 | Subject: Math
+[06:05:12.343] [Math] [WARNING] Rate limited on Gemini-1
+[06:05:12.343] [Math] [WARNING] Provider rotated (attempt 2/6)
+[06:05:12.344] [Math] [INFO] Using provider: Gemini-2 | Subject: Math
+[06:05:12.465] [Math] [WARNING] Rate limited on Gemini-2
+[06:05:12.466] [Math] [WARNING] Provider rotated (attempt 3/6)
+[06:05:12.466] [Math] [INFO] Using provider: Gemini-3 | Subject: Math
+[06:05:12.593] [Math] [WARNING] Rate limited on Gemini-3
+[06:05:12.594] [Math] [WARNING] Provider rotated (attempt 4/6)
+[06:05:12.594] [Math] [INFO] Using provider: Groq-1 | Subject: Math
+[06:05:19.347] [Math] [SUCCESS] Generated 10 valid questions via Groq-1
+[06:05:19.348] [Math] [INFO] Deduplication: 10 generated → 7 unique
+[06:05:20.361] [SUCCESS] Sent Math_24_Jun_2026.txt to Telegram
+[06:05:20.362] [SUCCESS] Cleaned up Math_24_Jun_2026.txt
+[06:05:21.251] [SUCCESS] Sent Math_MOCK_TEST_24_Jun_2026.html to Telegram
+[06:05:21.253] [SUCCESS] Cleaned up Math_MOCK_TEST_24_Jun_2026.html
+[06:05:21.256] [Math] [SUCCESS] ✅ Subject Math completed successfully
+[06:05:21.256] [Reasoning] [INFO] 
+============================================================
+[06:05:21.256] [Reasoning] [INFO] 🚀 Starting generation for: Reasoning
+[06:05:21.256] [Reasoning] [INFO] ============================================================
+[06:05:21.256] [Reasoning] [INFO] Using provider: Groq-2 | Subject: Reasoning
+[06:05:29.613] [Reasoning] [SUCCESS] Generated 10 valid questions via Groq-2
+[06:05:29.614] [Reasoning] [INFO] Deduplication: 10 generated → 4 unique
+[06:05:29.615] [Reasoning] [WARNING] Only 4 unique questions. Skipping.
+[06:05:29.615] [INFO] 
+======================================================================
+[06:05:29.615] [INFO]   SESSION SUMMARY
+[06:05:29.615] [INFO] ======================================================================
+[06:05:29.615] [INFO]   Subjects processed: 2
+[06:05:29.615] [INFO]   Questions generated: 15
+[06:05:29.615] [INFO]   Files sent: 4
+[06:05:29.615] [INFO]   Time elapsed: 0m 46s
+[06:05:29.615] [INFO] ======================================================================
+[06:05:29.615] [SUCCESS] All workflows completed successfully! 🎯
