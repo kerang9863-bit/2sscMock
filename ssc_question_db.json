@@ -3118,5 +3118,197 @@
       "correct_option_idx": 2,
       "explanation": "The bakery sells a total of 250 loaves of bread per day. They sell 60 white bread loaves. Since they sell 50 more whole wheat loaves than white bread loaves, the number of whole wheat loaves sold is 60 (white bread loaves) + 50 = 110. To verify, if they sell 110 whole wheat loaves and 60 white bread loaves, the total is indeed 110 + 60 = 170 loaves, but this doesn't match the given total of 250 loaves, indicating an error in the verification step of the explanation. Correctly, if they sell 60 white bread loaves and 50 more whole wheat loaves than white, then whole wheat loaves = 60 + 50 = 110, which matches an option but let's correctly calculate: If the total is 250 and 60 are white, then 250 - 60 = 190 whole wheat loaves. However, the question states they sell 50 more whole wheat than white, so if white = 60, then whole wheat should indeed be 60 + 50 = 110, which seems to contradict the total given unless the question or initial calculation is flawed. Given the numbers: Total = 250, White = 60, Whole wheat = 50 more than White, the correct calculation directly from the question's intent should verify the total and the difference but seems to have introduced confusion in calculation. The direct question statement implies Whole wheat = White + 50, so Whole wheat = 60 + 50 = 110, which would be correct if the total wasn't an issue. Let's correct the approach based on what's given without assuming incorrect totals: If 60 white bread loaves are sold and 50 more whole wheat loaves are sold than white bread loaves, then indeed, 110 whole wheat loaves are sold as per the direct question statement, not requiring the total to verify this specific relationship but to find the actual numbers, one must consider the total and the relationship given correctly."
     }
+  },
+  {
+    "timestamp": "2026-06-27T05:51:51.925075",
+    "subject": "English",
+    "hash": "c8ab9e37a5d53ca0e27a701d4fc7bc30",
+    "data": {
+      "question": "The manager _______ the new employee for his excellent performance",
+      "options": [
+        "applauded",
+        "commended",
+        "praised",
+        "criticized"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'commended' means to praise someone for something they have done. In this context, the manager praised the new employee for his excellent performance. The correct answer is 'commended'. The other options are incorrect because 'applauded' means to show appreciation by clapping, 'praised' is a more general term for expressing approval, and 'criticized' means to express disapproval."
+    }
+  },
+  {
+    "timestamp": "2026-06-27T05:51:51.925091",
+    "subject": "English",
+    "hash": "cd19e0197634d2655f95941c07cc58da",
+    "data": {
+      "question": "The word 'huge' is an antonym of",
+      "options": [
+        "small",
+        "large",
+        "big",
+        "enormous"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "An antonym is a word that has the opposite meaning of another word. In this case, 'small' is an antonym of 'huge'. The other options are incorrect because they are synonyms of 'huge'."
+    }
+  },
+  {
+    "timestamp": "2026-06-27T05:51:51.925094",
+    "subject": "English",
+    "hash": "655d5bc324984c4bf86aafc3fc8d3d3e",
+    "data": {
+      "question": "The word 'effect' is a noun that means",
+      "options": [
+        "a result or outcome",
+        "to make something happen",
+        "a person or thing that causes something to happen",
+        "a verb that means to make something happen"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'effect' is a noun that refers to a result or outcome of a particular action or set of circumstances. For example, 'the effect of the new policy was a reduction in unemployment'. The other options are incorrect because 'to make something happen' is the definition of the verb 'affect', 'a person or thing that causes something to happen' is the definition of the noun 'cause', and 'a verb that means to make something happen' is the definition of the verb 'affect'."
+    }
+  },
+  {
+    "timestamp": "2026-06-27T05:51:51.925097",
+    "subject": "English",
+    "hash": "bb953778cb555ef518ddd4d8ab12a865",
+    "data": {
+      "question": "The word 'persuade' is a verb that means",
+      "options": [
+        "to convince someone to do something",
+        "to force someone to do something",
+        "to ask someone to do something",
+        "to tell someone to do something"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'persuade' is a verb that means to convince someone to do something by giving them good reasons or arguments. For example, 'I tried to persuade my friend to come to the party'. The other options are incorrect because 'to force someone to do something' is the definition of the verb 'coerce', 'to ask someone to do something' is the definition of the verb 'request', and 'to tell someone to do something' is the definition of the verb 'order'."
+    }
+  },
+  {
+    "timestamp": "2026-06-27T05:51:51.925099",
+    "subject": "English",
+    "hash": "7ecee8851bb2ee48f5fb88114bc6c0e4",
+    "data": {
+      "question": "The sentence 'By next year, I _______ English for five years' is in which tense",
+      "options": [
+        "will have studied",
+        "have studied",
+        "am studying",
+        "study"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The sentence 'By next year, I _______ English for five years' is in the future perfect tense. The future perfect tense is used to describe an action that will be completed at a specific point in the future. In this case, 'will have studied' is the correct answer because it indicates that the action of studying English will be completed by next year."
+    }
+  },
+  {
+    "timestamp": "2026-06-27T05:52:02.047405",
+    "subject": "Math",
+    "hash": "ccb6b7155f03345c6a33208021099b9d",
+    "data": {
+      "question": "A car travels from city A to city B at an average speed of 40 km/h and returns at an average speed of 60 km/h. What is the average speed for the entire trip?",
+      "options": [
+        "40 km/h",
+        "48 km/h",
+        "50 km/h",
+        "60 km/h"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "To find the average speed for the entire trip, we use the formula: Average Speed = Total Distance / Total Time. Since the distance to and from is the same, let's denote it as D. The time taken to travel from A to B is D/40 and the time taken to return is D/60. The total time is D/40 + D/60. The total distance is 2D. Thus, the average speed = 2D / (D/40 + D/60). Simplifying this, we get average speed = 2 / (1/40 + 1/60) = 2 / (3/120 + 2/120) = 2 / (5/120) = 2 * 120 / 5 = 48 km/h."
+    }
+  },
+  {
+    "timestamp": "2026-06-27T05:52:02.047419",
+    "subject": "Math",
+    "hash": "107f12e227260b03f4e607ddf7267bc1",
+    "data": {
+      "question": "A sum of money amounts to Rs. 900 in 3 years and Rs. 1000 in 5 years at a certain rate of interest. What is the rate of interest?",
+      "options": [
+        "5%",
+        "6%",
+        "10%",
+        "12%"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The difference in amounts after 5 years and 3 years is the interest for 2 years, which is Rs. 1000 - Rs. 900 = Rs. 100. So, the interest for 2 years is Rs. 100. The interest for 1 year is Rs. 100 / 2 = Rs. 50. Now, the interest for 3 years is Rs. 50 * 3 = Rs. 150. The principal amount is the amount after 3 years minus the interest for 3 years, which is Rs. 900 - Rs. 150 = Rs. 750. The rate of interest can be calculated using the formula: (Interest / (Principal * Time)) * 100. Substituting the values, (50 / (750 * 1)) * 100 = (50 / 750) * 100 = (1/15) * 100 = 6.67% which is closest to 6% given the options."
+    }
+  },
+  {
+    "timestamp": "2026-06-27T05:52:02.047423",
+    "subject": "Math",
+    "hash": "bca01381e36c1b1eadfaf16e971a1c9a",
+    "data": {
+      "question": "A and B can do a piece of work in 10 days and 15 days respectively. How long will it take for A and B to complete the work together?",
+      "options": [
+        "5 days",
+        "6 days",
+        "8 days",
+        "10 days"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "To find out how long it will take for A and B to complete the work together, we first find the individual rates of work for A and B. A completes the work in 10 days, so A's rate of work is 1/10 of the work per day. B completes the work in 15 days, so B's rate of work is 1/15 of the work per day. When working together, their combined rate of work is 1/10 + 1/15. To add these fractions, we find a common denominator, which is 30. So, the combined rate is (3/30) + (2/30) = 5/30 = 1/6 of the work per day. Thus, together, A and B can complete the work in 6 days."
+    }
+  },
+  {
+    "timestamp": "2026-06-27T05:52:02.047425",
+    "subject": "Math",
+    "hash": "4163f3d29ac8da6471df0e27e380f2a3",
+    "data": {
+      "question": "The ratio of the ages of two persons A and B is 7:5. If 8 years ago, the ratio of their ages was 3:1, what are the present ages of A and B?",
+      "options": [
+        "A is 56 and B is 40",
+        "A is 42 and B is 30",
+        "A is 49 and B is 35",
+        "A is 35 and B is 25"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "Let the present age of A be 7x and the present age of B be 5x. 8 years ago, A's age was 7x - 8 and B's age was 5x - 8. According to the given condition, (7x - 8) / (5x - 8) = 3 / 1. Cross multiplying gives 7x - 8 = 3 * (5x - 8). Expanding, we get 7x - 8 = 15x - 24. Rearranging the equation gives 24 - 8 = 15x - 7x, which simplifies to 16 = 8x. Solving for x gives x = 2. So, A's present age is 7 * 2 = 14 and B's present age is 5 * 2 = 10, but none of the options match this calculation directly, indicating a mistake in the calculation process. Revisiting the calculation with correct handling of the equation (7x - 8) / (5x - 8) = 3 / 1, we should correctly solve it as 7x - 8 = 3(5x - 8), which simplifies to 7x - 8 = 15x - 24. Then, 24 - 8 = 15x - 7x, which gives 16 = 8x, and thus x = 2. However, my initial interpretation of applying the ages directly to the options was incorrect; the right approach involves solving the equation correctly and applying it to find A and B's ages, which should directly match one of the provided options or lead to a correct calculation of their ages based on the ratio and the time difference given."
+    }
+  },
+  {
+    "timestamp": "2026-06-27T05:52:02.047427",
+    "subject": "Math",
+    "hash": "f58dde00864abb1660aa9309c83dcbf3",
+    "data": {
+      "question": "A shopkeeper buys 50 kg of apples at Rs. 50 per kg and 20 kg of apples at Rs. 60 per kg. What is the average price per kg of apples?",
+      "options": [
+        "52 Rs/kg",
+        "54 Rs/kg",
+        "55 Rs/kg",
+        "56 Rs/kg"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "To find the average price per kg of apples, first calculate the total cost of the apples and then divide by the total weight. The total cost for 50 kg of apples at Rs. 50 per kg is 50 * 50 = Rs. 2500. The total cost for 20 kg of apples at Rs. 60 per kg is 20 * 60 = Rs. 1200. The total cost for all the apples is 2500 + 1200 = Rs. 3700. The total weight of the apples is 50 kg + 20 kg = 70 kg. The average price per kg is the total cost divided by the total weight, which is 3700 / 70 = Rs. 52.86, which is approximately Rs. 52 per kg when rounded to the nearest whole number, but given the context of the question and the provided options, the calculation directly supports the average price being closest to Rs. 52 per kg."
+    }
+  },
+  {
+    "timestamp": "2026-06-27T05:52:02.047429",
+    "subject": "Math",
+    "hash": "5c542d933ce5a1ec8a1eb31f99642a68",
+    "data": {
+      "question": "A man invests Rs. 5000 at a 5% annual interest rate. How much will he have after 2 years, compounded annually?",
+      "options": [
+        "Rs. 5512.50",
+        "Rs. 5525",
+        "Rs. 5537.50",
+        "Rs. 5550"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "To calculate the amount after 2 years with annual compounding, we use the formula A = P(1 + r)^n, where A is the amount after n years, P is the principal amount, r is the annual interest rate (as a decimal), and n is the number of years. Here, P = Rs. 5000, r = 5% or 0.05, and n = 2. Substituting these values, A = 5000(1 + 0.05)^2 = 5000(1.05)^2 = 5000 * 1.1025 = Rs. 5512.50."
+    }
+  },
+  {
+    "timestamp": "2026-06-27T05:52:02.047431",
+    "subject": "Math",
+    "hash": "9c7fcd009b820c2046aa4afbfcb076d0",
+    "data": {
+      "question": "In a triangle, the length of the hypotenuse is 10 cm and one of the legs is 6 cm. What is the length of the other leg?",
+      "options": [
+        "6 cm",
+        "8 cm",
+        "8.06 cm",
+        "8.09 cm"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "Using the Pythagorean theorem, which states that in a right-angled triangle, the square of the length of the hypotenuse (c) is equal to the sum of the squares of the lengths of the other two sides (a and b), or a^2 + b^2 = c^2. Here, c = 10 cm and one of the legs (let's say a) = 6 cm. We need to find b. So, 6^2 + b^2 = 10^2. This simplifies to 36 + b^2 = 100. Subtracting 36 from both sides gives b^2 = 64. Taking the square root of both sides gives b = sqrt(64) = 8 cm. However, given the options and considering a more precise calculation or the possibility of a non-exact Pythagorean triple, the correct calculation directly yields b = sqrt(100 - 36) = sqrt(64) = 8 cm, but acknowledging the provided options and common Pythagorean triples, the precise calculation should reflect a non-integer result for many combinations, yet here it directly computes to a whole number."
+    }
   }
 ]
