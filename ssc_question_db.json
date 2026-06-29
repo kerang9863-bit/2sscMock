@@ -3566,5 +3566,181 @@
       "correct_option_idx": 1,
       "explanation": "The work done by A and B together in one day is 1/8 + 1/12 = 5/24. The work done by A and B together in 4 days is 4 * 5/24 = 5/6. The remaining work is 1 - 5/6 = 1/6. The number of days B will take to complete the remaining work is (1/6) / (1/12) = 2."
     }
+  },
+  {
+    "timestamp": "2026-06-29T06:44:27.420569",
+    "subject": "English",
+    "hash": "34c957891af079cc4a2424618a840bce",
+    "data": {
+      "question": "The manager _______ the employee for his mistake, but also encouraged him to learn from it",
+      "options": [
+        "appreciated",
+        "criticized",
+        "dismissed",
+        "promoted"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The correct answer is 'criticized' because it means to express disapproval or disappointment. The manager expressed disapproval for the employee's mistake, but also encouraged him to learn from it."
+    }
+  },
+  {
+    "timestamp": "2026-06-29T06:44:27.420583",
+    "subject": "English",
+    "hash": "6f029dc82acea285f0a076340b5195b9",
+    "data": {
+      "question": "The antonym of 'old' is",
+      "options": [
+        "new",
+        "young",
+        "big",
+        "small"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The correct answer is 'new' because it is the opposite of 'old', which refers to something that has been in existence for a long time."
+    }
+  },
+  {
+    "timestamp": "2026-06-29T06:44:27.420592",
+    "subject": "English",
+    "hash": "6c0472c7cea4b6b14f5887f40203e170",
+    "data": {
+      "question": "The correct form of the verb 'go' in the sentence 'By the time I _______ to the store, it was closed' is",
+      "options": [
+        "go",
+        "went",
+        "have gone",
+        "had gone"
+      ],
+      "correct_option_idx": 3,
+      "explanation": "The correct answer is 'had gone' because it is in the past perfect tense, which is used to describe an action that happened before another action in the past."
+    }
+  },
+  {
+    "timestamp": "2026-06-29T06:44:27.420597",
+    "subject": "English",
+    "hash": "f0a1b51ca8bb3f778a353ec51f94c647",
+    "data": {
+      "question": "The sentence 'The manager asked the employee to finish the project by Friday' is in which narration",
+      "options": [
+        "direct",
+        "indirect",
+        "active",
+        "passive"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The correct answer is 'direct' because it is a direct quote of what the manager said. The sentence reports the manager's words exactly as they were spoken."
+    }
+  },
+  {
+    "timestamp": "2026-06-29T06:44:27.420601",
+    "subject": "English",
+    "hash": "89ae80c5c1c7d55ed93edc9c5f18ddbf",
+    "data": {
+      "question": "The antonym of 'full' is",
+      "options": [
+        "empty",
+        "big",
+        "small",
+        "happy"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The correct answer is 'empty' because it is the opposite of 'full', which refers to something that is completely filled or occupied."
+    }
+  },
+  {
+    "timestamp": "2026-06-29T06:44:27.420606",
+    "subject": "English",
+    "hash": "0114a07ea94bfb295ac5804b6453c735",
+    "data": {
+      "question": "The correct form of the verb 'take' in the sentence 'If I _______ more time to finish the project, I would have done a better job' is",
+      "options": [
+        "take",
+        "took",
+        "have taken",
+        "had taken"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The correct answer is 'took' because it is in the past simple tense, which is used to describe a hypothetical or uncertain situation in the past."
+    }
+  },
+  {
+    "timestamp": "2026-06-29T06:44:37.381664",
+    "subject": "Math",
+    "hash": "2e714ff0e11bb4d2197be5fe8847ca71",
+    "data": {
+      "question": "If the price of a commodity increases by 20% and then by a further 10%, what is the total percentage increase in the price of the commodity?",
+      "options": [
+        "28%",
+        "30%",
+        "32%",
+        "36%"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "First, the price increases by 20%, which means if the original price is P, it becomes 1.2P. Then, it increases by a further 10% of 1.2P, which is 0.1 * 1.2P = 0.12P. So, the final price is 1.2P + 0.12P = 1.32P. The total increase is 1.32P - P = 0.32P, which as a percentage of the original price P is (0.32P / P) * 100 = 32%. However, considering the calculation directly as percentage increase: 20% + 10% of the increased price (not the original), it's more accurately represented as the options suggest a direct calculation error in explanation. The correct step should directly apply the percentage increase formula or consider the multiplication of the factors (1 + 0.20) * (1 + 0.10) = 1.32, indicating a 32% total increase, but given the closest option and understanding the context of 'total percentage increase' in a simplified manner, the explanation aims towards a simplified calculation."
+    }
+  },
+  {
+    "timestamp": "2026-06-29T06:44:37.381682",
+    "subject": "Math",
+    "hash": "54257c8d8388b0c5c22e36d1dcd4047a",
+    "data": {
+      "question": "A man can row upstream at 8 km/h and downstream at 16 km/h. What is the speed of the stream?",
+      "options": [
+        "3 km/h",
+        "4 km/h",
+        "5 km/h",
+        "6 km/h"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The speed of the stream can be found by taking half of the difference between the downstream and upstream speeds. Downstream speed is the speed of the boat plus the speed of the stream, and upstream speed is the speed of the boat minus the speed of the stream. So, the formula for the speed of the stream is (Downstream Speed - Upstream Speed) / 2 = (16 - 8) / 2 = 8 / 2 = 4 km/h."
+    }
+  },
+  {
+    "timestamp": "2026-06-29T06:44:37.381687",
+    "subject": "Math",
+    "hash": "9cdde4ddf7a63d0ea8dae5800bd96db0",
+    "data": {
+      "question": "A train travels 120 km in 3 hours. How many kilometers does it travel in 5 hours?",
+      "options": [
+        "180 km",
+        "200 km",
+        "220 km",
+        "240 km"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "To find the distance the train travels in 5 hours, first, calculate its speed. The speed of the train is Distance / Time = 120 km / 3 hours = 40 km/h. Then, use the speed to find the distance it travels in 5 hours: Distance = Speed * Time = 40 km/h * 5 hours = 200 km."
+    }
+  },
+  {
+    "timestamp": "2026-06-29T06:44:37.381692",
+    "subject": "Math",
+    "hash": "8ef702f871b7aedcbb80656c436f437b",
+    "data": {
+      "question": "The area of a rectangle is 50 square cm and its length is 10 cm. What is its width?",
+      "options": [
+        "5 cm",
+        "6 cm",
+        "4 cm",
+        "8 cm"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The area of a rectangle is given by the formula Area = Length * Width. Given the area is 50 square cm and the length is 10 cm, we can solve for the width: 50 = 10 * Width, thus Width = 50 / 10 = 5 cm."
+    }
+  },
+  {
+    "timestamp": "2026-06-29T06:44:37.381696",
+    "subject": "Math",
+    "hash": "94f1d49ad22022fcb62ff9c35e0d8b2f",
+    "data": {
+      "question": "A shopkeeper sells an article at a 10% profit. If the cost price of the article is Rs. 500, what is the selling price?",
+      "options": [
+        "Rs. 500",
+        "Rs. 550",
+        "Rs. 600",
+        "Rs. 650"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The selling price can be found by adding the profit to the cost price. The profit is 10% of the cost price, which is 0.10 * Rs. 500 = Rs. 50. Thus, the selling price is Cost Price + Profit = Rs. 500 + Rs. 50 = Rs. 550."
+    }
   }
 ]
