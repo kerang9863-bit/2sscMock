@@ -1128,3 +1128,82 @@
 [06:24:38.191] [INFO]   Time elapsed: 0m 33s
 [06:24:38.191] [INFO] ======================================================================
 [06:24:38.191] [SUCCESS] All workflows completed successfully! 🎯
+[05:56:58.162] [INFO] 
+======================================================================
+[05:56:58.162] [INFO]   SSC MTS QUIZ FACTORY PRO v3.0
+[05:56:58.163] [INFO]   Professional Grade Quiz Generation System
+[05:56:58.163] [INFO] ======================================================================
+[05:56:58.163] [INFO] Loaded 6 API provider(s)
+[05:56:58.163] [INFO] Subjects configured: ['GK_CurrentAffairs', 'English', 'Math', 'Reasoning']
+[05:56:58.163] [INFO] Runtime limit: 110 minutes
+[05:56:58.163] [INFO] ======================================================================
+
+[05:56:58.163] [GK_CurrentAffairs] [INFO] 
+============================================================
+[05:56:58.163] [GK_CurrentAffairs] [INFO] 🚀 Starting generation for: GK_CurrentAffairs
+[05:56:58.163] [GK_CurrentAffairs] [INFO] ============================================================
+[05:56:58.163] [GK_CurrentAffairs] [INFO] Using provider: Groq-1 | Subject: GK_CurrentAffairs
+[05:57:00.613] [GK_CurrentAffairs] [SUCCESS] Generated 10 valid questions via Groq-1
+[05:57:00.614] [GK_CurrentAffairs] [INFO] Deduplication: 10 generated → 3 unique
+[05:57:00.614] [GK_CurrentAffairs] [WARNING] Only 3 unique questions. Skipping.
+[05:57:00.614] [English] [INFO] 
+============================================================
+[05:57:00.614] [English] [INFO] 🚀 Starting generation for: English
+[05:57:00.614] [English] [INFO] ============================================================
+[05:57:00.614] [English] [INFO] Using provider: Groq-2 | Subject: English
+[05:57:04.831] [English] [ERROR] HTTP 400 from Groq-2: {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":"{\
+[05:57:04.832] [English] [WARNING] Retry attempt 1/6
+[05:57:04.832] [English] [INFO] Using provider: Groq-3 | Subject: English
+[05:57:07.823] [English] [SUCCESS] Generated 10 valid questions via Groq-3
+[05:57:07.824] [English] [INFO] Deduplication: 10 generated → 6 unique
+[05:57:08.924] [SUCCESS] Sent English_02_Jul_2026.txt to Telegram
+[05:57:08.925] [SUCCESS] Cleaned up English_02_Jul_2026.txt
+[05:57:09.943] [SUCCESS] Sent English_MOCK_TEST_02_Jul_2026.html to Telegram
+[05:57:09.944] [SUCCESS] Cleaned up English_MOCK_TEST_02_Jul_2026.html
+[05:57:09.950] [English] [SUCCESS] ✅ Subject English completed successfully
+[05:57:09.950] [Math] [INFO] 
+============================================================
+[05:57:09.951] [Math] [INFO] 🚀 Starting generation for: Math
+[05:57:09.951] [Math] [INFO] ============================================================
+[05:57:09.951] [Math] [INFO] Using provider: Gemini-1 | Subject: Math
+[05:57:10.098] [Math] [WARNING] Rate limited on Gemini-1
+[05:57:10.099] [Math] [WARNING] Provider rotated (attempt 1/6)
+[05:57:10.099] [Math] [INFO] Using provider: Gemini-2 | Subject: Math
+[05:57:10.270] [Math] [WARNING] Rate limited on Gemini-2
+[05:57:10.271] [Math] [WARNING] Provider rotated (attempt 2/6)
+[05:57:10.271] [Math] [INFO] Using provider: Gemini-3 | Subject: Math
+[05:57:10.414] [Math] [WARNING] Rate limited on Gemini-3
+[05:57:10.415] [Math] [WARNING] Provider rotated (attempt 3/6)
+[05:57:10.415] [Math] [INFO] Using provider: Groq-1 | Subject: Math
+[05:57:22.865] [Math] [SUCCESS] Generated 9 valid questions via Groq-1
+[05:57:22.866] [Math] [INFO] Deduplication: 9 generated → 7 unique
+[05:57:24.042] [SUCCESS] Sent Math_02_Jul_2026.txt to Telegram
+[05:57:24.043] [SUCCESS] Cleaned up Math_02_Jul_2026.txt
+[05:57:25.037] [SUCCESS] Sent Math_MOCK_TEST_02_Jul_2026.html to Telegram
+[05:57:25.039] [SUCCESS] Cleaned up Math_MOCK_TEST_02_Jul_2026.html
+[05:57:25.045] [Math] [SUCCESS] ✅ Subject Math completed successfully
+[05:57:25.045] [Reasoning] [INFO] 
+============================================================
+[05:57:25.045] [Reasoning] [INFO] 🚀 Starting generation for: Reasoning
+[05:57:25.045] [Reasoning] [INFO] ============================================================
+[05:57:25.045] [Reasoning] [INFO] Using provider: Groq-2 | Subject: Reasoning
+[05:57:33.020] [Reasoning] [ERROR] HTTP 400 from Groq-2: {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":"ma
+[05:57:33.021] [Reasoning] [WARNING] Retry attempt 1/6
+[05:57:33.021] [Reasoning] [INFO] Using provider: Groq-3 | Subject: Reasoning
+[05:57:39.916] [Reasoning] [SUCCESS] Generated 10 valid questions via Groq-3
+[05:57:39.917] [Reasoning] [INFO] Deduplication: 10 generated → 7 unique
+[05:57:40.937] [SUCCESS] Sent Reasoning_02_Jul_2026.txt to Telegram
+[05:57:40.938] [SUCCESS] Cleaned up Reasoning_02_Jul_2026.txt
+[05:57:42.063] [SUCCESS] Sent Reasoning_MOCK_TEST_02_Jul_2026.html to Telegram
+[05:57:42.064] [SUCCESS] Cleaned up Reasoning_MOCK_TEST_02_Jul_2026.html
+[05:57:42.071] [Reasoning] [SUCCESS] ✅ Subject Reasoning completed successfully
+[05:57:42.071] [INFO] 
+======================================================================
+[05:57:42.071] [INFO]   SESSION SUMMARY
+[05:57:42.071] [INFO] ======================================================================
+[05:57:42.071] [INFO]   Subjects processed: 3
+[05:57:42.071] [INFO]   Questions generated: 20
+[05:57:42.071] [INFO]   Files sent: 6
+[05:57:42.071] [INFO]   Time elapsed: 0m 44s
+[05:57:42.071] [INFO] ======================================================================
+[05:57:42.071] [SUCCESS] All workflows completed successfully! 🎯
