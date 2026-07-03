@@ -4750,5 +4750,165 @@
       "correct_option_idx": 0,
       "explanation": "Let the rate of interest be r%. The amount after 2 years is given by the formula A = P(1 + r/100)^2, where P is the principal amount. Here, P = Rs. 1000, A = Rs. 1100. So, 1100 = 1000(1 + r/100)^2. Dividing both sides by 1000, we get 1.1 = (1 + r/100)^2. Taking the square root of both sides, we get 1.04879 = 1 + r/100. Subtracting 1 from both sides, we get 0.04879 = r/100. Multiplying both sides by 100, we get r = 4.879, which is approximately 4.88%. However, considering standard rounding practices in such calculations, the rate of interest is approximately 4.76% when properly rounded to the nearest hundredth and considering the specific conditions of the problem."
     }
+  },
+  {
+    "timestamp": "2026-07-03T05:51:24.571644",
+    "subject": "English",
+    "hash": "20c5c661945a366c66a189588388b512",
+    "data": {
+      "question": "Choose the correct form of verb given in the bracket to complete the sentence: By the time I ______ (finish) my homework, it was midnight.",
+      "options": [
+        "had finished",
+        "finish",
+        "have finished",
+        "was finishing"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The sentence is in the past perfect tense, which is used to describe an action that occurred before another action in the past. The correct form of the verb 'finish' to complete the sentence is 'had finished'. This is because 'had finished' indicates that the action of finishing the homework was completed before the time mentioned, i.e., midnight."
+    }
+  },
+  {
+    "timestamp": "2026-07-03T05:51:24.571664",
+    "subject": "English",
+    "hash": "535345da4d3dc5550e1c1eebbead172c",
+    "data": {
+      "question": "Identify the synonym of the word 'fastidious' from the given options.",
+      "options": [
+        "meticulous",
+        "careless",
+        "sloppy",
+        "lenient"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'fastidious' means having a strong attention to detail and being demanding in one's standards. The synonym of 'fastidious' from the given options is 'meticulous', which also means having a strong attention to detail and being precise."
+    }
+  },
+  {
+    "timestamp": "2026-07-03T05:51:24.571670",
+    "subject": "English",
+    "hash": "6141aa49a4dad235290565fa47a02528",
+    "data": {
+      "question": "Choose the correct antonym of the word 'verbose' from the given options.",
+      "options": [
+        "concise",
+        "prolix",
+        "eloquent",
+        "articulate"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'verbose' means using or containing too many words. The antonym of 'verbose' is 'concise', which means giving a lot of information clearly and in a few words."
+    }
+  },
+  {
+    "timestamp": "2026-07-03T05:51:24.571675",
+    "subject": "English",
+    "hash": "0ff3e28b4ada323ca792abacbf397476",
+    "data": {
+      "question": "Fill in the blank with the correct form of the verb given in the bracket: If I ______ (know) the answer, I would tell you.",
+      "options": [
+        "know",
+        "knew",
+        "had known",
+        "would know"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The sentence is in the second conditional form, which is used to describe a hypothetical or uncertain situation and its possible outcome. The correct form of the verb 'know' to complete the sentence is 'knew', which is the simple past tense of the verb 'know'. This is because the sentence is describing a hypothetical situation where the speaker is saying what they would do if they knew the answer."
+    }
+  },
+  {
+    "timestamp": "2026-07-03T05:51:24.571679",
+    "subject": "English",
+    "hash": "55226026316ae7fe5ea248d3de56cb23",
+    "data": {
+      "question": "Identify the correct narration of the given sentence: The teacher said to the student, 'You must work hard to pass the exam.'",
+      "options": [
+        "The teacher told the student that he must work hard to pass the exam.",
+        "The teacher told the student that he had to work hard to pass the exam.",
+        "The teacher told the student that he would work hard to pass the exam.",
+        "The teacher told the student that he can work hard to pass the exam."
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The given sentence is in the direct speech form. To convert it into indirect speech, we need to change the pronoun 'you' to 'he' or 'him' and the verb 'must' remains the same. The correct narration of the given sentence is 'The teacher told the student that he must work hard to pass the exam.'"
+    }
+  },
+  {
+    "timestamp": "2026-07-03T05:51:24.571684",
+    "subject": "English",
+    "hash": "e53aa580f3882d920977a79fd6094ee5",
+    "data": {
+      "question": "Choose the correct form of the verb given in the bracket to complete the sentence: By next year, I ______ (study) English for five years.",
+      "options": [
+        "will have studied",
+        "am studying",
+        "have studied",
+        "will study"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The sentence is in the future perfect tense, which is used to describe an action that will be completed at a specific time in the future. The correct form of the verb 'study' to complete the sentence is 'will have studied', which indicates that the action of studying English will be completed by the time mentioned, i.e., next year."
+    }
+  },
+  {
+    "timestamp": "2026-07-03T05:51:24.571688",
+    "subject": "English",
+    "hash": "83f0094478e8c3f9d56e975a5bab843f",
+    "data": {
+      "question": "Identify the synonym of the word 'nuance' from the given options.",
+      "options": [
+        "subtlety",
+        "obviousness",
+        "complexity",
+        "simplicity"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'nuance' refers to a subtle difference or shade of meaning. The synonym of 'nuance' from the given options is 'subtlety', which also refers to a subtle difference or quality."
+    }
+  },
+  {
+    "timestamp": "2026-07-03T05:51:24.571693",
+    "subject": "English",
+    "hash": "0dfcc69e58addef0ed9f2263708c9af1",
+    "data": {
+      "question": "Choose the correct antonym of the word 'spontaneous' from the given options.",
+      "options": [
+        "planned",
+        "deliberate",
+        "impulsive",
+        "voluntary"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'spontaneous' means done or said without prior thought or planning. The antonym of 'spontaneous' is 'planned', which means done or said after prior thought or planning."
+    }
+  },
+  {
+    "timestamp": "2026-07-03T05:51:24.571697",
+    "subject": "English",
+    "hash": "6677f04da94b073c594392f5accbc6d7",
+    "data": {
+      "question": "Fill in the blank with the correct form of the verb given in the bracket: If it ______ (rain), we would go to the park.",
+      "options": [
+        "rains",
+        "rained",
+        "would rain",
+        "were raining"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The sentence is in the second conditional form, which is used to describe a hypothetical or uncertain situation and its possible outcome. The correct form of the verb 'rain' to complete the sentence is 'rained', which is the simple past tense of the verb 'rain'. This is because the sentence is describing a hypothetical situation where the speaker is saying what they would do if it rained."
+    }
+  },
+  {
+    "timestamp": "2026-07-03T05:51:24.571701",
+    "subject": "English",
+    "hash": "6c84542407e4c18eb1a4db6834f537b4",
+    "data": {
+      "question": "Identify the correct narration of the given sentence: The captain said, 'We will win the match if we play well.'",
+      "options": [
+        "The captain said that they would win the match if they played well.",
+        "The captain said that they will win the match if they play well.",
+        "The captain said that they can win the match if they play well.",
+        "The captain said that they might win the match if they play well."
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The given sentence is in the direct speech form. To convert it into indirect speech, we need to change the pronoun 'we' to 'they' and the verb 'will' to 'would'. The correct narration of the given sentence is 'The captain said that they would win the match if they played well.'"
+    }
   }
 ]
