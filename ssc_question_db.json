@@ -5294,5 +5294,133 @@
       "correct_option_idx": 2,
       "explanation": "Since B's efficiency is 2/3 of A's, and A takes 8 days, B will take more time. If A's efficiency is represented as 1, then B's efficiency is 2/3. The ratio of their efficiencies is inversely proportional to the time they take to complete the work. So, if A takes 8 days, B will take (3/2) * 8 = 12 days to complete the work."
     }
+  },
+  {
+    "timestamp": "2026-07-05T06:02:24.288945",
+    "subject": "English",
+    "hash": "bfad3d8b78c91cf9b41ee05e6762c499",
+    "data": {
+      "question": "Choose the correct synonym for the word 'fastidious' from the options given below.",
+      "options": [
+        "Careless",
+        "Meticulous",
+        "Lazy",
+        "Indifferent"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'fastidious' means meticulous and demanding in one's standards; having a strong attention to detail. It is a synonym of words like 'meticulous', 'finicky', and 'fussy'."
+    }
+  },
+  {
+    "timestamp": "2026-07-05T06:02:24.288961",
+    "subject": "English",
+    "hash": "3b08539e82f902d9bcd8908027732927",
+    "data": {
+      "question": "Identify the correct antonym of the word 'verbose' from the options given below.",
+      "options": [
+        "Talkative",
+        "Terse",
+        "Loquacious",
+        "Garrulous"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'verbose' means using or containing too many words; excessively lengthy or wordy. The correct antonym of 'verbose' is 'terse', which means using few words; concise and to the point."
+    }
+  },
+  {
+    "timestamp": "2026-07-05T06:02:24.288964",
+    "subject": "English",
+    "hash": "8e50bfb24c20d3e20a3c56f3c71c467a",
+    "data": {
+      "question": "Fill in the blank with the correct form of the verb in the sentence: If I ______ her, I would have told her about the party.",
+      "options": [
+        "know",
+        "knew",
+        "have known",
+        "had known"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The sentence is in the second conditional tense, which is used to describe a hypothetical or uncertain situation in the past. The correct form of the verb is 'knew' because it indicates a past condition that did not actually happen."
+    }
+  },
+  {
+    "timestamp": "2026-07-05T06:02:24.288966",
+    "subject": "English",
+    "hash": "a22057ac22bd1162947173eadb095b75",
+    "data": {
+      "question": "Choose the correct form of the possessive adjective in the sentence: ______ book is on the table.",
+      "options": [
+        "My",
+        "Mine",
+        "Myself",
+        "I"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The sentence requires a possessive adjective to show that the book belongs to the speaker. The correct form of the possessive adjective is 'my', which is used before a noun to indicate possession."
+    }
+  },
+  {
+    "timestamp": "2026-07-05T06:02:24.288969",
+    "subject": "English",
+    "hash": "2d390372f001d37056e324f3ca46c325",
+    "data": {
+      "question": "Identify the correct form of the verb in the sentence: By next year, I ______ English for five years.",
+      "options": [
+        "will have been studying",
+        "have been studying",
+        "study",
+        "am studying"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The sentence is in the future perfect continuous tense, which is used to describe an action that will start before a specific time in the future and will continue up to that time. The correct form of the verb is 'will have been studying' because it indicates that the action of studying English will be in progress for five years by next year."
+    }
+  },
+  {
+    "timestamp": "2026-07-05T06:02:24.288971",
+    "subject": "English",
+    "hash": "7a39e99cef7f63479115d4d121d8cdeb",
+    "data": {
+      "question": "What is the meaning of the word 'enervate'?",
+      "options": [
+        "To give energy to something",
+        "To take energy away from something",
+        "To change the energy of something",
+        "To increase the energy of something"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'enervate' means to weaken or deprive of energy; to reduce the strength or vitality of something. It is a synonym of words like 'weaken', 'debilitate', and 'drain'."
+    }
+  },
+  {
+    "timestamp": "2026-07-05T06:02:24.288973",
+    "subject": "English",
+    "hash": "aee456b83ed287a3eaf807bd444b7200",
+    "data": {
+      "question": "Choose the correct antonym of the word 'spontaneous' from the options given below.",
+      "options": [
+        "Planned",
+        "Impulsive",
+        "Deliberate",
+        "Unintentional"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The word 'spontaneous' means done or said without prior thought or planning; natural and uninhibited. The correct antonym of 'spontaneous' is 'deliberate', which means done or said with careful thought and intention; intentional and premeditated."
+    }
+  },
+  {
+    "timestamp": "2026-07-05T06:02:24.288976",
+    "subject": "English",
+    "hash": "e43229ede122c754b69987ca367438b1",
+    "data": {
+      "question": "Fill in the blank with the correct form of the verb in the sentence: If it ______ yesterday, we would have gone to the park.",
+      "options": [
+        "rains",
+        "rained",
+        "have rained",
+        "had rained"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The sentence is in the third conditional tense, which is used to describe a hypothetical or uncertain situation in the past. The correct form of the verb is 'rained' because it indicates a past condition that did not actually happen."
+    }
   }
 ]
