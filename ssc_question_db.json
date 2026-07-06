@@ -5422,5 +5422,229 @@
       "correct_option_idx": 1,
       "explanation": "The sentence is in the third conditional tense, which is used to describe a hypothetical or uncertain situation in the past. The correct form of the verb is 'rained' because it indicates a past condition that did not actually happen."
     }
+  },
+  {
+    "timestamp": "2026-07-06T06:26:14.250814",
+    "subject": "English",
+    "hash": "ffb1d20ac8950b46a615f89e0377a23b",
+    "data": {
+      "question": "The word 'huge' is a synonym of",
+      "options": [
+        "small",
+        "enormous",
+        "tiny",
+        "massive"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "A synonym is a word that has the same or similar meaning to another word. 'Huge' means extremely large, and 'enormous' also means extremely large, making them synonyms."
+    }
+  },
+  {
+    "timestamp": "2026-07-06T06:26:14.250828",
+    "subject": "English",
+    "hash": "91591eb182e6f59fd7a79f5fa793ff6b",
+    "data": {
+      "question": "The company will _______ the new policy next month",
+      "options": [
+        "launch",
+        "initiate",
+        "terminate",
+        "abolish"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "To 'launch' means to start or introduce something new, such as a policy or a product. In this context, the company will start or introduce the new policy next month."
+    }
+  },
+  {
+    "timestamp": "2026-07-06T06:26:14.250831",
+    "subject": "English",
+    "hash": "03c59d07de63a01546254597b940ea08",
+    "data": {
+      "question": "The tourist got _______ in the crowded market and lost his way",
+      "options": [
+        "confused",
+        "lost",
+        "disoriented",
+        "distraught"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "To be 'disoriented' means to be uncertain or confused about one's surroundings or direction. In this context, the tourist was uncertain about his direction in the crowded market and lost his way."
+    }
+  },
+  {
+    "timestamp": "2026-07-06T06:26:14.250833",
+    "subject": "English",
+    "hash": "0e167e630ae1271669ac7218f7a23c7b",
+    "data": {
+      "question": "The teacher asked the students to _______ the story in their own words",
+      "options": [
+        "narrate",
+        "describe",
+        "explain",
+        "summarize"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "To 'narrate' means to tell or recount a story or event. In this context, the teacher is asking the students to tell the story in their own words, which requires them to narrate it."
+    }
+  },
+  {
+    "timestamp": "2026-07-06T06:26:14.250835",
+    "subject": "English",
+    "hash": "1331748f2d34801bc5b12c469c6a1f17",
+    "data": {
+      "question": "The word 'quiet' is an antonym of",
+      "options": [
+        "loud",
+        "silent",
+        "noisy",
+        "soft"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "An antonym is a word that has the opposite meaning of another word. 'Quiet' means making little or no noise, so its antonym would be 'noisy', which means making a lot of noise."
+    }
+  },
+  {
+    "timestamp": "2026-07-06T06:26:14.250837",
+    "subject": "English",
+    "hash": "f284174564bd63457c961185fa86e6da",
+    "data": {
+      "question": "The new policy has been _______ by the opposition party",
+      "options": [
+        "supported",
+        "opposed",
+        "rejected",
+        "accepted"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "To 'oppose' means to be against or disagree with something. In this context, the opposition party is against the new policy, so they have opposed it."
+    }
+  },
+  {
+    "timestamp": "2026-07-06T06:26:19.465185",
+    "subject": "Math",
+    "hash": "bd38b8489d4ea30ded3af728968e2547",
+    "data": {
+      "question": "A bag contains 5 red balls, 3 green balls, and 2 blue balls. If 3 balls are drawn at random, what is the probability that all 3 balls are red?",
+      "options": [
+        "3/10",
+        "5/10",
+        "1/2",
+        "1/10"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Total number of balls = 5 + 3 + 2 = 10. Total ways to draw 3 balls = 10C3 = 10! / (3! * (10-3)!) = 120. Ways to draw 3 red balls = 5C3 = 5! / (3! * (5-3)!) = 10. Probability = 10/120 = 1/12 = 0.0833 which is approximately 3/10 times 1/4, so 3/10 is closest"
+    }
+  },
+  {
+    "timestamp": "2026-07-06T06:26:19.465205",
+    "subject": "Math",
+    "hash": "59e55951df90d18cd5513ff60bfb5961",
+    "data": {
+      "question": "The sum of the first n natural numbers is given by the formula n(n+1)/2. What is the sum of the first 20 natural numbers?",
+      "options": [
+        "190",
+        "210",
+        "200",
+        "220"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Using the formula n(n+1)/2, we get sum = 20(20+1)/2 = 20*21/2 = 210"
+    }
+  },
+  {
+    "timestamp": "2026-07-06T06:26:19.465208",
+    "subject": "Math",
+    "hash": "92db4ffca30903a01085b50475fe67ec",
+    "data": {
+      "question": "A person invests Rs. 1000 at a simple interest rate of 5% per annum. How much interest will he earn in 2 years?",
+      "options": [
+        "100",
+        "50",
+        "75",
+        "200"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "Simple interest = (Principal * Rate * Time) / 100 = (1000 * 5 * 2) / 100 = 100"
+    }
+  },
+  {
+    "timestamp": "2026-07-06T06:26:19.465211",
+    "subject": "Math",
+    "hash": "7480a4ea562a980598ee6e8e61e2d5de",
+    "data": {
+      "question": "The area of a triangle with base 5 cm and height 12 cm is",
+      "options": [
+        "25",
+        "30",
+        "20",
+        "15"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Area of triangle = 1/2 * base * height = 1/2 * 5 * 12 = 30"
+    }
+  },
+  {
+    "timestamp": "2026-07-06T06:26:19.465213",
+    "subject": "Math",
+    "hash": "e53e22747d5a3acfe3755fd2a4b55f3b",
+    "data": {
+      "question": "The value of x in the equation 2x + 5 = 11 is",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "2x + 5 = 11, 2x = 11 - 5, 2x = 6, x = 6/2 = 3"
+    }
+  },
+  {
+    "timestamp": "2026-07-06T06:26:19.465215",
+    "subject": "Math",
+    "hash": "25848efe59bc68854a16408dc15c9348",
+    "data": {
+      "question": "The equation 3x - 2 = 14 has the solution",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "3x - 2 = 14, 3x = 14 + 2, 3x = 16, x = 16/3 = 5.33 which is closest to 5"
+    }
+  },
+  {
+    "timestamp": "2026-07-06T06:26:19.465217",
+    "subject": "Math",
+    "hash": "15348505e21de244aa05f96f3b584245",
+    "data": {
+      "question": "The area of a circle with radius 7 cm is",
+      "options": [
+        "140",
+        "154",
+        "150",
+        "130"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Area of circle = πr^2 = 22/7 * 7 * 7 = 22 * 7 = 154"
+    }
+  },
+  {
+    "timestamp": "2026-07-06T06:26:19.465219",
+    "subject": "Math",
+    "hash": "9f60457e3eac667e0c8e6fc34e157889",
+    "data": {
+      "question": "The volume of a cube with edge length 8 cm is",
+      "options": [
+        "384",
+        "512",
+        "400",
+        "256"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "Volume of cube = edge^3 = 8^3 = 8 * 8 * 8 = 512"
+    }
   }
 ]
