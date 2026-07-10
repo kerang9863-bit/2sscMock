@@ -6142,5 +6142,165 @@
       "correct_option_idx": 2,
       "explanation": "The area of the triangle is given by 1/2 * base * height. We are given that the area is 60 square cm and the base is 10 cm. Substituting these values, we get 1/2 * 10 * height = 60. Simplifying the equation, we get 5 * height = 60, which gives us height = 60 / 5 = 12."
     }
+  },
+  {
+    "timestamp": "2026-07-10T06:01:34.013121",
+    "subject": "English",
+    "hash": "91cc95d3d356c4b26e54db7904f36fab",
+    "data": {
+      "question": "The new policy has been _______ by the government to reduce pollution.",
+      "options": [
+        "implanted",
+        "enacted",
+        "inaugurated",
+        "installed"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'enacted' means to make something a law, which fits the context of the government introducing a new policy to reduce pollution. This question tests vocabulary and the ability to use the correct word in a given context."
+    }
+  },
+  {
+    "timestamp": "2026-07-10T06:01:34.013140",
+    "subject": "English",
+    "hash": "459451c7f2b10710e1285a0ca04b3fb8",
+    "data": {
+      "question": "The manager asked the employee to _______ the report by the end of the day.",
+      "options": [
+        "submit",
+        "resubmit",
+        "edit",
+        "rewrite"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'submit' means to give something to someone in authority, which fits the context of the manager asking the employee to give the report. This question tests vocabulary and the ability to use the correct word in a given context."
+    }
+  },
+  {
+    "timestamp": "2026-07-10T06:01:34.013143",
+    "subject": "English",
+    "hash": "8ab2d5fb5f34bab28540bd381859fa70",
+    "data": {
+      "question": "The teacher gave the student a _______ for their excellent performance in the exam.",
+      "options": [
+        "commendation",
+        "condemnation",
+        "apprehension",
+        "reprehension"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'commendation' means an expression of praise, which fits the context of the teacher giving the student a positive feedback for their performance. This question tests vocabulary and the ability to use the correct word in a given context."
+    }
+  },
+  {
+    "timestamp": "2026-07-10T06:01:34.013145",
+    "subject": "English",
+    "hash": "7074e77e61fd03619fe543ba60d28c49",
+    "data": {
+      "question": "The new employee was very _______ on his first day, asking many questions to his colleagues.",
+      "options": [
+        "inquisitive",
+        "oblivious",
+        "indifferent",
+        "apathetic"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'inquisitive' means having a curious nature, which fits the context of the new employee asking many questions. This question tests vocabulary and the ability to use the correct word in a given context."
+    }
+  },
+  {
+    "timestamp": "2026-07-10T06:01:34.013147",
+    "subject": "English",
+    "hash": "f47c691d9243e5e433cc82f6433db6b0",
+    "data": {
+      "question": "The company will _______ its production to meet the increasing demand.",
+      "options": [
+        "escalate",
+        "decelerate",
+        "accelerate",
+        "augment"
+      ],
+      "correct_option_idx": 3,
+      "explanation": "The word 'augment' means to increase or add to something, which fits the context of the company increasing its production. This question tests vocabulary and the ability to use the correct word in a given context."
+    }
+  },
+  {
+    "timestamp": "2026-07-10T06:01:34.013150",
+    "subject": "English",
+    "hash": "32ab63724b5ebd4047313327bb24f635",
+    "data": {
+      "question": "The teacher told the student to _______ the sentence to make it grammatically correct.",
+      "options": [
+        "edit",
+        "rewrite",
+        "revise",
+        "rephrase"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The word 'revise' means to make changes to something, especially to correct or improve it, which fits the context of the teacher asking the student to make the sentence grammatically correct. This question tests vocabulary and the ability to use the correct word in a given context."
+    }
+  },
+  {
+    "timestamp": "2026-07-10T06:01:34.013157",
+    "subject": "English",
+    "hash": "ff655ced6685ba5405f0984166a31469",
+    "data": {
+      "question": "The tourist got _______ in the city because he did not have a map.",
+      "options": [
+        "misled",
+        "lost",
+        "confused",
+        "disoriented"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'lost' means unable to find one's way, which fits the context of the tourist not having a map and being unable to navigate the city. This question tests vocabulary and the ability to use the correct word in a given context."
+    }
+  },
+  {
+    "timestamp": "2026-07-10T06:01:34.013162",
+    "subject": "English",
+    "hash": "9eeba22fb080879969dcef898737047e",
+    "data": {
+      "question": "The company will _______ the employee for their outstanding contribution to the project.",
+      "options": [
+        "reward",
+        "penalize",
+        "reprimand",
+        "punish"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'reward' means to give someone something in return for their efforts or achievements, which fits the context of the company giving the employee something for their outstanding contribution. This question tests vocabulary and the ability to use the correct word in a given context."
+    }
+  },
+  {
+    "timestamp": "2026-07-10T06:01:34.013168",
+    "subject": "English",
+    "hash": "47d80f59b7660dbf0c8958bbf14c64a0",
+    "data": {
+      "question": "The teacher asked the student to _______ the story in their own words.",
+      "options": [
+        "narrate",
+        "describe",
+        "explain",
+        "paraphrase"
+      ],
+      "correct_option_idx": 3,
+      "explanation": "The word 'paraphrase' means to express something in a different way, especially to make it easier to understand, which fits the context of the teacher asking the student to retell the story in their own words. This question tests vocabulary and the ability to use the correct word in a given context."
+    }
+  },
+  {
+    "timestamp": "2026-07-10T06:01:34.013172",
+    "subject": "English",
+    "hash": "6223800d538b9c94f989f891341aa345",
+    "data": {
+      "question": "The manager was very _______ with the team's performance and gave them a bonus.",
+      "options": [
+        "disappointed",
+        "satisfied",
+        "pleased",
+        "delighted"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The word 'pleased' means feeling happy or satisfied, which fits the context of the manager being happy with the team's performance and giving them a bonus. This question tests vocabulary and the ability to use the correct word in a given context."
+    }
   }
 ]
