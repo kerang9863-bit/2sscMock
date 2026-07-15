@@ -6542,5 +6542,245 @@
       "correct_option_idx": 1,
       "explanation": "The perimeter P of a rectangle is given by P = 2(length + width). Given P = 20 cm and length = 6 cm, we substitute these values into the formula: 20 = 2(6 + width). Simplifying, we get 20 = 12 + 2 * width. Solving for width gives 20 - 12 = 2 * width, hence 8 = 2 * width, and width = 8 / 2 = 4 cm."
     }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:51.517896",
+    "subject": "English",
+    "hash": "4fa20047369da34496d98dea24cd6d83",
+    "data": {
+      "question": "Identify the correct synonym for the word 'meticulous'",
+      "options": [
+        "Careless",
+        "Thorough",
+        "Vague",
+        "Apathetic"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'meticulous' means having or showing great attention to detail, which is similar in meaning to 'thorough'. This requires understanding the vocabulary and the ability to identify synonyms."
+    }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:51.517910",
+    "subject": "English",
+    "hash": "1ea107612255337a5556bac43ece8e21",
+    "data": {
+      "question": "Choose the correct antonym for the word 'fast'",
+      "options": [
+        "Quick",
+        "Rapid",
+        "Slow",
+        "Speedy"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The word 'fast' means moving or able to move quickly, so its antonym would be 'slow', which means moving or able to move at a lower speed. This requires understanding of vocabulary and antonyms."
+    }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:51.517913",
+    "subject": "English",
+    "hash": "f81cd89a207039fb2438915277322757",
+    "data": {
+      "question": "Select the correct form of narration for the sentence 'I am going to the store', if it were said by the listener",
+      "options": [
+        "He is going to the store",
+        "She is going to the store",
+        "I am going to the store",
+        "They are going to the store"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "When changing the narration from first person to third person, 'I' becomes 'he' or 'she', so 'I am going to the store' becomes 'he is going to the store' when said by the listener. This requires understanding of narration changes."
+    }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:51.517916",
+    "subject": "English",
+    "hash": "caefa9f8d3bb31afd2d558c027e2ad73",
+    "data": {
+      "question": "Identify the correct grammatical form of the sentence 'By the time I will finish my homework'",
+      "options": [
+        "By the time I finish my homework",
+        "By the time I will have finished my homework",
+        "By the time I am finishing my homework",
+        "By the time I have finished my homework"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The correct form is 'By the time I will have finished my homework' because it uses the future perfect tense, which is used to describe an action that will be completed at a specific point in the future. This requires understanding of grammatical tenses."
+    }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:51.517918",
+    "subject": "English",
+    "hash": "1636d281620e301c66f26607691678fc",
+    "data": {
+      "question": "Choose the correct meaning of the word 'persuade'",
+      "options": [
+        "To force someone to do something",
+        "To convince someone to do something",
+        "To ignore someone's opinion",
+        "To avoid someone's request"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'persuade' means to convince someone to do or believe something, often by giving them good reasons for doing so. This requires understanding of vocabulary and its application in context."
+    }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:51.517920",
+    "subject": "English",
+    "hash": "f5ee64dceba20a8414be148283281d5c",
+    "data": {
+      "question": "Identify the correct synonym for the word 'enormous'",
+      "options": [
+        "Tiny",
+        "Huge",
+        "Small",
+        "Miniature"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'enormous' means extremely large or immense, which is similar in meaning to 'huge'. This requires understanding of vocabulary and the ability to identify synonyms."
+    }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:51.517922",
+    "subject": "English",
+    "hash": "b3ddfbc97fe2cc862344e3f6bf0295dd",
+    "data": {
+      "question": "Select the correct form of the sentence 'If I will study hard, I will pass the exam'",
+      "options": [
+        "If I study hard, I will pass the exam",
+        "If I would study hard, I will pass the exam",
+        "If I am studying hard, I will pass the exam",
+        "If I have studied hard, I will pass the exam"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The correct form is 'If I study hard, I will pass the exam' because it uses the present simple tense in the condition clause, which is the correct form for a real or likely condition. This requires understanding of conditional sentences and their grammatical structures."
+    }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:51.517925",
+    "subject": "English",
+    "hash": "c0fc653560ea8989c587a4d0a3265b13",
+    "data": {
+      "question": "Choose the correct antonym for the word 'quiet'",
+      "options": [
+        "Loud",
+        "Silent",
+        "Soft",
+        "Peaceful"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'quiet' means making little or no noise, so its antonym would be 'loud', which means making a lot of noise. This requires understanding of vocabulary and antonyms."
+    }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:51.517935",
+    "subject": "English",
+    "hash": "4be56585dd8afa97a4e6715d44de4b24",
+    "data": {
+      "question": "Identify the correct meaning of the word 'narrate'",
+      "options": [
+        "To tell a story or account of events",
+        "To ask questions",
+        "To give orders",
+        "To describe a place"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'narrate' means to tell a story or account of events, often in detail. This requires understanding of vocabulary and its application in context."
+    }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:51.517940",
+    "subject": "English",
+    "hash": "ee7476c45189396ee1e5b4a40a32732f",
+    "data": {
+      "question": "Select the correct form of the sentence 'I wish I will pass the exam'",
+      "options": [
+        "I wish I pass the exam",
+        "I wish I would pass the exam",
+        "I wish I am passing the exam",
+        "I wish I have passed the exam"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The correct form is 'I wish I pass the exam' because it uses the present simple tense in the clause beginning with 'I wish', which is the correct form for expressing a wish about the present or future. This requires understanding of grammatical structures and verb tenses."
+    }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:58.407123",
+    "subject": "Math",
+    "hash": "a4ccf9a1babaa92eb76a69fea4df183b",
+    "data": {
+      "question": "A bakery sells 250 loaves of bread per day. They make a profit of Rs. 2 per loaf. What is their total profit per day?",
+      "options": [
+        "Rs. 400",
+        "Rs. 450",
+        "Rs. 500",
+        "Rs. 550"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "To find the total profit per day, we multiply the number of loaves sold per day by the profit per loaf. So, total profit = 250 loaves/day * Rs. 2/loaf = Rs. 500/day."
+    }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:58.407146",
+    "subject": "Math",
+    "hash": "a369c2b1e95c1bac889b96bd2ca36534",
+    "data": {
+      "question": "A train travels 120 km in 2 hours. How many kilometers does it travel per hour?",
+      "options": [
+        "50 km/h",
+        "55 km/h",
+        "60 km/h",
+        "65 km/h"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "To find the speed of the train in kilometers per hour, we divide the total distance traveled by the total time taken. So, speed = total distance / total time = 120 km / 2 hours = 60 km/h."
+    }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:58.407151",
+    "subject": "Math",
+    "hash": "372b4094c3522c596007f366efb4c23d",
+    "data": {
+      "question": "A person deposits Rs. 5000 into a bank account that earns a 4% annual interest rate. How much interest will they earn in one year?",
+      "options": [
+        "Rs. 150",
+        "Rs. 180",
+        "Rs. 200",
+        "Rs. 220"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "To find the interest earned, we multiply the principal amount by the annual interest rate (as a decimal). So, interest = principal * rate = Rs. 5000 * 0.04 = Rs. 200."
+    }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:58.407155",
+    "subject": "Math",
+    "hash": "d0267b94a6c34c77cd51fb1bb9b00d00",
+    "data": {
+      "question": "In a class, 30 students took a test. 20 of them passed. What percentage of the students passed the test?",
+      "options": [
+        "50%",
+        "60%",
+        "66.67%",
+        "75%"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "To find the percentage of students who passed, we divide the number of students who passed by the total number of students and then multiply by 100. So, percentage passed = (20 / 30) * 100 = (2/3) * 100 = 66.67%."
+    }
+  },
+  {
+    "timestamp": "2026-07-15T04:49:58.407158",
+    "subject": "Math",
+    "hash": "d625d02c3e0d23ecc319ac20654bbf49",
+    "data": {
+      "question": "A water tank can hold 1200 liters of water. If 3/4 of the tank is already filled, how many more liters can be added?",
+      "options": [
+        "200 liters",
+        "300 liters",
+        "400 liters",
+        "500 liters"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "To find out how many liters can still be added, we first calculate how much water is already in the tank. Since 3/4 of the tank is filled, we have 3/4 * 1200 liters = 900 liters already in the tank. The amount of water that can still be added is the capacity of the tank minus the amount already in it, which is 1200 - 900 = 300 liters."
+    }
   }
 ]
