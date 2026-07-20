@@ -6782,5 +6782,165 @@
       "correct_option_idx": 1,
       "explanation": "To find out how many liters can still be added, we first calculate how much water is already in the tank. Since 3/4 of the tank is filled, we have 3/4 * 1200 liters = 900 liters already in the tank. The amount of water that can still be added is the capacity of the tank minus the amount already in it, which is 1200 - 900 = 300 liters."
     }
+  },
+  {
+    "timestamp": "2026-07-20T05:37:12.318382",
+    "subject": "English",
+    "hash": "3b022c1529be8d733928d6f0a269e666",
+    "data": {
+      "question": "The new employee was very _______ and was able to learn the job quickly.",
+      "options": [
+        "apt",
+        "inept",
+        "deft",
+        "inefficient"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The word 'deft' means having a natural ability or skill, which fits the context of the sentence. The other options do not convey the same meaning: 'apt' means suitable or appropriate, 'inept' means lacking skill or ability, and 'inefficient' means not achieving maximum productivity."
+    }
+  },
+  {
+    "timestamp": "2026-07-20T05:37:12.318404",
+    "subject": "English",
+    "hash": "02a007d8ce64d22c34ef5bd93a201507",
+    "data": {
+      "question": "The manager asked the team to _______ their reports by the end of the day.",
+      "options": [
+        "submit",
+        "resubmit",
+        "edit",
+        "omit"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'submit' means to give or provide something, usually in an official or formal context. In this sentence, the manager is asking the team to provide their reports, making 'submit' the most suitable option."
+    }
+  },
+  {
+    "timestamp": "2026-07-20T05:37:12.318409",
+    "subject": "English",
+    "hash": "9f69e15ce50c7bf33cb5b443a20492d1",
+    "data": {
+      "question": "The city is known for its _______ climate, with very little rainfall throughout the year.",
+      "options": [
+        "arid",
+        "humid",
+        "temperate",
+        "tropical"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'arid' means extremely dry, which fits the description of the city's climate. The other options do not convey the same meaning: 'humid' means having a high level of moisture, 'temperate' means having a moderate climate, and 'tropical' means having a hot and humid climate."
+    }
+  },
+  {
+    "timestamp": "2026-07-20T05:37:12.318414",
+    "subject": "English",
+    "hash": "78e2c114a95f2e64e08e6333aa89b47c",
+    "data": {
+      "question": "The new policy has been _______ by the employees, who feel it is unfair.",
+      "options": [
+        "endorsed",
+        "criticized",
+        "supported",
+        "ignored"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'criticized' means to express disapproval or dislike, which fits the context of the sentence. The other options do not convey the same meaning: 'endorsed' means to publicly support or approve, 'supported' means to give help or approval, and 'ignored' means to pay no attention to."
+    }
+  },
+  {
+    "timestamp": "2026-07-20T05:37:12.318418",
+    "subject": "English",
+    "hash": "d1666163b6d4ebd738e011658dff30d5",
+    "data": {
+      "question": "The teacher asked the students to _______ the poem and explain its meaning.",
+      "options": [
+        "analyze",
+        "summarize",
+        "interpret",
+        "recite"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'analyze' means to examine or break down something into its parts, which fits the context of the sentence. The other options do not convey the same meaning: 'summarize' means to give a brief summary, 'interpret' means to explain or understand, and 'recite' means to repeat or read aloud."
+    }
+  },
+  {
+    "timestamp": "2026-07-20T05:37:12.318422",
+    "subject": "English",
+    "hash": "414b8d1dddbf820e6514061138a9de70",
+    "data": {
+      "question": "The company is looking for someone with _______ skills to fill the vacant position.",
+      "options": [
+        "technical",
+        "managerial",
+        "administrative",
+        "communication"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'technical' means related to a particular skill or subject, which fits the context of the sentence. The other options do not convey the same meaning: 'managerial' means related to management, 'administrative' means related to administration, and 'communication' means related to the exchange of information."
+    }
+  },
+  {
+    "timestamp": "2026-07-20T05:37:12.318426",
+    "subject": "English",
+    "hash": "e73e9f447782de6de4dcc6bbe2f82b13",
+    "data": {
+      "question": "The tourist got _______ in the crowd and lost his way.",
+      "options": [
+        "confused",
+        "lost",
+        "disoriented",
+        "separated"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The word 'disoriented' means to be unclear or uncertain about one's surroundings, which fits the context of the sentence. The other options do not convey the same meaning: 'confused' means unclear or uncertain, 'lost' means unable to find one's way, and 'separated' means to be apart from others."
+    }
+  },
+  {
+    "timestamp": "2026-07-20T05:37:12.318431",
+    "subject": "English",
+    "hash": "2c2f1be411a850dd53443165142c28a7",
+    "data": {
+      "question": "The teacher gave the student a _______ for his excellent performance.",
+      "options": [
+        "reward",
+        "penalty",
+        "prize",
+        "punishment"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'reward' means something given in recognition of achievement or effort, which fits the context of the sentence. The other options do not convey the same meaning: 'penalty' means a punishment or fine, 'prize' means a reward or award, and 'punishment' means a penalty or discipline."
+    }
+  },
+  {
+    "timestamp": "2026-07-20T05:37:12.318436",
+    "subject": "English",
+    "hash": "c9c5647ce8527534024d17085b98594f",
+    "data": {
+      "question": "The company is _______ to reduce its carbon footprint and become more sustainable.",
+      "options": [
+        "committed",
+        "dedicated",
+        "obligated",
+        "resistant"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'committed' means to be dedicated or devoted to a cause or goal, which fits the context of the sentence. The other options do not convey the same meaning: 'dedicated' means to be devoted or dedicated, 'obligated' means to be required or forced, and 'resistant' means to be opposed or unwilling."
+    }
+  },
+  {
+    "timestamp": "2026-07-20T05:37:12.318440",
+    "subject": "English",
+    "hash": "20872a109042a17c44e859e12ecdc09d",
+    "data": {
+      "question": "The new employee was very _______ and was able to make friends quickly.",
+      "options": [
+        "outgoing",
+        "introverted",
+        "extroverted",
+        "reserved"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'outgoing' means to be friendly and sociable, which fits the context of the sentence. The other options do not convey the same meaning: 'introverted' means to be shy or withdrawn, 'extroverted' means to be outgoing or sociable, and 'reserved' means to be quiet or uncommunicative."
+    }
   }
 ]
