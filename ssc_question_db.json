@@ -6942,5 +6942,149 @@
       "correct_option_idx": 0,
       "explanation": "The word 'outgoing' means to be friendly and sociable, which fits the context of the sentence. The other options do not convey the same meaning: 'introverted' means to be shy or withdrawn, 'extroverted' means to be outgoing or sociable, and 'reserved' means to be quiet or uncommunicative."
     }
+  },
+  {
+    "timestamp": "2026-07-26T05:32:00.400206",
+    "subject": "English",
+    "hash": "653133b34661bffbc87771fcd0b713bd",
+    "data": {
+      "question": "The new employee was very shy, but his colleagues soon discovered that he was actually very _______ once they got to know him.",
+      "options": [
+        "outgoing",
+        "reserved",
+        "talkative",
+        "introverted"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The sentence is describing a contrast between the employee's initial behavior and his true nature. The word 'outgoing' means friendly and sociable, which is the opposite of shy. This is an example of an antonym, where two words have opposite meanings."
+    }
+  },
+  {
+    "timestamp": "2026-07-26T05:32:00.400230",
+    "subject": "English",
+    "hash": "01b664d4746f581113d463ad664a243f",
+    "data": {
+      "question": "The teacher asked the students to _______ their essays by the end of the week.",
+      "options": [
+        "submit",
+        "revise",
+        "edit",
+        "proofread"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'submit' means to give or present something, usually in written form, to someone in authority. In this context, the teacher is asking the students to give in their essays by the end of the week. This is an example of using the correct verb tense and vocabulary in a sentence."
+    }
+  },
+  {
+    "timestamp": "2026-07-26T05:32:00.400237",
+    "subject": "English",
+    "hash": "d3e3bddb691955adcee1a532ee907f19",
+    "data": {
+      "question": "The word 'fast' can be used as an _______ or an adjective, depending on the context.",
+      "options": [
+        "adverb",
+        "adjective",
+        "noun",
+        "verb"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'fast' can be used as an adverb, as in 'he runs fast', or as an adjective, as in 'he is a fast runner'. This is an example of a word having multiple functions in a sentence, depending on the context."
+    }
+  },
+  {
+    "timestamp": "2026-07-26T05:32:00.400242",
+    "subject": "English",
+    "hash": "8996df76bc595febc25bf18d7dd8c253",
+    "data": {
+      "question": "The new policy has been _______ by the management, but it has not yet been implemented.",
+      "options": [
+        "approved",
+        "rejected",
+        "accepted",
+        "proposed"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'approved' means to officially agree with or accept something. In this context, the management has officially agreed to the new policy, but it has not yet been put into action. This is an example of using the correct verb tense and vocabulary in a sentence."
+    }
+  },
+  {
+    "timestamp": "2026-07-26T05:32:00.400247",
+    "subject": "English",
+    "hash": "1a8b1ed31a60c08a72612ef4057be67e",
+    "data": {
+      "question": "The opposite of the word 'hot' is _______.",
+      "options": [
+        "cold",
+        "warm",
+        "cool",
+        "chilly"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'cold' is the antonym of 'hot', meaning having a low temperature. This is an example of identifying opposite words, which is an important concept in vocabulary building."
+    }
+  },
+  {
+    "timestamp": "2026-07-26T05:32:00.400251",
+    "subject": "English",
+    "hash": "e5e0d3de94fa3680d82e8dc7a123ea13",
+    "data": {
+      "question": "The teacher asked the students to _______ the story from the point of view of the main character.",
+      "options": [
+        "narrate",
+        "describe",
+        "explain",
+        "summarize"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'narrate' means to tell or recount a story. In this context, the teacher is asking the students to tell the story from the point of view of the main character, which is an example of using the correct verb tense and vocabulary in a sentence."
+    }
+  },
+  {
+    "timestamp": "2026-07-26T05:32:00.400256",
+    "subject": "English",
+    "hash": "cb3746ec0d44a40f69da9a64dd5e76bb",
+    "data": {
+      "question": "The word 'big' is a _______ of the word 'enormous'.",
+      "options": [
+        "synonym",
+        "antonym",
+        "homonym",
+        "hyponym"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'big' is a synonym of 'enormous', meaning having a similar meaning. This is an example of identifying words with similar meanings, which is an important concept in vocabulary building."
+    }
+  },
+  {
+    "timestamp": "2026-07-26T05:32:00.400261",
+    "subject": "English",
+    "hash": "3cb6e0eee58e70c4bbe27a15b4d45d90",
+    "data": {
+      "question": "The teacher asked the students to _______ their answers to the questions.",
+      "options": [
+        "elaborate",
+        "explain",
+        "describe",
+        "summarize"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'elaborate' means to add more details or information to something. In this context, the teacher is asking the students to add more details to their answers, which is an example of using the correct verb tense and vocabulary in a sentence."
+    }
+  },
+  {
+    "timestamp": "2026-07-26T05:32:00.400267",
+    "subject": "English",
+    "hash": "965a45a13e772b1cde98fc250eee332a",
+    "data": {
+      "question": "The word 'happy' is an _______ of the word 'sad'.",
+      "options": [
+        "antonym",
+        "synonym",
+        "homonym",
+        "hyponym"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'happy' is an antonym of 'sad', meaning having opposite meanings. This is an example of identifying opposite words, which is an important concept in vocabulary building."
+    }
   }
 ]
