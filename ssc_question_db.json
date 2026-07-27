@@ -7086,5 +7086,85 @@
       "correct_option_idx": 0,
       "explanation": "The word 'happy' is an antonym of 'sad', meaning having opposite meanings. This is an example of identifying opposite words, which is an important concept in vocabulary building."
     }
+  },
+  {
+    "timestamp": "2026-07-27T05:47:22.226814",
+    "subject": "English",
+    "hash": "940ef2dd274e10c1a89a13bd50c0f776",
+    "data": {
+      "question": "What is the correct meaning of the phrase 'in lieu of'?",
+      "options": [
+        "Instead of",
+        "In addition to",
+        "Along with",
+        "Prior to"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The phrase 'in lieu of' is often used to indicate a substitution or replacement of something."
+    }
+  },
+  {
+    "timestamp": "2026-07-27T05:47:22.226836",
+    "subject": "English",
+    "hash": "aa77f775ab8988d1e2ab26f130e1f12a",
+    "data": {
+      "question": "Choose the correct synonym of the word 'nuance'?",
+      "options": [
+        "Subtlety",
+        "Clarity",
+        "Complexity",
+        "Simplicity"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'nuance' refers to a subtle difference or shade of meaning. The synonym of 'nuance' is 'subtlety', which also refers to a small or subtle difference."
+    }
+  },
+  {
+    "timestamp": "2026-07-27T05:47:22.226839",
+    "subject": "English",
+    "hash": "3e537aa12ac95b37920e269b90baeeb6",
+    "data": {
+      "question": "Identify the correct form of the sentence in the passive voice: The new policy was announced by the CEO.",
+      "options": [
+        "The CEO announced the new policy.",
+        "The new policy is announced by the CEO.",
+        "The new policy has been announced by the CEO.",
+        "The new policy was being announced by the CEO."
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The sentence is in the active voice, and to convert it into the passive voice, we need to change the subject and the verb. The correct form of the sentence in the passive voice is 'The new policy was announced by the CEO.'"
+    }
+  },
+  {
+    "timestamp": "2026-07-27T05:47:22.226842",
+    "subject": "English",
+    "hash": "3e4f5a816f21e26beeb564ba1583a358",
+    "data": {
+      "question": "What is the correct antonym of the word 'spontaneous'?",
+      "options": [
+        "Planned",
+        "Impulsive",
+        "Deliberate",
+        "Unplanned"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'spontaneous' means done or said without prior planning or thought. The antonym of 'spontaneous' is 'planned', which means done or said after prior planning or thought."
+    }
+  },
+  {
+    "timestamp": "2026-07-27T05:47:22.226844",
+    "subject": "English",
+    "hash": "33518a8aff2373bee9dc688e2c84b0a3",
+    "data": {
+      "question": "Identify the correct form of the sentence in the reported speech: The teacher said, 'I will give you a prize if you answer all the questions correctly.'",
+      "options": [
+        "The teacher said that he would give us a prize if we answered all the questions correctly.",
+        "The teacher said that she would give them a prize if they answered all the questions correctly.",
+        "The teacher said that he would give them a prize if they answered all the questions correctly.",
+        "The teacher said that he would give me a prize if I answered all the questions correctly."
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The sentence is in the direct speech, and to convert it into indirect speech, we need to change the pronoun 'I' to 'he' or 'she' because the speaker is talking about the teacher in the third person."
+    }
   }
 ]
