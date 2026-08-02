@@ -7358,5 +7358,133 @@
       "correct_option_idx": 1,
       "explanation": "The interest for the first year is 5% of 1000, which is 0.05 * 1000 = Rs. 50. The total amount after the first year is 1000 + 50 = Rs. 1050. The interest for the second year is 5% of 1050, which is 0.05 * 1050 = Rs. 52.5. The total amount after the second year is 1050 + 52.5 = Rs. 1102.5."
     }
+  },
+  {
+    "timestamp": "2026-08-02T05:24:55.216669",
+    "subject": "English",
+    "hash": "1056f631254a68ef3a59cb89e113a6b2",
+    "data": {
+      "question": "Select the correct antonym for the word 'verbose' from the options given below.",
+      "options": [
+        "concise",
+        "talkative",
+        "lengthy",
+        "wordy"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'verbose' means using too many words, especially when talking or writing. The antonym for 'verbose' is 'concise', which means using few words, being brief and to the point."
+    }
+  },
+  {
+    "timestamp": "2026-08-02T05:24:55.216683",
+    "subject": "English",
+    "hash": "ed7dd98c5fc2b271b199273964167e3e",
+    "data": {
+      "question": "Fill in the blank with the correct form of the verb: If I ______ (know) the answer, I would have told you.",
+      "options": [
+        "know",
+        "knew",
+        "had known",
+        "would know"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The sentence is in the second conditional form, which is used to describe a hypothetical or uncertain situation in the present or future. The correct form of the verb is 'knew' because it is in the simple past tense, which is used to describe a completed action in the past."
+    }
+  },
+  {
+    "timestamp": "2026-08-02T05:24:55.216687",
+    "subject": "English",
+    "hash": "abb261c75632b39bc85e2efff53b178c",
+    "data": {
+      "question": "Choose the correct form of the pronoun to fill in the blank: The manager asked ______ to come to his office.",
+      "options": [
+        "he and I",
+        "him and me",
+        "I and he",
+        "me"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The correct form of the pronoun is 'him and me' because it is in the objective case, which is used as the object of a verb or preposition. The manager is asking 'him and me' to come to his office, so 'him and me' are the objects of the verb 'asked'."
+    }
+  },
+  {
+    "timestamp": "2026-08-02T05:24:55.216689",
+    "subject": "English",
+    "hash": "b7f1e487933b1bcb258a7f46ef82186f",
+    "data": {
+      "question": "Identify the correct form of the adjective in the sentence: This is ______ book I have ever read.",
+      "options": [
+        "the most interesting",
+        "most interesting",
+        "more interesting",
+        "the interesting"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The sentence is in the superlative form, which is used to compare three or more things. The correct form of the adjective is 'the most interesting' because it is used to describe the book as the most interesting one the speaker has ever read."
+    }
+  },
+  {
+    "timestamp": "2026-08-02T05:24:55.216691",
+    "subject": "English",
+    "hash": "17d56215a9a407ab31747ff0b20a06b2",
+    "data": {
+      "question": "Select the correct form of the verb to fill in the blank: By next year, I ______ (study) English for five years.",
+      "options": [
+        "will have studied",
+        "will study",
+        "am studying",
+        "have studied"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The sentence is in the future perfect tense, which is used to describe an action that will be completed at a specific time in the future. The correct form of the verb is 'will have studied' because it indicates that the action of studying English will be completed by next year."
+    }
+  },
+  {
+    "timestamp": "2026-08-02T05:24:55.216693",
+    "subject": "English",
+    "hash": "9f2b76c65eb4535d903c4750a8250d82",
+    "data": {
+      "question": "Choose the correct synonym for the word 'nuance' from the options given below.",
+      "options": [
+        "subtlety",
+        "obviousness",
+        "complexity",
+        "simplicity"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'nuance' refers to a subtle difference or shade of meaning. The synonym for 'nuance' is 'subtlety', which also refers to a subtle quality or aspect of something."
+    }
+  },
+  {
+    "timestamp": "2026-08-02T05:24:55.216695",
+    "subject": "English",
+    "hash": "8f2faab322ec856eb4582de1e31f9e1a",
+    "data": {
+      "question": "Fill in the blank with the correct form of the verb: If it ______ (rain), we would have gone to the park.",
+      "options": [
+        "rains",
+        "rained",
+        "had rained",
+        "would rain"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The sentence is in the third conditional form, which is used to describe a past hypothetical or uncertain situation. The correct form of the verb is 'rained' because it is in the simple past tense, which is used to describe a completed action in the past."
+    }
+  },
+  {
+    "timestamp": "2026-08-02T05:24:55.216698",
+    "subject": "English",
+    "hash": "8ec2fd4d2f4d769d1fdeecdf10385057",
+    "data": {
+      "question": "Select the correct antonym for the word 'spontaneous' from the options given below.",
+      "options": [
+        "planned",
+        "impulsive",
+        "deliberate",
+        "unplanned"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'spontaneous' means happening or done without prior planning or thought. The antonym for 'spontaneous' is 'planned', which means done or happening after careful thought or preparation."
+    }
   }
 ]
