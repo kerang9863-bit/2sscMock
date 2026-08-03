@@ -4426,3 +4426,109 @@
 [05:24:56.523] [INFO]   Time elapsed: 0m 11s
 [05:24:56.523] [INFO] ======================================================================
 [05:24:56.524] [SUCCESS] All workflows completed successfully! 🎯
+[05:39:28.813] [INFO] 
+======================================================================
+[05:39:28.814] [INFO]   SSC MTS QUIZ FACTORY PRO v3.0
+[05:39:28.814] [INFO]   Professional Grade Quiz Generation System
+[05:39:28.814] [INFO] ======================================================================
+[05:39:28.814] [INFO] Loaded 6 API provider(s)
+[05:39:28.814] [INFO] Subjects configured: ['GK_CurrentAffairs', 'English', 'Math', 'Reasoning']
+[05:39:28.814] [INFO] Runtime limit: 110 minutes
+[05:39:28.814] [INFO] ======================================================================
+
+[05:39:28.814] [GK_CurrentAffairs] [INFO] 
+============================================================
+[05:39:28.814] [GK_CurrentAffairs] [INFO] 🚀 Starting generation for: GK_CurrentAffairs
+[05:39:28.814] [GK_CurrentAffairs] [INFO] ============================================================
+[05:39:28.814] [GK_CurrentAffairs] [INFO] Using provider: Groq-1 | Subject: GK_CurrentAffairs
+[05:39:28.940] [GK_CurrentAffairs] [WARNING] Rate limited on Groq-1
+[05:39:28.942] [GK_CurrentAffairs] [WARNING] Provider rotated (attempt 1/6)
+[05:39:28.942] [GK_CurrentAffairs] [INFO] Using provider: Groq-2 | Subject: GK_CurrentAffairs
+[05:39:29.021] [GK_CurrentAffairs] [WARNING] Rate limited on Groq-2
+[05:39:29.022] [GK_CurrentAffairs] [WARNING] Provider rotated (attempt 2/6)
+[05:39:29.022] [GK_CurrentAffairs] [INFO] Using provider: Groq-3 | Subject: GK_CurrentAffairs
+[05:39:31.475] [GK_CurrentAffairs] [SUCCESS] Generated 10 valid questions via Groq-3
+[05:39:31.476] [GK_CurrentAffairs] [INFO] Deduplication: 10 generated → 3 unique
+[05:39:31.476] [GK_CurrentAffairs] [WARNING] Only 3 unique questions. Skipping.
+[05:39:31.476] [English] [INFO] 
+============================================================
+[05:39:31.477] [English] [INFO] 🚀 Starting generation for: English
+[05:39:31.477] [English] [INFO] ============================================================
+[05:39:31.477] [English] [INFO] Using provider: Gemini-1 | Subject: English
+[05:39:31.671] [English] [WARNING] Rate limited on Gemini-1
+[05:39:31.672] [English] [WARNING] Provider rotated (attempt 1/6)
+[05:39:31.672] [English] [INFO] Using provider: Gemini-2 | Subject: English
+[05:39:31.830] [English] [WARNING] Rate limited on Gemini-2
+[05:39:31.831] [English] [WARNING] Provider rotated (attempt 2/6)
+[05:39:31.831] [English] [INFO] Using provider: Gemini-3 | Subject: English
+[05:39:31.990] [English] [WARNING] Rate limited on Gemini-3
+[05:39:31.991] [English] [WARNING] Provider rotated (attempt 3/6)
+[05:39:31.991] [English] [INFO] Using provider: Groq-1 | Subject: English
+[05:39:32.051] [English] [WARNING] Rate limited on Groq-1
+[05:39:32.052] [English] [WARNING] Provider rotated (attempt 4/6)
+[05:39:32.052] [English] [INFO] Using provider: Groq-2 | Subject: English
+[05:39:32.112] [English] [WARNING] Rate limited on Groq-2
+[05:39:32.113] [English] [WARNING] Provider rotated (attempt 5/6)
+[05:39:32.114] [English] [INFO] Using provider: Groq-3 | Subject: English
+[05:39:34.832] [English] [SUCCESS] Generated 10 valid questions via Groq-3
+[05:39:34.833] [English] [INFO] Deduplication: 10 generated → 10 unique
+[05:39:35.984] [SUCCESS] Sent English_03_Aug_2026.txt to Telegram
+[05:39:35.985] [SUCCESS] Cleaned up English_03_Aug_2026.txt
+[05:39:37.149] [SUCCESS] Sent English_MOCK_TEST_03_Aug_2026.html to Telegram
+[05:39:37.150] [SUCCESS] Cleaned up English_MOCK_TEST_03_Aug_2026.html
+[05:39:37.179] [English] [SUCCESS] ✅ Subject English completed successfully
+[05:39:37.179] [Math] [INFO] 
+============================================================
+[05:39:37.179] [Math] [INFO] 🚀 Starting generation for: Math
+[05:39:37.179] [Math] [INFO] ============================================================
+[05:39:37.179] [Math] [INFO] Using provider: Gemini-1 | Subject: Math
+[05:39:37.315] [Math] [WARNING] Rate limited on Gemini-1
+[05:39:37.316] [Math] [WARNING] Provider rotated (attempt 1/6)
+[05:39:37.317] [Math] [INFO] Using provider: Gemini-2 | Subject: Math
+[05:39:37.465] [Math] [WARNING] Rate limited on Gemini-2
+[05:39:37.466] [Math] [WARNING] Provider rotated (attempt 2/6)
+[05:39:37.466] [Math] [INFO] Using provider: Gemini-3 | Subject: Math
+[05:39:37.606] [Math] [WARNING] Rate limited on Gemini-3
+[05:39:37.607] [Math] [WARNING] Provider rotated (attempt 3/6)
+[05:39:37.607] [Math] [INFO] Using provider: Groq-1 | Subject: Math
+[05:39:37.675] [Math] [WARNING] Rate limited on Groq-1
+[05:39:37.675] [ERROR] Provider Groq-1 marked unhealthy after 3 consecutive failures
+[05:39:37.676] [Math] [WARNING] Provider rotated (attempt 4/6)
+[05:39:37.676] [Math] [INFO] Using provider: Groq-2 | Subject: Math
+[05:39:37.735] [Math] [WARNING] Rate limited on Groq-2
+[05:39:37.735] [ERROR] Provider Groq-2 marked unhealthy after 3 consecutive failures
+[05:39:37.735] [Math] [WARNING] Provider rotated (attempt 5/6)
+[05:39:37.736] [Math] [INFO] Using provider: Groq-3 | Subject: Math
+[05:39:37.798] [Math] [WARNING] Rate limited on Groq-3
+[05:39:37.798] [Math] [WARNING] Provider rotated (attempt 6/6)
+[05:39:37.799] [Math] [ERROR] Failed to generate quiz data after 6 attempts
+[05:39:37.799] [Reasoning] [INFO] 
+============================================================
+[05:39:37.799] [Reasoning] [INFO] 🚀 Starting generation for: Reasoning
+[05:39:37.799] [Reasoning] [INFO] ============================================================
+[05:39:37.799] [Reasoning] [INFO] Using provider: Gemini-1 | Subject: Reasoning
+[05:39:37.943] [Reasoning] [WARNING] Rate limited on Gemini-1
+[05:39:37.943] [ERROR] Provider Gemini-1 marked unhealthy after 3 consecutive failures
+[05:39:37.945] [Reasoning] [WARNING] Provider rotated (attempt 1/6)
+[05:39:37.945] [Reasoning] [INFO] Using provider: Gemini-2 | Subject: Reasoning
+[05:39:38.080] [Reasoning] [WARNING] Rate limited on Gemini-2
+[05:39:38.080] [ERROR] Provider Gemini-2 marked unhealthy after 3 consecutive failures
+[05:39:38.081] [Reasoning] [WARNING] Provider rotated (attempt 2/6)
+[05:39:38.081] [Reasoning] [INFO] Using provider: Gemini-3 | Subject: Reasoning
+[05:39:38.225] [Reasoning] [WARNING] Rate limited on Gemini-3
+[05:39:38.225] [ERROR] Provider Gemini-3 marked unhealthy after 3 consecutive failures
+[05:39:38.226] [Reasoning] [WARNING] Provider rotated (attempt 3/6)
+[05:39:38.226] [Reasoning] [INFO] Using provider: Groq-3 | Subject: Reasoning
+[05:39:43.319] [Reasoning] [SUCCESS] Generated 10 valid questions via Groq-3
+[05:39:43.320] [Reasoning] [INFO] Deduplication: 10 generated → 3 unique
+[05:39:43.320] [Reasoning] [WARNING] Only 3 unique questions. Skipping.
+[05:39:43.321] [INFO] 
+======================================================================
+[05:39:43.321] [INFO]   SESSION SUMMARY
+[05:39:43.321] [INFO] ======================================================================
+[05:39:43.321] [INFO]   Subjects processed: 1
+[05:39:43.321] [INFO]   Questions generated: 10
+[05:39:43.321] [INFO]   Files sent: 2
+[05:39:43.321] [INFO]   Time elapsed: 0m 15s
+[05:39:43.321] [INFO] ======================================================================
+[05:39:43.321] [SUCCESS] All workflows completed successfully! 🎯

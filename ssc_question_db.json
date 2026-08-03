@@ -7486,5 +7486,165 @@
       "correct_option_idx": 0,
       "explanation": "The word 'spontaneous' means happening or done without prior planning or thought. The antonym for 'spontaneous' is 'planned', which means done or happening after careful thought or preparation."
     }
+  },
+  {
+    "timestamp": "2026-08-03T05:39:37.150385",
+    "subject": "English",
+    "hash": "3bc77641f77f48ae94dd6c76f8a09158",
+    "data": {
+      "question": "Identify the correct synonym for the word 'nuance'",
+      "options": [
+        "Subtlety",
+        "Clarity",
+        "Simplicity",
+        "Complexity"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'nuance' refers to a subtle difference or shade of meaning. Among the given options, 'subtlety' is the closest synonym as it also conveys the idea of a delicate or subtle quality."
+    }
+  },
+  {
+    "timestamp": "2026-08-03T05:39:37.150406",
+    "subject": "English",
+    "hash": "3b64c3a99c22a95159489a3e4ca27cab",
+    "data": {
+      "question": "Choose the correct antonym for the word 'fastidious'",
+      "options": [
+        "Meticulous",
+        "Careless",
+        "Thorough",
+        "Scrutinizing"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'fastidious' means having a strong attention to detail and being demanding in one's standards. The antonym of 'fastidious' would be 'careless', which means lacking attention to detail or being indifferent to quality."
+    }
+  },
+  {
+    "timestamp": "2026-08-03T05:39:37.150411",
+    "subject": "English",
+    "hash": "d296d33b1bd82f34f994c33b0c4fa5c0",
+    "data": {
+      "question": "Select the correct form of narration for the sentence 'I am going to the store'",
+      "options": [
+        "First person",
+        "Second person",
+        "Third person",
+        "Omniscient"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The sentence 'I am going to the store' is in the first person narrative voice because it is told from the perspective of the person performing the action, using the pronoun 'I'."
+    }
+  },
+  {
+    "timestamp": "2026-08-03T05:39:37.150416",
+    "subject": "English",
+    "hash": "0c1afc341f4ebaac69907774bd0bdec1",
+    "data": {
+      "question": "Identify the correct vocabulary word that completes the sentence 'The new policy has been _______ by the management'",
+      "options": [
+        "Implemented",
+        "Enforced",
+        "Executed",
+        "Initiated"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'implemented' means to put a plan or policy into effect. It is the most suitable word to complete the given sentence as it indicates the policy has been put into action by the management."
+    }
+  },
+  {
+    "timestamp": "2026-08-03T05:39:37.150420",
+    "subject": "English",
+    "hash": "4ea82175539492c9b903b753d6806150",
+    "data": {
+      "question": "Choose the correct synonym for the word 'enigma'",
+      "options": [
+        "Mystery",
+        "Riddle",
+        "Puzzle",
+        "All of the above"
+      ],
+      "correct_option_idx": 3,
+      "explanation": "The word 'enigma' refers to a person or thing that is mysterious or difficult to understand. All the given options - 'mystery', 'riddle', and 'puzzle' - can be considered synonyms of 'enigma' as they all convey the idea of something being puzzling or hard to solve."
+    }
+  },
+  {
+    "timestamp": "2026-08-03T05:39:37.150424",
+    "subject": "English",
+    "hash": "8715b95022280dd06372136b74e1561e",
+    "data": {
+      "question": "Select the correct antonym for the word 'verbose'",
+      "options": [
+        "Concise",
+        "Terse",
+        "Loquacious",
+        "Prolix"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'verbose' means using or containing too many words. The antonym of 'verbose' would be 'concise', which means giving a lot of information clearly and in a few words."
+    }
+  },
+  {
+    "timestamp": "2026-08-03T05:39:37.150428",
+    "subject": "English",
+    "hash": "5ef28f81ae872abd2b5585fe0281e9b5",
+    "data": {
+      "question": "Identify the correct form of narration for the sentence 'She told him that she would never forget him'",
+      "options": [
+        "Direct speech",
+        "Indirect speech",
+        "First person",
+        "Third person"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The sentence 'She told him that she would never forget him' is in the indirect speech narrative voice because it reports what someone said without using their exact words."
+    }
+  },
+  {
+    "timestamp": "2026-08-03T05:39:37.150434",
+    "subject": "English",
+    "hash": "23752f9eec7d4f9c294769a116b3ce4d",
+    "data": {
+      "question": "Choose the correct vocabulary word that completes the sentence 'The company will _______ the new employee next Monday'",
+      "options": [
+        "Hire",
+        "Recruit",
+        "Employ",
+        "Induct"
+      ],
+      "correct_option_idx": 3,
+      "explanation": "The word 'induct' means to formally introduce someone to a new job or organization. It is the most suitable word to complete the given sentence as it indicates the company will formally introduce the new employee to the team."
+    }
+  },
+  {
+    "timestamp": "2026-08-03T05:39:37.150439",
+    "subject": "English",
+    "hash": "6dada19af905d76b35f66046ca5f4ab4",
+    "data": {
+      "question": "Select the correct synonym for the word 'fastidious'",
+      "options": [
+        "Meticulous",
+        "Careless",
+        "Thorough",
+        "Scrutinizing"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'fastidious' means having a strong attention to detail and being demanding in one's standards. The synonym of 'fastidious' would be 'meticulous', which also conveys the idea of being precise and having high standards."
+    }
+  },
+  {
+    "timestamp": "2026-08-03T05:39:37.150443",
+    "subject": "English",
+    "hash": "34a8c35b5a8873c607a360daf25b1665",
+    "data": {
+      "question": "Identify the correct antonym for the word 'spontaneous'",
+      "options": [
+        "Planned",
+        "Deliberate",
+        "Impulsive",
+        "Unplanned"
+      ],
+      "correct_option_idx": 1,
+      "explanation": "The word 'spontaneous' means done or said without prior thought or planning. The antonym of 'spontaneous' would be 'deliberate', which means done or said after careful thought or planning."
+    }
   }
 ]
