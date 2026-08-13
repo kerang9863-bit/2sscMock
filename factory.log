@@ -5527,3 +5527,108 @@
 [04:03:51.842] [INFO]   Time elapsed: 0m 2s
 [04:03:51.842] [INFO] ======================================================================
 [04:03:51.842] [SUCCESS] All workflows completed successfully! 🎯
+[04:08:58.080] [INFO] 
+======================================================================
+[04:08:58.080] [INFO]   SSC MTS QUIZ FACTORY PRO v3.0
+[04:08:58.080] [INFO]   Professional Grade Quiz Generation System
+[04:08:58.080] [INFO] ======================================================================
+[04:08:58.080] [INFO] Loaded 6 API provider(s)
+[04:08:58.080] [INFO] Subjects configured: ['GK_CurrentAffairs', 'English', 'Math', 'Reasoning']
+[04:08:58.080] [INFO] Runtime limit: 110 minutes
+[04:08:58.080] [INFO] ======================================================================
+
+[04:08:58.080] [GK_CurrentAffairs] [INFO] 
+============================================================
+[04:08:58.080] [GK_CurrentAffairs] [INFO] 🚀 Starting generation for: GK_CurrentAffairs
+[04:08:58.080] [GK_CurrentAffairs] [INFO] ============================================================
+[04:08:58.080] [GK_CurrentAffairs] [INFO] Using provider: Groq-1 | Subject: GK_CurrentAffairs
+[04:09:00.657] [GK_CurrentAffairs] [SUCCESS] Generated 10 valid questions via Groq-1
+[04:09:00.658] [GK_CurrentAffairs] [INFO] Deduplication: 10 generated → 3 unique
+[04:09:00.658] [GK_CurrentAffairs] [WARNING] Only 3 unique questions. Skipping.
+[04:09:00.658] [English] [INFO] 
+============================================================
+[04:09:00.658] [English] [INFO] 🚀 Starting generation for: English
+[04:09:00.658] [English] [INFO] ============================================================
+[04:09:00.658] [English] [INFO] Using provider: Groq-2 | Subject: English
+[04:09:03.529] [English] [SUCCESS] Generated 10 valid questions via Groq-2
+[04:09:03.530] [English] [INFO] Deduplication: 10 generated → 6 unique
+[04:09:04.634] [SUCCESS] Sent English_13_Aug_2026.txt to Telegram
+[04:09:04.634] [SUCCESS] Cleaned up English_13_Aug_2026.txt
+[04:09:05.764] [SUCCESS] Sent English_MOCK_TEST_13_Aug_2026.html to Telegram
+[04:09:05.765] [SUCCESS] Cleaned up English_MOCK_TEST_13_Aug_2026.html
+[04:09:05.776] [English] [SUCCESS] ✅ Subject English completed successfully
+[04:09:05.776] [Math] [INFO] 
+============================================================
+[04:09:05.776] [Math] [INFO] 🚀 Starting generation for: Math
+[04:09:05.776] [Math] [INFO] ============================================================
+[04:09:05.777] [Math] [INFO] Using provider: Groq-3 | Subject: Math
+[04:09:05.854] [Math] [WARNING] Rate limited on Groq-3
+[04:09:05.855] [Math] [WARNING] Provider rotated (attempt 1/6)
+[04:09:05.855] [Math] [INFO] Using provider: Gemini-1 | Subject: Math
+[04:09:06.014] [Math] [ERROR] HTTP 404 from Gemini-1: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:09:06.014] [Math] [WARNING] Retry attempt 2/6
+[04:09:06.015] [Math] [INFO] Using provider: Gemini-2 | Subject: Math
+[04:09:06.152] [Math] [ERROR] HTTP 404 from Gemini-2: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:09:06.152] [Math] [WARNING] Retry attempt 3/6
+[04:09:06.153] [Math] [INFO] Using provider: Gemini-3 | Subject: Math
+[04:09:06.302] [Math] [ERROR] HTTP 404 from Gemini-3: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:09:06.303] [Math] [WARNING] Retry attempt 4/6
+[04:09:06.303] [Math] [INFO] Using provider: Groq-1 | Subject: Math
+[04:09:06.378] [Math] [WARNING] Rate limited on Groq-1
+[04:09:06.379] [Math] [WARNING] Provider rotated (attempt 5/6)
+[04:09:06.379] [Math] [INFO] Using provider: Groq-2 | Subject: Math
+[04:09:10.598] [Math] [WARNING] Invalid quiz structure from Groq-2, retrying...
+[04:09:12.667] [Math] [WARNING] Rate limited on Groq-2
+[04:09:12.668] [Math] [WARNING] Provider rotated (attempt 6/6)
+[04:09:12.668] [Math] [ERROR] Failed to generate quiz data after 6 attempts
+[04:09:12.668] [Reasoning] [INFO] 
+============================================================
+[04:09:12.668] [Reasoning] [INFO] 🚀 Starting generation for: Reasoning
+[04:09:12.668] [Reasoning] [INFO] ============================================================
+[04:09:12.668] [Reasoning] [INFO] Using provider: Groq-3 | Subject: Reasoning
+[04:09:12.737] [Reasoning] [WARNING] Rate limited on Groq-3
+[04:09:12.738] [Reasoning] [WARNING] Provider rotated (attempt 1/6)
+[04:09:12.738] [Reasoning] [INFO] Using provider: Gemini-1 | Subject: Reasoning
+[04:09:12.874] [Reasoning] [ERROR] HTTP 404 from Gemini-1: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:09:12.875] [Reasoning] [WARNING] Retry attempt 2/6
+[04:09:12.875] [Reasoning] [INFO] Using provider: Gemini-2 | Subject: Reasoning
+[04:09:13.902] [Reasoning] [ERROR] HTTP 404 from Gemini-2: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:09:13.903] [Reasoning] [WARNING] Retry attempt 3/6
+[04:09:13.903] [Reasoning] [INFO] Using provider: Gemini-3 | Subject: Reasoning
+[04:09:14.036] [Reasoning] [ERROR] HTTP 404 from Gemini-3: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:09:14.037] [Reasoning] [WARNING] Retry attempt 4/6
+[04:09:14.037] [Reasoning] [INFO] Using provider: Groq-1 | Subject: Reasoning
+[04:09:14.103] [Reasoning] [WARNING] Rate limited on Groq-1
+[04:09:14.103] [Reasoning] [WARNING] Provider rotated (attempt 5/6)
+[04:09:14.103] [Reasoning] [INFO] Using provider: Groq-2 | Subject: Reasoning
+[04:09:14.172] [Reasoning] [WARNING] Rate limited on Groq-2
+[04:09:14.172] [Reasoning] [WARNING] Provider rotated (attempt 6/6)
+[04:09:14.173] [Reasoning] [ERROR] Failed to generate quiz data after 6 attempts
+[04:09:14.173] [INFO] 
+======================================================================
+[04:09:14.173] [INFO]   SESSION SUMMARY
+[04:09:14.173] [INFO] ======================================================================
+[04:09:14.173] [INFO]   Subjects processed: 1
+[04:09:14.173] [INFO]   Questions generated: 6
+[04:09:14.173] [INFO]   Files sent: 2
+[04:09:14.173] [INFO]   Time elapsed: 0m 16s
+[04:09:14.173] [INFO] ======================================================================
+[04:09:14.173] [SUCCESS] All workflows completed successfully! 🎯

@@ -8286,5 +8286,101 @@
       "correct_option_idx": 2,
       "explanation": "Let's denote the rate at which the pipe fills the tank as P and the rate of the leak as L. The net rate of filling the tank without the leak is 1/6 (since it takes 6 hours to fill), and with the leak, it is 1/8. The relationship between these rates is given by P - L = 1/8 (since the leak reduces the effective fill rate). We know P = 1/6. Substituting P into the equation gives 1/6 - L = 1/8. To find L, we rearrange the equation to solve for L: L = 1/6 - 1/8. Finding a common denominator (24) gives L = 4/24 - 3/24 = 1/24. However, considering the context and the provided options, the calculation directly points to the difference in rates, which should be interpreted as the leak's rate relative to the tank's capacity being filled, thus the leak's rate is more directly related to the difference in filling times, which suggests a recalculation towards the fraction of the tank the leak would drain in the time it takes to fill it, leading to a reconsideration of the leak's impact."
     }
+  },
+  {
+    "timestamp": "2026-08-13T04:09:05.765449",
+    "subject": "English",
+    "hash": "9d60b93e0eeac1918defa7a98235f91b",
+    "data": {
+      "question": "Identify the correct grammatical error in the sentence 'Me and my friend is going to the movie'",
+      "options": [
+        "Subject-verb agreement",
+        "Tense consistency",
+        "Pronoun usage",
+        "Modal verb usage"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The sentence 'Me and my friend is going to the movie' contains a subject-verb agreement error. The subject 'me and my friend' is a plural noun phrase, but the verb 'is' is in the singular form. The correct sentence should be 'My friend and I are going to the movie'."
+    }
+  },
+  {
+    "timestamp": "2026-08-13T04:09:05.765471",
+    "subject": "English",
+    "hash": "95ba14cb3637963b6c6a63b0a81d6466",
+    "data": {
+      "question": "Choose the correct vocabulary word to fill in the blank 'The new policy has been _______ by the management'",
+      "options": [
+        "Implemented",
+        "Executed",
+        "Enforced",
+        "Abolished"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'implemented' means to put a plan or policy into action. In this context, the sentence should read 'The new policy has been implemented by the management', indicating that the management has put the policy into effect."
+    }
+  },
+  {
+    "timestamp": "2026-08-13T04:09:05.765477",
+    "subject": "English",
+    "hash": "edac239b49895730c94450efcaca7e77",
+    "data": {
+      "question": "Select the correct synonym for the word 'enigmatic'",
+      "options": [
+        "Mysterious",
+        "Obvious",
+        "Clear",
+        "Transparent"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'enigmatic' refers to something that is mysterious or difficult to understand. Among the options, 'mysterious' is the closest synonym as it also conveys the idea of something being unclear or puzzling."
+    }
+  },
+  {
+    "timestamp": "2026-08-13T04:09:05.765481",
+    "subject": "English",
+    "hash": "cb61aafd2e01c872d1001517fa3ae1d8",
+    "data": {
+      "question": "Choose the correct form of narration for the sentence 'The teacher asked the student to write a story in the third person'",
+      "options": [
+        "First person",
+        "Second person",
+        "Third person",
+        "Imperative"
+      ],
+      "correct_option_idx": 2,
+      "explanation": "The sentence 'The teacher asked the student to write a story in the third person' indicates that the story should be written from the perspective of an outside observer, using pronouns such as 'he', 'she', or 'they'. This is an example of third-person narration."
+    }
+  },
+  {
+    "timestamp": "2026-08-13T04:09:05.765485",
+    "subject": "English",
+    "hash": "5143571ad5208a1fff2ab9d933b1073d",
+    "data": {
+      "question": "Select the correct vocabulary word to fill in the blank 'The company is looking for a candidate with excellent _______ skills'",
+      "options": [
+        "Communication",
+        "Organization",
+        "Leadership",
+        "Technical"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The word 'communication' refers to the ability to convey information effectively. In this context, the sentence should read 'The company is looking for a candidate with excellent communication skills', indicating that the company values the ability to express ideas and interact with others."
+    }
+  },
+  {
+    "timestamp": "2026-08-13T04:09:05.765489",
+    "subject": "English",
+    "hash": "b4218b1ac8652d1b7cad7a3ea7505eb4",
+    "data": {
+      "question": "Identify the correct grammatical error in the sentence 'The data shows that the sales has increased'",
+      "options": [
+        "Subject-verb agreement",
+        "Tense consistency",
+        "Pronoun usage",
+        "Modal verb usage"
+      ],
+      "correct_option_idx": 0,
+      "explanation": "The sentence 'The data shows that the sales has increased' contains a subject-verb agreement error. The subject 'data' is a singular noun, but the verb 'shows' is in the singular form, which is correct. However, the verb 'has increased' should be in the plural form 'have increased' to agree with the subject 'sales'. The correct sentence should be 'The data show that the sales have increased'."
+    }
   }
 ]
