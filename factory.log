@@ -5632,3 +5632,143 @@
 [04:09:14.173] [INFO]   Time elapsed: 0m 16s
 [04:09:14.173] [INFO] ======================================================================
 [04:09:14.173] [SUCCESS] All workflows completed successfully! 🎯
+[04:05:06.811] [INFO] 
+======================================================================
+[04:05:06.811] [INFO]   SSC MTS QUIZ FACTORY PRO v3.0
+[04:05:06.811] [INFO]   Professional Grade Quiz Generation System
+[04:05:06.811] [INFO] ======================================================================
+[04:05:06.811] [INFO] Loaded 6 API provider(s)
+[04:05:06.811] [INFO] Subjects configured: ['GK_CurrentAffairs', 'English', 'Math', 'Reasoning']
+[04:05:06.811] [INFO] Runtime limit: 110 minutes
+[04:05:06.811] [INFO] ======================================================================
+
+[04:05:06.811] [GK_CurrentAffairs] [INFO] 
+============================================================
+[04:05:06.811] [GK_CurrentAffairs] [INFO] 🚀 Starting generation for: GK_CurrentAffairs
+[04:05:06.811] [GK_CurrentAffairs] [INFO] ============================================================
+[04:05:06.811] [GK_CurrentAffairs] [INFO] Using provider: Groq-1 | Subject: GK_CurrentAffairs
+[04:05:06.887] [GK_CurrentAffairs] [WARNING] Rate limited on Groq-1
+[04:05:06.888] [GK_CurrentAffairs] [WARNING] Provider rotated (attempt 1/6)
+[04:05:06.888] [GK_CurrentAffairs] [INFO] Using provider: Groq-2 | Subject: GK_CurrentAffairs
+[04:05:06.954] [GK_CurrentAffairs] [WARNING] Rate limited on Groq-2
+[04:05:06.955] [GK_CurrentAffairs] [WARNING] Provider rotated (attempt 2/6)
+[04:05:06.955] [GK_CurrentAffairs] [INFO] Using provider: Groq-3 | Subject: GK_CurrentAffairs
+[04:05:10.111] [GK_CurrentAffairs] [SUCCESS] Generated 10 valid questions via Groq-3
+[04:05:10.112] [GK_CurrentAffairs] [INFO] Deduplication: 10 generated → 0 unique
+[04:05:10.112] [GK_CurrentAffairs] [WARNING] Only 0 unique questions. Skipping.
+[04:05:10.112] [English] [INFO] 
+============================================================
+[04:05:10.112] [English] [INFO] 🚀 Starting generation for: English
+[04:05:10.112] [English] [INFO] ============================================================
+[04:05:10.112] [English] [INFO] Using provider: Gemini-1 | Subject: English
+[04:05:10.246] [English] [ERROR] HTTP 404 from Gemini-1: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:05:10.247] [English] [WARNING] Retry attempt 1/6
+[04:05:10.247] [English] [INFO] Using provider: Gemini-2 | Subject: English
+[04:05:10.360] [English] [ERROR] HTTP 404 from Gemini-2: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:05:10.360] [English] [WARNING] Retry attempt 2/6
+[04:05:10.361] [English] [INFO] Using provider: Gemini-3 | Subject: English
+[04:05:10.480] [English] [ERROR] HTTP 404 from Gemini-3: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:05:10.481] [English] [WARNING] Retry attempt 3/6
+[04:05:10.481] [English] [INFO] Using provider: Groq-1 | Subject: English
+[04:05:10.811] [English] [WARNING] Rate limited on Groq-1
+[04:05:10.811] [English] [WARNING] Provider rotated (attempt 4/6)
+[04:05:10.812] [English] [INFO] Using provider: Groq-2 | Subject: English
+[04:05:10.879] [English] [WARNING] Rate limited on Groq-2
+[04:05:10.879] [English] [WARNING] Provider rotated (attempt 5/6)
+[04:05:10.879] [English] [INFO] Using provider: Groq-3 | Subject: English
+[04:05:10.946] [English] [WARNING] Rate limited on Groq-3
+[04:05:10.947] [English] [WARNING] Provider rotated (attempt 6/6)
+[04:05:10.947] [English] [ERROR] Failed to generate quiz data after 6 attempts
+[04:05:10.947] [Math] [INFO] 
+============================================================
+[04:05:10.947] [Math] [INFO] 🚀 Starting generation for: Math
+[04:05:10.947] [Math] [INFO] ============================================================
+[04:05:10.947] [Math] [INFO] Using provider: Gemini-1 | Subject: Math
+[04:05:11.054] [Math] [ERROR] HTTP 404 from Gemini-1: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:05:11.055] [Math] [WARNING] Retry attempt 1/6
+[04:05:11.055] [Math] [INFO] Using provider: Gemini-2 | Subject: Math
+[04:05:11.170] [Math] [ERROR] HTTP 404 from Gemini-2: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:05:11.171] [Math] [WARNING] Retry attempt 2/6
+[04:05:11.171] [Math] [INFO] Using provider: Gemini-3 | Subject: Math
+[04:05:11.284] [Math] [ERROR] HTTP 404 from Gemini-3: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:05:11.285] [Math] [WARNING] Retry attempt 3/6
+[04:05:11.285] [Math] [INFO] Using provider: Groq-1 | Subject: Math
+[04:05:11.351] [Math] [WARNING] Rate limited on Groq-1
+[04:05:11.351] [ERROR] Provider Groq-1 marked unhealthy after 3 consecutive failures
+[04:05:11.352] [Math] [WARNING] Provider rotated (attempt 4/6)
+[04:05:11.352] [Math] [INFO] Using provider: Groq-2 | Subject: Math
+[04:05:11.427] [Math] [WARNING] Rate limited on Groq-2
+[04:05:11.427] [ERROR] Provider Groq-2 marked unhealthy after 3 consecutive failures
+[04:05:11.427] [Math] [WARNING] Provider rotated (attempt 5/6)
+[04:05:11.428] [Math] [INFO] Using provider: Groq-3 | Subject: Math
+[04:05:11.496] [Math] [WARNING] Rate limited on Groq-3
+[04:05:11.497] [Math] [WARNING] Provider rotated (attempt 6/6)
+[04:05:11.497] [Math] [ERROR] Failed to generate quiz data after 6 attempts
+[04:05:11.497] [Reasoning] [INFO] 
+============================================================
+[04:05:11.497] [Reasoning] [INFO] 🚀 Starting generation for: Reasoning
+[04:05:11.497] [Reasoning] [INFO] ============================================================
+[04:05:11.497] [Reasoning] [INFO] Using provider: Gemini-1 | Subject: Reasoning
+[04:05:11.607] [Reasoning] [ERROR] HTTP 404 from Gemini-1: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:05:11.607] [ERROR] Provider Gemini-1 marked unhealthy after 3 consecutive failures
+[04:05:11.608] [Reasoning] [WARNING] Retry attempt 1/6
+[04:05:11.608] [Reasoning] [INFO] Using provider: Gemini-2 | Subject: Reasoning
+[04:05:11.726] [Reasoning] [ERROR] HTTP 404 from Gemini-2: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:05:11.726] [ERROR] Provider Gemini-2 marked unhealthy after 3 consecutive failures
+[04:05:11.726] [Reasoning] [WARNING] Retry attempt 2/6
+[04:05:11.727] [Reasoning] [INFO] Using provider: Gemini-3 | Subject: Reasoning
+[04:05:11.830] [Reasoning] [ERROR] HTTP 404 from Gemini-3: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:05:11.830] [ERROR] Provider Gemini-3 marked unhealthy after 3 consecutive failures
+[04:05:11.831] [Reasoning] [WARNING] Retry attempt 3/6
+[04:05:11.831] [Reasoning] [INFO] Using provider: Groq-3 | Subject: Reasoning
+[04:05:11.900] [Reasoning] [WARNING] Rate limited on Groq-3
+[04:05:11.900] [ERROR] Provider Groq-3 marked unhealthy after 3 consecutive failures
+[04:05:11.901] [Reasoning] [WARNING] Provider rotated (attempt 4/6)
+[04:05:11.901] [WARNING] All providers marked unhealthy. Resetting health status.
+[04:05:11.901] [Reasoning] [INFO] Using provider: Groq-1 | Subject: Reasoning
+[04:05:11.965] [Reasoning] [WARNING] Rate limited on Groq-1
+[04:05:11.965] [Reasoning] [WARNING] Provider rotated (attempt 5/6)
+[04:05:11.965] [Reasoning] [INFO] Using provider: Gemini-1 | Subject: Reasoning
+[04:05:12.194] [Reasoning] [ERROR] HTTP 404 from Gemini-1: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We rec
+[04:05:12.195] [Reasoning] [WARNING] Retry attempt 6/6
+[04:05:12.195] [Reasoning] [ERROR] Failed to generate quiz data after 6 attempts
+[04:05:12.196] [INFO] 
+======================================================================
+[04:05:12.196] [INFO]   SESSION SUMMARY
+[04:05:12.196] [INFO] ======================================================================
+[04:05:12.196] [INFO]   Subjects processed: 0
+[04:05:12.196] [INFO]   Questions generated: 0
+[04:05:12.196] [INFO]   Files sent: 0
+[04:05:12.196] [INFO]   Time elapsed: 0m 5s
+[04:05:12.196] [INFO] ======================================================================
+[04:05:12.196] [SUCCESS] All workflows completed successfully! 🎯
