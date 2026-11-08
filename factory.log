@@ -19758,3 +19758,168 @@
 [08:17:11.910] [INFO]   Time elapsed: 0m 3s
 [08:17:11.910] [INFO] ======================================================================
 [08:17:11.910] [SUCCESS] All workflows completed successfully! 🎯
+[08:32:59.964] [INFO] 
+======================================================================
+[08:32:59.964] [INFO]   SSC MTS QUIZ FACTORY PRO v3.0
+[08:32:59.964] [INFO]   Professional Grade Quiz Generation System
+[08:32:59.964] [INFO] ======================================================================
+[08:32:59.964] [INFO] Loaded 6 API provider(s)
+[08:32:59.964] [INFO] Subjects configured: ['GK_CurrentAffairs', 'English', 'Math', 'Reasoning']
+[08:32:59.964] [INFO] Runtime limit: 110 minutes
+[08:32:59.964] [INFO] ======================================================================
+
+[08:32:59.964] [GK_CurrentAffairs] [INFO] 
+============================================================
+[08:32:59.964] [GK_CurrentAffairs] [INFO] 🚀 Starting generation for: GK_CurrentAffairs
+[08:32:59.964] [GK_CurrentAffairs] [INFO] ============================================================
+[08:32:59.964] [GK_CurrentAffairs] [INFO] Using provider: Groq-1 | Subject: GK_CurrentAffairs
+[08:33:00.075] [GK_CurrentAffairs] [ERROR] HTTP 404 from Groq-1: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+[08:33:00.076] [GK_CurrentAffairs] [WARNING] Retry attempt 1/6
+[08:33:00.076] [GK_CurrentAffairs] [INFO] Using provider: Groq-2 | Subject: GK_CurrentAffairs
+[08:33:00.437] [GK_CurrentAffairs] [ERROR] HTTP 404 from Groq-2: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+[08:33:00.438] [GK_CurrentAffairs] [WARNING] Retry attempt 2/6
+[08:33:00.438] [GK_CurrentAffairs] [INFO] Using provider: Groq-3 | Subject: GK_CurrentAffairs
+[08:33:00.519] [GK_CurrentAffairs] [ERROR] HTTP 404 from Groq-3: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+[08:33:00.520] [GK_CurrentAffairs] [WARNING] Retry attempt 3/6
+[08:33:00.520] [GK_CurrentAffairs] [INFO] Using provider: Gemini-1 | Subject: GK_CurrentAffairs
+[08:33:00.693] [GK_CurrentAffairs] [ERROR] HTTP 404 from Gemini-1: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen
+[08:33:00.694] [GK_CurrentAffairs] [WARNING] Retry attempt 4/6
+[08:33:00.694] [GK_CurrentAffairs] [INFO] Using provider: Gemini-2 | Subject: GK_CurrentAffairs
+[08:33:00.859] [GK_CurrentAffairs] [ERROR] HTTP 404 from Gemini-2: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen
+[08:33:00.860] [GK_CurrentAffairs] [WARNING] Retry attempt 5/6
+[08:33:00.860] [GK_CurrentAffairs] [INFO] Using provider: Gemini-3 | Subject: GK_CurrentAffairs
+[08:33:00.993] [GK_CurrentAffairs] [ERROR] HTTP 404 from Gemini-3: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen
+[08:33:00.994] [GK_CurrentAffairs] [WARNING] Retry attempt 6/6
+[08:33:00.994] [GK_CurrentAffairs] [ERROR] Failed to generate quiz data after 6 attempts
+[08:33:00.994] [English] [INFO] 
+============================================================
+[08:33:00.994] [English] [INFO] 🚀 Starting generation for: English
+[08:33:00.994] [English] [INFO] ============================================================
+[08:33:00.994] [English] [INFO] Using provider: Groq-1 | Subject: English
+[08:33:01.077] [English] [ERROR] HTTP 404 from Groq-1: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+[08:33:01.078] [English] [WARNING] Retry attempt 1/6
+[08:33:01.078] [English] [INFO] Using provider: Groq-2 | Subject: English
+[08:33:01.155] [English] [ERROR] HTTP 404 from Groq-2: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+[08:33:01.156] [English] [WARNING] Retry attempt 2/6
+[08:33:01.157] [English] [INFO] Using provider: Groq-3 | Subject: English
+[08:33:01.235] [English] [ERROR] HTTP 404 from Groq-3: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+[08:33:01.236] [English] [WARNING] Retry attempt 3/6
+[08:33:01.236] [English] [INFO] Using provider: Gemini-1 | Subject: English
+[08:33:01.377] [English] [ERROR] HTTP 404 from Gemini-1: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen
+[08:33:01.378] [English] [WARNING] Retry attempt 4/6
+[08:33:01.378] [English] [INFO] Using provider: Gemini-2 | Subject: English
+[08:33:01.500] [English] [ERROR] HTTP 404 from Gemini-2: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen
+[08:33:01.501] [English] [WARNING] Retry attempt 5/6
+[08:33:01.501] [English] [INFO] Using provider: Gemini-3 | Subject: English
+[08:33:01.636] [English] [ERROR] HTTP 404 from Gemini-3: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen
+[08:33:01.637] [English] [WARNING] Retry attempt 6/6
+[08:33:01.637] [English] [ERROR] Failed to generate quiz data after 6 attempts
+[08:33:01.637] [Math] [INFO] 
+============================================================
+[08:33:01.637] [Math] [INFO] 🚀 Starting generation for: Math
+[08:33:01.637] [Math] [INFO] ============================================================
+[08:33:01.637] [Math] [INFO] Using provider: Groq-1 | Subject: Math
+[08:33:01.719] [Math] [ERROR] HTTP 404 from Groq-1: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+[08:33:01.719] [ERROR] Provider Groq-1 marked unhealthy after 3 consecutive failures
+[08:33:01.720] [Math] [WARNING] Retry attempt 1/6
+[08:33:01.720] [Math] [INFO] Using provider: Groq-2 | Subject: Math
+[08:33:01.807] [Math] [ERROR] HTTP 404 from Groq-2: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+[08:33:01.807] [ERROR] Provider Groq-2 marked unhealthy after 3 consecutive failures
+[08:33:01.808] [Math] [WARNING] Retry attempt 2/6
+[08:33:01.808] [Math] [INFO] Using provider: Groq-3 | Subject: Math
+[08:33:01.891] [Math] [ERROR] HTTP 404 from Groq-3: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+[08:33:01.891] [ERROR] Provider Groq-3 marked unhealthy after 3 consecutive failures
+[08:33:01.892] [Math] [WARNING] Retry attempt 3/6
+[08:33:01.892] [Math] [INFO] Using provider: Gemini-1 | Subject: Math
+[08:33:02.040] [Math] [ERROR] HTTP 404 from Gemini-1: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen
+[08:33:02.040] [ERROR] Provider Gemini-1 marked unhealthy after 3 consecutive failures
+[08:33:02.041] [Math] [WARNING] Retry attempt 4/6
+[08:33:02.041] [Math] [INFO] Using provider: Gemini-2 | Subject: Math
+[08:33:02.187] [Math] [ERROR] HTTP 404 from Gemini-2: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen
+[08:33:02.187] [ERROR] Provider Gemini-2 marked unhealthy after 3 consecutive failures
+[08:33:02.188] [Math] [WARNING] Retry attempt 5/6
+[08:33:02.188] [Math] [INFO] Using provider: Gemini-3 | Subject: Math
+[08:33:02.300] [Math] [ERROR] HTTP 404 from Gemini-3: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen
+[08:33:02.300] [ERROR] Provider Gemini-3 marked unhealthy after 3 consecutive failures
+[08:33:02.301] [Math] [WARNING] Retry attempt 6/6
+[08:33:02.301] [Math] [ERROR] Failed to generate quiz data after 6 attempts
+[08:33:02.301] [Reasoning] [INFO] 
+============================================================
+[08:33:02.301] [Reasoning] [INFO] 🚀 Starting generation for: Reasoning
+[08:33:02.301] [Reasoning] [INFO] ============================================================
+[08:33:02.301] [WARNING] All providers marked unhealthy. Resetting health status.
+[08:33:02.301] [Reasoning] [INFO] Using provider: Groq-1 | Subject: Reasoning
+[08:33:02.382] [Reasoning] [ERROR] HTTP 404 from Groq-1: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+[08:33:02.383] [Reasoning] [WARNING] Retry attempt 1/6
+[08:33:02.383] [Reasoning] [INFO] Using provider: Groq-1 | Subject: Reasoning
+[08:33:02.460] [Reasoning] [ERROR] HTTP 404 from Groq-1: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+[08:33:02.461] [Reasoning] [WARNING] Retry attempt 2/6
+[08:33:02.461] [Reasoning] [INFO] Using provider: Groq-2 | Subject: Reasoning
+[08:33:02.544] [Reasoning] [ERROR] HTTP 404 from Groq-2: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+[08:33:02.545] [Reasoning] [WARNING] Retry attempt 3/6
+[08:33:02.545] [Reasoning] [INFO] Using provider: Groq-3 | Subject: Reasoning
+[08:33:02.632] [Reasoning] [ERROR] HTTP 404 from Groq-3: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+[08:33:02.633] [Reasoning] [WARNING] Retry attempt 4/6
+[08:33:02.633] [Reasoning] [INFO] Using provider: Gemini-1 | Subject: Reasoning
+[08:33:02.763] [Reasoning] [ERROR] HTTP 404 from Gemini-1: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen
+[08:33:02.764] [Reasoning] [WARNING] Retry attempt 5/6
+[08:33:02.764] [Reasoning] [INFO] Using provider: Gemini-2 | Subject: Reasoning
+[08:33:02.901] [Reasoning] [ERROR] HTTP 404 from Gemini-2: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen
+[08:33:02.902] [Reasoning] [WARNING] Retry attempt 6/6
+[08:33:02.902] [Reasoning] [ERROR] Failed to generate quiz data after 6 attempts
+[08:33:02.903] [INFO] 
+======================================================================
+[08:33:02.903] [INFO]   SESSION SUMMARY
+[08:33:02.903] [INFO] ======================================================================
+[08:33:02.903] [INFO]   Subjects processed: 0
+[08:33:02.903] [INFO]   Questions generated: 0
+[08:33:02.903] [INFO]   Files sent: 0
+[08:33:02.903] [INFO]   Time elapsed: 0m 3s
+[08:33:02.903] [INFO] ======================================================================
+[08:33:02.903] [SUCCESS] All workflows completed successfully! 🎯
